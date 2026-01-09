@@ -1,0 +1,133 @@
+---
+id: "chrome-web-store"
+name: "Chrome Web Store"
+slug: "chrome-web-store"
+tagline: "Extensions and themes for Google Chrome"
+description: "The Chrome Web Store is Google's platform for distributing extensions, themes, and apps for the Chrome browser. It reaches billions of Chrome users worldwide."
+url: "https://chromewebstore.google.com"
+logo: "/images/stores/chrome-web-store.svg"
+category: "specialty"
+platforms:
+  - "web"
+company:
+  name: "Google LLC"
+  headquarters: "Mountain View, California, USA"
+  foundedYear: 2010
+  website: "https://google.com"
+metrics:
+  appCount: 180000
+  appCountSource: "Chrome Web Store"
+  appCountLastUpdated: "2024-Q4"
+  monthlyActiveUsers: 3000000000
+fees:
+  registrationFee:
+    amount: 5
+    currency: "USD"
+    type: "one-time"
+  commissionTiers:
+    - percentage: 0
+      description: "No commission on free extensions"
+    - percentage: 5
+      description: "Payments via Chrome Web Store Payments"
+      conditions: "If using the built-in payment system"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Chrome Web Store charges only 5% on payments processed through their system, one of the lowest rates among major platforms."
+technical:
+  hasApi: true
+  apiDocumentationUrl: "https://developer.chrome.com/docs/webstore/api_index"
+  hasSdk: false
+  supportsInAppPurchases: true
+  supportsSubscriptions: true
+  supportsAds: false
+monetization:
+  models:
+    - "free"
+    - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "Google Pay"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 1
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
+submission:
+  guidelinesUrl: "https://developer.chrome.com/docs/webstore/program-policies"
+  guidelinesSummary: "Extensions must have a single, clear purpose. Manifest V3 is now required. Strong focus on user privacy and security."
+  typicalReviewTime: "1-3 days"
+  hasAutomatedReview: true
+  hasHumanReview: true
+  commonRejectionReasons:
+    - "Excessive permissions requests"
+    - "Violation of single purpose policy"
+    - "Privacy policy issues"
+    - "Deceptive behavior"
+    - "Still using Manifest V2"
+  appealsProcess: "Submit appeals through Chrome Web Store Developer Dashboard"
+  requiresApproval: true
+geographic:
+  availableRegions:
+    - "Global"
+  supportedLanguages:
+    - "55+ languages"
+  localizedStores: true
+features:
+  hasEditorialContent: true
+  hasAppBundles: false
+  hasPreRegistration: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: true
+  hasRatings: true
+metadata:
+  featured: false
+  verified: true
+  lastUpdated: "2025-01-07"
+  dateAdded: "2025-01-07"
+  status: "active"
+seo:
+  metaTitle: "Chrome Web Store - Browser Extension Distribution"
+  metaDescription: "Publish your Chrome extensions on Chrome Web Store. Reach 3B+ Chrome users with only $5 registration and 5% commission."
+  keywords:
+    - "Chrome Web Store"
+    - "Chrome extensions"
+    - "browser extensions"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 2
+  discoverability: 4
+  competitiveness: 5
+  entryBarriers: 5
+  technicalFreedom: 3
+  analytics: 3
+relatedStores:
+  - "firefox-addons"
+pros:
+  - "Lowest registration fee ($5 one-time)"
+  - "Only 5% commission on payments"
+  - "Massive Chrome user base"
+  - "Automatic updates for users"
+  - "Good analytics dashboard"
+cons:
+  - "Strict Manifest V3 requirements"
+  - "Increasingly restrictive policies"
+  - "Limited monetization options"
+  - "Review times can be unpredictable"
+---
+
+## Overview
+
+Chrome Web Store distributes extensions, themes, and progressive web apps for Google Chrome. With Chrome's dominant browser market share, it's essential for reaching web extension users.
+
+## Manifest V3
+
+Google now requires Manifest V3 for all new extensions, which:
+- Limits background script capabilities
+- Restricts certain APIs
+- Enhances user privacy
+- Changes how content blocking works

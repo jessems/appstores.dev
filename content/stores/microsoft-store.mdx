@@ -1,0 +1,156 @@
+---
+id: "microsoft-store"
+name: "Microsoft Store"
+slug: "microsoft-store"
+tagline: "The official app store for Windows devices"
+description: "Microsoft Store is the official digital distribution platform for Windows 10 and Windows 11 apps, games, movies, TV shows, and more. It provides access to hundreds of millions of Windows PC users worldwide."
+url: "https://apps.microsoft.com"
+logo: "/images/stores/microsoft-store.svg"
+category: "official"
+platforms:
+  - "windows"
+company:
+  name: "Microsoft Corporation"
+  headquarters: "Redmond, Washington, USA"
+  foundedYear: 2012
+  website: "https://microsoft.com"
+metrics:
+  appCount: 720000
+  appCountSource: "Microsoft"
+  appCountLastUpdated: "2024-Q4"
+  monthlyActiveUsers: 1000000000
+fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
+  commissionTiers:
+    - percentage: 15
+      description: "Standard app commission"
+      conditions: "For most apps using Microsoft commerce"
+    - percentage: 12
+      description: "Games commission"
+      conditions: "For games using Microsoft commerce"
+    - percentage: 0
+      description: "Own commerce platform"
+      conditions: "For non-gaming apps using their own commerce system"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Free registration for individual developers (company accounts pay $99 one-time). 15% for apps, 12% for games using Microsoft commerce. Developers using their own commerce system keep 100% for non-gaming apps."
+technical:
+  hasApi: true
+  apiDocumentationUrl: "https://docs.microsoft.com/en-us/windows/uwp/publish/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Windows"
+    - "Xbox"
+  sdkDocumentationUrl: "https://developer.microsoft.com/en-us/windows/"
+  supportsInAppPurchases: true
+  supportsSubscriptions: true
+  supportsAds: true
+  supportedAdNetworks:
+    - "Microsoft Advertising"
+monetization:
+  models:
+    - "free"
+    - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+    - "Microsoft Account Balance"
+    - "Gift Cards"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 50
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
+submission:
+  guidelinesUrl: "https://docs.microsoft.com/en-us/windows/uwp/publish/store-policies"
+  guidelinesSummary: "Apps must meet Microsoft Store policies including privacy, security, and content guidelines. Both UWP and traditional Win32 apps are accepted."
+  typicalReviewTime: "1-5 days"
+  hasAutomatedReview: true
+  hasHumanReview: true
+  commonRejectionReasons:
+    - "Privacy policy issues"
+    - "Malware or security concerns"
+    - "Misleading functionality claims"
+    - "Trademark violations"
+  appealsProcess: "Submit appeals through Partner Center"
+  requiresApproval: true
+geographic:
+  availableRegions:
+    - "Global (240+ markets)"
+  supportedLanguages:
+    - "100+ languages"
+  localizedStores: true
+features:
+  hasEditorialContent: true
+  hasAppBundles: true
+  hasPreRegistration: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: true
+  hasRatings: true
+metadata:
+  featured: true
+  featuredOrder: 3
+  verified: true
+  lastUpdated: "2025-01-07"
+  dateAdded: "2025-01-07"
+  status: "active"
+seo:
+  metaTitle: "Microsoft Store - Windows App Distribution"
+  metaDescription: "Publish your Windows apps on Microsoft Store. Low commission rates starting at 12% for games, reach 1 billion Windows users."
+  keywords:
+    - "Microsoft Store"
+    - "Windows apps"
+    - "UWP apps"
+    - "Windows 11 apps"
+ratings:
+  commission: 4
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 3
+  discoverability: 3
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "apple-app-store"
+  - "steam"
+pros:
+  - "Free registration for individual developers"
+  - "Competitive commission (15% apps, 12% games)"
+  - "0% commission when using your own commerce"
+  - "Massive Windows user base"
+  - "Supports both UWP and Win32 apps"
+  - "PWA support"
+  - "Xbox integration available"
+cons:
+  - "Users often bypass store for direct downloads"
+  - "Less established than Apple/Google stores"
+  - "Complex app packaging requirements"
+  - "Limited discovery features"
+---
+
+## Overview
+
+Microsoft Store is the built-in app store for Windows 10 and 11. In recent years, Microsoft has significantly improved the platform, reducing commission rates and opening it to more app types including traditional Win32 apps and PWAs.
+
+## App Types Supported
+
+### Universal Windows Platform (UWP)
+Native Windows apps that can run across Windows 10/11 devices.
+
+### Win32 Apps
+Traditional Windows desktop applications packaged in MSIX format.
+
+### Progressive Web Apps (PWAs)
+Web apps that can be installed and run like native apps.
+
+### Android Apps (via WSA)
+Select Android apps can run on Windows 11 through Windows Subsystem for Android.

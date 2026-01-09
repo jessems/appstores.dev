@@ -1,0 +1,163 @@
+---
+id: "aws-marketplace"
+name: "AWS Marketplace"
+slug: "aws-marketplace"
+tagline: "Cloud software and services marketplace"
+description: "AWS Marketplace is Amazon's digital catalog for software, data, and services that run on AWS. With thousands of ISV products and simplified procurement, it's essential for reaching enterprise cloud customers."
+url: "https://aws.amazon.com/marketplace"
+logo: "/images/stores/aws-marketplace.svg"
+category: "enterprise"
+platforms:
+  - "web"
+company:
+  name: "Amazon Web Services, Inc."
+  headquarters: "Seattle, Washington, USA"
+  foundedYear: 2012
+  website: "https://aws.amazon.com"
+metrics:
+  appCount: 14000
+  appCountSource: "AWS"
+  appCountLastUpdated: "2024-Q4"
+fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
+  commissionTiers:
+    - percentage: 3
+      description: "SaaS and Data Exchange"
+      conditions: "Public SaaS offers and AWS Data Exchange products"
+    - percentage: 20
+      description: "Server-based products"
+      conditions: "AMI, container, and ML image offers"
+    - percentage: 2
+      description: "Large private offers"
+      conditions: "Private offers $1M-$10M (scales down to 1.5% for larger deals)"
+  hasReducedCommission: true
+  reducedCommissionDetails: "SaaS sellers keep 97-98.5% of revenue. Private offers have tiered rates: 3% for <$1M, 2% for $1-10M, 1.5% for renewals. South Korea adds +1% regional fee. No fees for listing - only on transactions."
+technical:
+  hasApi: true
+  apiDocumentationUrl: "https://docs.aws.amazon.com/marketplace/latest/userguide/what-is-marketplace.html"
+  hasSdk: true
+  sdkPlatforms:
+    - "AWS SDK"
+    - "Terraform"
+    - "CloudFormation"
+  sdkDocumentationUrl: "https://docs.aws.amazon.com/marketplace/"
+  supportsInAppPurchases: true
+  supportsSubscriptions: true
+  supportsAds: false
+monetization:
+  models:
+    - "free"
+    - "paid"
+    - "subscription"
+    - "freemium"
+  paymentMethods:
+    - "AWS Billing"
+    - "Credit Card"
+    - "Invoice"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
+submission:
+  guidelinesUrl: "https://docs.aws.amazon.com/marketplace/latest/userguide/product-preparation.html"
+  guidelinesSummary: "Products must meet AWS technical requirements and security standards. SaaS products require integration with AWS Marketplace Metering Service."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
+  hasHumanReview: true
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Missing metering integration"
+    - "Incomplete documentation"
+    - "Pricing issues"
+  appealsProcess: "Contact AWS Marketplace Seller Operations"
+  requiresApproval: true
+geographic:
+  availableRegions:
+    - "Global (AWS Regions)"
+  supportedLanguages:
+    - "English"
+    - "Japanese"
+    - "Korean"
+    - "Chinese"
+  localizedStores: true
+features:
+  hasEditorialContent: true
+  hasAppBundles: true
+  hasPreRegistration: false
+  hasBetaTesting: false
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: true
+  hasRatings: true
+metadata:
+  featured: false
+  verified: true
+  lastUpdated: "2025-01-08"
+  dateAdded: "2025-01-08"
+  status: "active"
+seo:
+  metaTitle: "AWS Marketplace - Cloud Software Marketplace"
+  metaDescription: "Sell your cloud software on AWS Marketplace with only 3% commission for SaaS. Reach millions of AWS enterprise customers."
+  keywords:
+    - "AWS Marketplace"
+    - "cloud software"
+    - "SaaS marketplace"
+    - "enterprise software"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "azure-marketplace"
+  - "google-cloud-marketplace"
+pros:
+  - "Only 3% commission for SaaS products"
+  - "Massive enterprise customer base"
+  - "AWS handles billing and procurement"
+  - "Private offer support for enterprise deals"
+  - "Integration with AWS consumption commitments"
+  - "No upfront listing fees"
+cons:
+  - "20% fee for server-based products (AMI, containers)"
+  - "Complex metering integration required"
+  - "Technical requirements can be challenging"
+  - "Regional fees (e.g., +1% in South Korea)"
+---
+
+## Overview
+
+AWS Marketplace launched in 2012 and has grown to host over 14,000 software products from thousands of ISVs. It's the leading cloud marketplace for enterprise software procurement.
+
+## Fee Structure (Updated January 2024)
+
+| Product Type | Listing Fee |
+|--------------|-------------|
+| SaaS / Data Exchange | 3% |
+| Server-based (AMI, containers) | 20% |
+| Private offers <$1M | 3% |
+| Private offers $1M-$10M | 2% |
+| Private offers >$10M | 1.5% |
+| Renewals | 1.5% |
+
+**Note:** Fees only apply on transactions. No upfront listing fees.
+
+## Key Features
+
+### Private Offers
+- Custom pricing for enterprise deals
+- Negotiable terms and conditions
+- Lower fees for larger deals
+
+### AWS Consumption Integration
+- Customers can apply existing AWS commitments
+- Simplified procurement through AWS billing
