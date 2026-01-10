@@ -15,6 +15,7 @@ import {
   ThumbsUp,
   ThumbsDown,
   ChevronRight,
+  Github,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -85,32 +86,45 @@ export default async function StorePage({ params }: StorePageProps) {
       />
       <div className="py-8 sm:py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-6">
-            <Link href="/" className="hover:text-foreground transition-colors">
-              Home
-            </Link>
-            <ChevronRight className="h-4 w-4" />
-            <Link
-              href="/stores"
-              className="hover:text-foreground transition-colors"
+          {/* Suggest edit - top right */}
+          <div className="relative">
+            <a
+              href={`https://github.com/jessems/appstores.dev/edit/main/content/stores/${store.slug}.mdx`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute top-0 right-0 flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              Stores
-            </Link>
-            <ChevronRight className="h-4 w-4" />
-            {category && (
-              <>
-                <Link
-                  href={`/stores/category/${category.slug}`}
-                  className="hover:text-foreground transition-colors"
-                >
-                  {category.name}
-                </Link>
-                <ChevronRight className="h-4 w-4" />
-              </>
-            )}
-            <span className="text-foreground">{store.name}</span>
-          </nav>
+              <Github className="h-4 w-4" />
+              <span className="hidden sm:inline">Suggest edit</span>
+            </a>
+          </div>
+
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-sm text-muted-foreground mb-6 pr-24">
+              <Link href="/" className="hover:text-foreground transition-colors">
+                Home
+              </Link>
+              <ChevronRight className="h-4 w-4" />
+              <Link
+                href="/stores"
+                className="hover:text-foreground transition-colors"
+              >
+                Stores
+              </Link>
+              <ChevronRight className="h-4 w-4" />
+              {category && (
+                <>
+                  <Link
+                    href={`/stores/category/${category.slug}`}
+                    className="hover:text-foreground transition-colors"
+                  >
+                    {category.name}
+                  </Link>
+                  <ChevronRight className="h-4 w-4" />
+                </>
+              )}
+              <span className="text-foreground">{store.name}</span>
+            </nav>
 
           {/* Header */}
           <div className="flex flex-col sm:flex-row gap-6 mb-8">
@@ -130,33 +144,24 @@ export default async function StorePage({ params }: StorePageProps) {
           </div>
 
           <div className="flex-1">
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <div className="flex items-center gap-2">
-                  <h1 className="text-3xl font-bold">{store.name}</h1>
-                  {store.metadata.verified && (
-                    <CheckCircle className="h-6 w-6 text-blue-500" />
-                  )}
-                </div>
-                <p className="mt-1 text-lg text-muted-foreground">
-                  {store.tagline}
-                </p>
-                {category && (
-                  <Link
-                    href={`/stores/category/${category.slug}`}
-                    className="mt-2 inline-block"
-                  >
-                    <Badge variant="secondary">{category.name}</Badge>
-                  </Link>
+            <div>
+              <div className="flex items-center gap-2">
+                <h1 className="text-3xl font-bold">{store.name}</h1>
+                {store.metadata.verified && (
+                  <CheckCircle className="h-6 w-6 text-blue-500" />
                 )}
               </div>
-
-              <a href={store.url} target="_blank" rel="noopener noreferrer">
-                <Button className="gap-2">
-                  Visit Store
-                  <ExternalLink className="h-4 w-4" />
-                </Button>
-              </a>
+              <p className="mt-1 text-lg text-muted-foreground">
+                {store.tagline}
+              </p>
+              {category && (
+                <Link
+                  href={`/stores/category/${category.slug}`}
+                  className="mt-2 inline-block"
+                >
+                  <Badge variant="secondary">{category.name}</Badge>
+                </Link>
+              )}
             </div>
 
             <div className="flex flex-wrap gap-2 mt-4">
@@ -165,6 +170,15 @@ export default async function StorePage({ params }: StorePageProps) {
                   {platform.name}
                 </Badge>
               ))}
+            </div>
+
+            <div className="mt-6">
+              <a href={store.url} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="gap-2">
+                  Visit Store
+                  <ExternalLink className="h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
