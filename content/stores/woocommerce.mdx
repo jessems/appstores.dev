@@ -1,29 +1,44 @@
 ---
 id: "woocommerce"
-name: "Woocommerce"
+name: "WooCommerce Marketplace"
 slug: "woocommerce"
-tagline: "Woocommerce app marketplace"
-description: "Woocommerce is a marketplace for apps and extensions."
-url: "https://woocommerce.com/product-category/woocommerce-extensions/"
+tagline: "Extensions and themes for WooCommerce stores"
+description: "WooCommerce Marketplace is the official store for extensions, plugins, and themes that extend WooCommerce, the world's most popular e-commerce platform. With 1,200+ premium extensions and 8 million+ active WooCommerce installations, it's essential for WordPress e-commerce developers."
+url: "https://woocommerce.com/products/"
 logo: "/images/stores/woocommerce.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
 company:
-  name: "Woocommerce"
-
-  website: "https://woocommerce.com/product-category/woocommerce-extensions/"
+  name: "WooCommerce (Automattic)"
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2011
+  website: "https://woocommerce.com"
 metrics:
-  appCount: null
+  appCount: 1200
+  appCountSource: "WooCommerce (official extensions)"
+  appCountLastUpdated: "2025-Q1"
+  monthlyActiveUsers: 8000000
+  monthlyActiveUsersSource: "WordPress.org - 8M+ active WooCommerce installs"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
+    - percentage: 40
       description: "Standard commission"
+      conditions: "WooCommerce takes 40% of extension sales (estimated based on industry reports)"
+  hasReducedCommission: false
+  reducedCommissionDetails: "WooCommerce Marketplace has a revenue share model for third-party developers. Additionally, 4,600+ WooCommerce plugins are available on WordPress.org for free."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
+  hasApi: true
+  apiDocumentationUrl: "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+  hasSdk: true
+  sdkPlatforms:
+    - "PHP"
+    - "WordPress"
+  sdkDocumentationUrl: "https://woocommerce.com/document/woocommerce/"
   supportsInAppPurchases: true
   supportsSubscriptions: true
   supportsAds: false
@@ -31,35 +46,117 @@ monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://woocommerce.com/document/marketplace-guidelines/"
+  guidelinesSummary: "Extensions must follow WooCommerce coding standards, WordPress guidelines, and pass security review. Quality and security are key requirements."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Code quality issues"
+    - "Security vulnerabilities"
+    - "WordPress coding standards violations"
+    - "Poor documentation"
+  appealsProcess: "Contact WooCommerce Marketplace team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
-  hasAppBundles: false
+  hasEditorialContent: true
+  hasAppBundles: true
   hasPreRegistration: false
   hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "WooCommerce Marketplace - E-commerce Extensions"
+  metaDescription: "Sell your WooCommerce extensions to 8M+ active stores. 1,200+ extensions on the official marketplace."
+  keywords:
+    - "WooCommerce Marketplace"
+    - "WooCommerce extensions"
+    - "WooCommerce plugins"
+    - "e-commerce plugins"
+ratings:
+  commission: 2
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 3
+  discoverability: 4
+  competitiveness: 5
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "shopify"
+  - "bigcommerce-apps-marketplace"
+pros:
+  - "8M+ active WooCommerce installations"
+  - "Free to list on WordPress.org"
+  - "Open-source ecosystem"
+  - "Large WordPress developer community"
+  - "Multiple distribution channels"
+cons:
+  - "High estimated commission (40%) on official store"
+  - "Review process can take weeks"
+  - "High competition with 4,600+ plugins"
+  - "WordPress expertise required"
 ---
 
 ## Overview
 
-Woocommerce is Woocommerce is a marketplace for apps and extensions.
+WooCommerce Marketplace is the official extension store for WooCommerce, the open-source e-commerce platform that powers over 25% of all online stores. With 8 million+ active installations, it's one of the largest e-commerce ecosystems.
 
+## Key Statistics
 
+- **1,200+ premium extensions** on official store
+- **4,600+ plugins** with WooCommerce tag on WordPress.org
+- **8M+ active installations** of WooCommerce
+- **370M+ total downloads** of WooCommerce plugin
+- **30,000 daily downloads** average
 
+## Distribution Channels
 
+### Official WooCommerce.com Store
+- Premium extensions
+- Vetted and reviewed
+- Official support included
+
+### WordPress.org Repository
+- Free extensions
+- Open to all developers
+- No revenue share
+
+### Third-Party Marketplaces
+- CodeCanyon: 1,564 WooCommerce plugins
+- ThemeForest: 1,500+ WooCommerce themes
+- Independent developer sites
+
+## Development Requirements
+
+- PHP and WordPress expertise
+- WooCommerce API knowledge
+- WordPress coding standards compliance
+- Security best practices

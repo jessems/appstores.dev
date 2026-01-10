@@ -1,46 +1,72 @@
 ---
 id: "sketch-app"
-name: "Sketch App"
+name: "Sketch Plugins"
 slug: "sketch-app"
-tagline: "Sketch App app marketplace"
-description: "Sketch App is a marketplace for apps and extensions."
-url: "https://www.sketchapp.com/extensions/plugins/"
+tagline: "Hundreds of design plugins"
+description: "Sketch Plugins is the official extension marketplace for Sketch's vector design tool. With hundreds of plugins covering UI design, prototyping, version control, and collaboration, it extends Sketch for teams at companies like Facebook, Google, and Porsche."
+url: "https://www.sketch.com/extensions/plugins/"
 logo: "/images/stores/sketch-app.svg"
-category: "third-party"
+category: "specialty"
 platforms:
-  - "web"
+  - "macos"
 company:
-  name: "Sketch App"
-
-  website: "https://developer.sketchapp.com/"
+  name: "Sketch B.V."
+  headquarters: "The Hague, Netherlands"
+  foundedYear: 2014
+  website: "https://sketch.com"
 metrics:
-  appCount: null
+  appCount: 300
+  appCountSource: "Sketch (estimated 300+ plugins based on 'hundreds' claim)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Sketch does not charge for plugin listings"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Plugins are free to list. Developers handle their own pricing."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://developer.sketch.com/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "CocoaScript"
+  sdkDocumentationUrl: "https://developer.sketch.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
-  hasHumanReview: true
+  guidelinesUrl: "https://developer.sketch.com/plugins/"
+  guidelinesSummary: "Plugins must follow Sketch's guidelines. Auto-publishing available via skpm."
+  typicalReviewTime: "Immediate (via skpm)"
+  hasAutomatedReview: true
+  hasHumanReview: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Quality issues"
+    - "API misuse"
+    - "Documentation gaps"
+  appealsProcess: "GitHub pull request process"
   requiresApproval: false
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
   hasBetaTesting: false
@@ -50,16 +76,91 @@ features:
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Sketch Plugins - Design Tool Extensions"
+  metaDescription: "Build plugins for Sketch. Hundreds of plugins for UI/UX design."
+  keywords:
+    - "Sketch plugins"
+    - "Sketch extensions"
+    - "design plugins"
+    - "UI design tools"
+ratings:
+  commission: 5
+  reviewProcess: 5
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+  - "figma-community"
+  - "adobe-exchange"
+pros:
+  - "0% commission"
+  - "Hundreds of plugins"
+  - "300,000+ Stark users"
+  - "Used by Facebook, Google, Porsche"
+  - "Auto-publishing via skpm"
+  - "Active developer community"
+cons:
+  - "macOS only"
+  - "Limited monetization"
+  - "Competition from Figma"
+  - "No centralized payments"
 ---
 
 ## Overview
 
-Sketch App is Sketch App is a marketplace for apps and extensions.
+Sketch Plugins is the official extension ecosystem for Sketch's professional vector design tool. With hundreds of plugins, it extends Sketch's capabilities for UI/UX designers at companies like Facebook, Google, Porsche, and Xbox.
 
+## Key Statistics
 
+- **Hundreds of plugins** available
+- **300,000+ users** for plugins like Stark
+- Active GitHub plugin directory
+- Regular updates through 2025
 
+## Plugin Distribution
 
+### Official Directory
+sketch.com/extensions/plugins/ - curated plugins
+
+### GitHub Directory
+github.com/sketchplugins/plugin-directory - community maintained
+
+### skpm (Sketch Plugin Manager)
+Auto-publishing tool for developers
+
+## Popular Plugins
+
+- Stark (accessibility, 300K+ users)
+- Anima (prototyping)
+- Craft by InVision
+- Abstract (version control)
+- Content Generator
+- Magic Mirror
+
+## Plugin Categories
+
+- UI & layout
+- Prototyping
+- Version control
+- Collaboration
+- Asset export
+- Color management
+- Typography
+
+## Development
+
+Build plugins using:
+- JavaScript
+- CocoaScript
+- Sketch API
+- skpm (plugin manager)
+- Plugin template

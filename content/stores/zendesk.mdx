@@ -1,65 +1,161 @@
 ---
 id: "zendesk"
-name: "Zendesk"
+name: "Zendesk Marketplace"
 slug: "zendesk"
-tagline: "Zendesk app marketplace"
-description: "Zendesk is a marketplace for apps and extensions."
-url: "https://www.zendesk.com/apps/"
+tagline: "Apps and integrations for customer service"
+description: "Zendesk Marketplace is the official app store for Zendesk customer service software, offering over 1,500 apps and integrations. Used by over 58% of Zendesk customers, it extends ticketing, analytics, and support capabilities."
+url: "https://www.zendesk.com/marketplace/"
 logo: "/images/stores/zendesk.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
 company:
-  name: "Zendesk"
-
-  website: "https://developer.zendesk.com/"
+  name: "Zendesk, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2012
+  website: "https://zendesk.com"
 metrics:
-  appCount: null
+  appCount: 1700
+  appCountSource: "Zendesk (estimated 1,500-1,700+)"
+  appCountLastUpdated: "2025-Q1"
+  monthlyActiveUsersSource: "58% of Zendesk customers use marketplace apps"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
+    - percentage: 20
       description: "Standard commission"
+      conditions: "Zendesk takes 20% of paid app revenue (estimated)"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Most Zendesk integrations are free to install (1,176 out of 1,700+). Revenue share applies to paid apps sold through the marketplace."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  apiDocumentationUrl: "https://developer.zendesk.com/api-reference/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "REST API"
+  sdkDocumentationUrl: "https://developer.zendesk.com/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.zendesk.com/documentation/marketplace/"
+  guidelinesSummary: "Apps must use OAuth for authentication, follow Zendesk's security requirements, and complete a 9-step submission process including security review."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Authentication issues (must use OAuth)"
+    - "Poor user experience"
+    - "Incomplete documentation"
+  appealsProcess: "Contact Zendesk Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "German"
+    - "French"
+    - "Spanish"
+    - "Portuguese"
+    - "Japanese"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Zendesk Marketplace - Customer Service Apps & Integrations"
+  metaDescription: "Publish your Zendesk apps and integrations. Reach 58% of Zendesk customers who use marketplace apps."
+  keywords:
+    - "Zendesk Marketplace"
+    - "Zendesk apps"
+    - "customer service apps"
+    - "helpdesk integrations"
+ratings:
+  commission: 4
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "freshdesk-marketplace"
+  - "salesforce"
+  - "hubspot"
+pros:
+  - "Large customer base (58% use marketplace apps)"
+  - "Most apps are free to install"
+  - "Strong API and developer documentation"
+  - "85% of Zendesk revenue from partner integration users"
+  - "Free to register as developer"
+cons:
+  - "Commission on paid apps (estimated 20%)"
+  - "2-4 week review process"
+  - "Must use OAuth authentication"
+  - "Sponsored test account required for development"
 ---
 
 ## Overview
 
-Zendesk is Zendesk is a marketplace for apps and extensions.
+Zendesk Marketplace is the official extension hub for Zendesk's customer service platform. With over 1,700 apps and integrations, it has grown from 500 apps to its current size in just a few years. Over 58% of Zendesk customers use at least one marketplace app.
 
+## Key Statistics
 
+- **1,700+ apps** and integrations available
+- **1,176 free apps** - most integrations are free to install
+- **58% of customers** use at least one marketplace app
+- **85% of Zendesk's ARR** comes from customers using partner integrations
+- **50% of customers** use more than one app
 
+## App Categories
 
+- Productivity & collaboration
+- Analytics & reporting
+- Marketing & automation
+- CRMs & sales
+- IT & operations
+- AI & bots
+
+## Development Requirements
+
+1. Request sponsored test account
+2. Build and test app
+3. Set up global OAuth client
+4. Create brand assets and content
+5. Set up payment options (if applicable)
+6. Register organization
+7. Create Marketplace profile
+8. Submit app for review

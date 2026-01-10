@@ -1,65 +1,159 @@
 ---
 id: "firefox"
-name: "Firefox"
+name: "Firefox Add-ons"
 slug: "firefox"
-tagline: "Browser extensions marketplace"
-description: "Firefox is a marketplace for apps and extensions."
+tagline: "Extensions, themes, and add-ons for Firefox"
+description: "Firefox Add-ons (AMO) is Mozilla's official marketplace for browser extensions, themes, and add-ons for Firefox on desktop and Android. With over 25,000 extensions and 40% of Firefox users having at least one add-on installed, it's a key platform for browser extension developers."
 url: "https://addons.mozilla.org/en-US/firefox/"
 logo: "/images/stores/firefox.svg"
-category: "third-party"
+category: "specialty"
 platforms:
-  - "web"
+  - "windows"
+  - "macos"
+  - "linux"
+  - "android"
 company:
-  name: "Firefox"
-
-  website: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions"
+  name: "Mozilla Foundation"
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2009
+  website: "https://mozilla.org"
 metrics:
-  appCount: null
+  appCount: 25000
+  appCountSource: "Firefox statistics (estimated extensions)"
+  appCountLastUpdated: "2025-Q1"
+  monthlyActiveUsersSource: "40% of Firefox users have at least one add-on"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Mozilla does not charge any commission on add-on sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Firefox Add-ons is completely free to publish on. Mozilla does not charge registration fees or take any commission. Developers handle their own monetization."
 technical:
   hasApi: true
-
+  apiDocumentationUrl: "https://extensionworkshop.com/documentation/develop/"
   hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  sdkDocumentationUrl: "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Developer handles payments"
+  payoutMethods:
+    - "Developer handles payouts"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://extensionworkshop.com/documentation/publish/add-on-policies/"
+  guidelinesSummary: "Add-ons must follow Mozilla's add-on policies including privacy requirements, security standards, and functionality guidelines. Human review is conducted for all submissions."
+  typicalReviewTime: "1-5 days"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Privacy policy violations"
+    - "Excessive permissions"
+    - "Obfuscated or minified code"
+    - "Security vulnerabilities"
+    - "Deceptive functionality"
+  appealsProcess: "Submit appeal through AMO Developer Hub"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "German"
+    - "French"
+    - "Spanish"
+    - "Japanese"
+    - "Chinese"
+    - "Russian"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Firefox Add-ons - Browser Extensions Marketplace"
+  metaDescription: "Publish your Firefox extensions with 0% commission. Reach 40% of Firefox users who use add-ons."
+  keywords:
+    - "Firefox Add-ons"
+    - "Firefox extensions"
+    - "browser extensions"
+    - "AMO"
+    - "Mozilla"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 4
+  developerSupport: 3
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+  - "chrome-web-store"
+pros:
+  - "Completely free - no registration or commission"
+  - "Open source friendly platform"
+  - "Less restrictive than Chrome Web Store"
+  - "1,000+ Android extensions (launched 2024)"
+  - "Human review ensures quality"
+  - "WebExtensions API compatible with Chrome"
+cons:
+  - "Smaller user base than Chrome"
+  - "No built-in monetization system"
+  - "Developers must handle own payments"
+  - "Firefox market share declining"
 ---
 
 ## Overview
 
-Firefox is Firefox is a marketplace for apps and extensions.
+Firefox Add-ons (addons.mozilla.org, or AMO) is Mozilla's official marketplace for Firefox browser extensions, themes, and add-ons. With over 25,000 extensions and no fees or commissions, it's one of the most developer-friendly browser extension platforms.
 
+## Key Statistics
 
+- **25,000+ extensions** available
+- **40% of Firefox users** have at least one add-on installed
+- **1,000+ Android extensions** (launched December 2023, reached 1,000 by May 2024)
+- Usage varies by country: 19% in India, 60% in Russia
 
+## WebExtensions API
 
+Firefox uses the WebExtensions API, which is largely compatible with Chrome:
+- Similar manifest structure
+- Most Chrome extensions can be ported
+- Some Firefox-specific APIs available
+- No Manifest V3 restrictions (more developer freedom)
+
+## Firefox for Android
+
+Mozilla launched an open ecosystem for Android extensions in December 2023:
+- Started with 400+ extensions
+- Grew to 1,000+ by May 2024
+- Compatible with Firefox mobile browser
+
+## Review Process
+
+All add-ons undergo review:
+- Automated scanning for known issues
+- Human review by Mozilla team
+- Code must be readable (no obfuscation)
+- Typically 1-5 days for review

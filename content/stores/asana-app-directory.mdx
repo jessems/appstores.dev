@@ -1,68 +1,157 @@
 ---
 id: "asana-app-directory"
-name: "Asana App Directory"
+name: "Asana Apps"
 slug: "asana-app-directory"
-tagline: "App marketplace for Asana"
-description: "Asana App Directory is a marketplace for Asana."
+tagline: "Apps and integrations for project management"
+description: "Asana Apps is the official app directory for Asana's project management platform. With 200+ integrations and 70% of Asana users connecting 3+ tools, it helps teams complete projects 30% faster through seamless workflow automation."
 url: "https://asana.com/apps"
 logo: "/images/stores/asana-app-directory.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Asana"
-
-  website: "https://asana.com/developers"
+  name: "Asana, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2016
+  website: "https://asana.com"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Asana (200+ integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Asana does not charge commission; developers handle their own monetization"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Asana Apps is free to publish on. Developers handle their own billing."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://developers.asana.com/docs"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Ruby"
+    - "Java"
+    - "PHP"
+  sdkDocumentationUrl: "https://developers.asana.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developers.asana.com/"
+  guidelinesSummary: "Apps must follow Asana's development guidelines and provide value to project management teams."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Poor user experience"
+    - "Security concerns"
+    - "API misuse"
+    - "Incomplete functionality"
+  appealsProcess: "Contact Asana Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Asana Apps - Project Management Integrations"
+  metaDescription: "Build apps for Asana's 200+ integrations. Teams using integrations complete projects 30% faster."
+  keywords:
+    - "Asana Apps"
+    - "Asana integrations"
+    - "project management apps"
+    - "productivity apps"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "trello"
+  - "monday-apps-marketplace"
+pros:
+  - "No commission fees"
+  - "200+ integrations available"
+  - "70% of users integrate 3+ tools"
+  - "Teams complete projects 30% faster"
+  - "Strong REST API with multiple SDKs"
+cons:
+  - "No built-in monetization"
+  - "Review process required"
+  - "Smaller than enterprise competitors"
+  - "Project management focus only"
 ---
 
 ## Overview
 
-Asana App Directory is Asana App Directory is a marketplace for Asana.
+Asana Apps offers 200+ integrations for Asana's project management platform. With 70% of Asana users integrating with at least three other tools, the directory is a key part of the Asana experience.
 
-### Primary Products
+## Key Statistics
 
-Asana
+- **200+ integrations** available
+- **70% of users** integrate with 3+ tools
+- **30% faster** project completion with integrations
+- **60% of users** say integrations reduce meetings
 
+## Integration Categories
 
+- Communications (Slack, Microsoft Teams)
+- Files (Google Drive, Dropbox, Box)
+- Productivity (Time tracking, automation)
+- Connectors (Zapier, Make)
 
+## Popular Integrations
+
+- Google Workspace
+- Microsoft/Office 365
+- Slack
+- Salesforce
+- Zendesk
+- Zoom
+- Jira
+- Dropbox
+- Harvest (time tracking)
+
+## Development
+
+Build integrations using:
+- Asana REST API
+- Official SDKs (JavaScript, Python, Ruby, Java, PHP)
+- OAuth 2.0 authentication
+- Webhooks for real-time updates

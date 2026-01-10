@@ -1,65 +1,153 @@
 ---
 id: "unreal-engine"
-name: "Unreal Engine"
+name: "Unreal Engine Marketplace"
 slug: "unreal-engine"
-tagline: "Unreal Engine app marketplace"
-description: "Unreal Engine is a marketplace for apps and extensions."
-url: "https://www.unrealengine.com/marketplace/store"
+tagline: "Epic's marketplace for Unreal Engine assets and plugins"
+description: "Unreal Engine Marketplace is Epic Games' official marketplace for Unreal Engine assets, tools, and plugins. It offers high-quality 3D assets, blueprints, animations, audio, and complete starter kits for game and interactive content development."
+url: "https://www.unrealengine.com/marketplace/en-US/store"
 logo: "/images/stores/unreal-engine.svg"
-category: "third-party"
+category: "gaming"
 platforms:
-  - "web"
+  - "windows"
+  - "macos"
+  - "linux"
 company:
-  name: "Unreal Engine"
-
-  website: "marketplace-support@unrealengine.com"
+  name: "Epic Games, Inc."
+  headquarters: "Cary, North Carolina, USA"
+  foundedYear: 2014
+  website: "https://unrealengine.com"
 metrics:
-  appCount: null
+  appCount: 20000
+  appCountSource: "Estimated from marketplace"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
+    - percentage: 12
       description: "Standard commission"
+      conditions: "Epic takes 12% of all sales, sellers receive 88%"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Epic's 88/12 revenue split is one of the most generous in the industry, matching Epic Games Store's developer-friendly approach."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://docs.unrealengine.com/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Unreal Engine"
+  sdkDocumentationUrl: "https://docs.unrealengine.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+  payoutMethods:
+    - "PayPal"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
+  guidelinesUrl: "https://www.unrealengine.com/en-US/marketplace/guidelines"
+  guidelinesSummary: "Assets must meet Epic's quality standards, be compatible with current Unreal Engine versions, include documentation, and follow the Marketplace Guidelines."
+  typicalReviewTime: "2-4 weeks"
   hasAutomatedReview: false
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Quality standards not met"
+    - "Missing or poor documentation"
+    - "Compatibility issues"
+    - "Marketplace guideline violations"
+  appealsProcess: "Contact Unreal Engine Marketplace support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
-  hasAppBundles: false
+  hasEditorialContent: true
+  hasAppBundles: true
   hasPreRegistration: false
   hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Unreal Engine Marketplace - Game Assets and Plugins"
+  metaDescription: "Sell your Unreal Engine assets with Epic's industry-leading 88/12 revenue split. Reach millions of Unreal developers worldwide."
+  keywords:
+    - "Unreal Engine Marketplace"
+    - "UE assets"
+    - "game assets"
+    - "Unreal plugins"
+    - "blueprints"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "unity3d"
+  - "epic-games-store"
+pros:
+  - "Industry-leading 88/12 revenue split"
+  - "Integration with Unreal Engine"
+  - "High-quality curated marketplace"
+  - "Free monthly content releases"
+  - "Strong Epic Games backing"
+cons:
+  - "Longer review times (2-4 weeks)"
+  - "Smaller market than Unity Asset Store"
+  - "Strict quality requirements"
+  - "Limited to Unreal Engine ecosystem"
 ---
 
 ## Overview
 
-Unreal Engine is Unreal Engine is a marketplace for apps and extensions.
+Unreal Engine Marketplace launched in 2014 as part of Epic's commitment to making game development more accessible. It provides a curated selection of high-quality assets, blueprints, and tools for Unreal Engine developers.
 
+## Asset Categories
 
+### 3D Content
+- Characters and animations
+- Environments
+- Props and vehicles
+- Materials and textures
 
+### Blueprints & Code
+- Gameplay mechanics
+- AI systems
+- User interfaces
+- Editor tools
 
+### Audio
+- Music packs
+- Sound effects
+- Ambient audio
+
+## Free Monthly Content
+
+Epic releases free assets every month, including:
+- Selected marketplace content
+- Permanently free assets
+- Featured content from creators

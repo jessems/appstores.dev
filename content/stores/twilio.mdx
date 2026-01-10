@@ -1,29 +1,47 @@
 ---
 id: "twilio"
-name: "Twilio"
+name: "Twilio Marketplace"
 slug: "twilio"
-tagline: "Twilio app marketplace"
-description: "Twilio is a marketplace for apps and extensions."
-url: "https://showcase.twilio.com/s/"
+tagline: "Add-ons and integrations for communications"
+description: "Twilio Marketplace is the official platform for add-ons and integrations that extend Twilio's communications APIs. With 700+ pre-built integrations, it helps developers enhance SMS, voice, video, and messaging capabilities."
+url: "https://www.twilio.com/docs/marketplace"
 logo: "/images/stores/twilio.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Twilio"
-
-  website: "https://showcase.twilio.com/s/"
+  name: "Twilio Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2017
+  website: "https://twilio.com"
 metrics:
-  appCount: null
+  appCount: 700
+  appCountSource: "Twilio (700+ pre-built integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission on listings"
+      conditions: "Twilio does not charge commission for marketplace listings"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Twilio Marketplace listings are free. Some add-ons have usage-based pricing."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
+  hasApi: true
+  apiDocumentationUrl: "https://www.twilio.com/docs/usage/api"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Java"
+    - "C#"
+    - "PHP"
+    - "Ruby"
+    - "Go"
+  sdkDocumentationUrl: "https://www.twilio.com/docs/libraries"
   supportsInAppPurchases: true
   supportsSubscriptions: true
   supportsAds: false
@@ -31,35 +49,118 @@ monetization:
   models:
     - "free"
     - "paid"
+    - "usage-based"
+  paymentMethods:
+    - "Twilio Billing"
+    - "Credit Card"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://www.twilio.com/docs/marketplace/listings"
+  guidelinesSummary: "Add-ons must integrate with Twilio APIs, meet security requirements, and provide clear documentation."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "API integration issues"
+    - "Missing documentation"
+    - "Poor user experience"
+  appealsProcess: "Contact Twilio Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Twilio Marketplace - Communications API Add-ons"
+  metaDescription: "Extend Twilio with 700+ pre-built integrations. Add-ons for SMS, voice, video, and messaging."
+  keywords:
+    - "Twilio Marketplace"
+    - "Twilio add-ons"
+    - "communications API"
+    - "SMS integrations"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 5
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 4
+relatedStores:
+  - "sendgrid"
+  - "vonage"
+pros:
+  - "No commission on listings"
+  - "700+ pre-built integrations"
+  - "Industry-leading communications APIs"
+  - "Extensive SDK support (7 languages)"
+  - "IDC MarketScape Leader 2024-2025"
+cons:
+  - "Usage-based pricing can be complex"
+  - "Technical expertise required"
+  - "Longer review process"
+  - "Twilio ecosystem focus"
 ---
 
 ## Overview
 
-Twilio is Twilio is a marketplace for apps and extensions.
+Twilio Marketplace is a platform where developers discover, evaluate, and integrate third-party applications that enhance Twilio's communications APIs without extensive technical expertise.
 
+## Key Statistics
 
+- **700+ pre-built integrations**
+- **IDC MarketScape Leader** (CDP B2C 2024-2025)
+- Supports SMS, voice, video, messaging
 
+## Listing Types
 
+### No-Code Partners
+Integrations requiring no code for setup
+
+### Add-ons
+Code-required integrations for developers
+
+### Pay Connectors
+Add-ons for payment processors
+
+### Stream Connectors
+Add-ons for Media Streams
+
+### Twilio.org
+Special category for non-profit organizations
+
+## Integration Categories
+
+- Communication tools
+- Customer engagement
+- Analytics & insights
+- Payment processing
+- Media streaming
+- Authentication & security
+
+## Development
+
+Build add-ons using:
+- Twilio REST APIs
+- Official SDKs (JS, Python, Java, C#, PHP, Ruby, Go)
+- Webhooks
+- TwiML for voice/messaging

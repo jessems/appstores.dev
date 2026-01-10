@@ -1,65 +1,166 @@
 ---
 id: "okta"
-name: "Okta"
+name: "Okta Integration Network"
 slug: "okta"
-tagline: "Okta app marketplace"
-description: "Okta is a marketplace for apps and extensions."
-url: "https://www.okta.com/resources/find-your-apps/"
+tagline: "7,000+ identity integrations"
+description: "Okta Integration Network (OIN) is the world's largest network of pre-built identity integrations. With 7,000+ integrations spanning SSO, lifecycle management, and API access, it connects enterprises with identity-enabled applications across all major industries."
+url: "https://www.okta.com/integrations/"
 logo: "/images/stores/okta.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Okta"
-
-  website: "https://www.okta.com/resources/find-your-apps/"
+  name: "Okta, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2014
+  website: "https://okta.com"
 metrics:
-  appCount: null
+  appCount: 7000
+  appCountSource: "Okta (7,000+ integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Okta does not charge for OIN integrations"
+  hasReducedCommission: false
+  reducedCommissionDetails: "OIN integrations are free to build and list. Partners maintain their own pricing for their products."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://developer.okta.com/docs/api/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Java"
+    - "Python"
+    - ".NET"
+    - "Go"
+    - "PHP"
+  sdkDocumentationUrl: "https://developer.okta.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Partner handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.okta.com/docs/guides/okta-integration-network/"
+  guidelinesSummary: "Integrations must support SAML, OIDC, or SCIM protocols and pass Okta's security and compatibility testing."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Protocol implementation issues"
+    - "Security vulnerabilities"
+    - "Incomplete SCIM support"
+    - "Documentation gaps"
+  appealsProcess: "Contact Okta Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
-  hasUserReviews: true
-  hasRatings: true
+  hasUserReviews: false
+  hasRatings: false
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Okta Integration Network - Identity Integrations"
+  metaDescription: "Build identity integrations for Okta's 7,000+ app network. SSO, SCIM, and lifecycle management."
+  keywords:
+    - "Okta Integration Network"
+    - "OIN"
+    - "SSO integrations"
+    - "identity management"
+    - "SAML"
+    - "SCIM"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 3
+  analytics: 4
+relatedStores:
+  - "auth0"
+  - "azure-marketplace"
+pros:
+  - "7,000+ integrations"
+  - "No commission fees"
+  - "150+ Secure Identity Integrations"
+  - "40% security tool growth"
+  - "Market leader in identity"
+  - "Strong enterprise adoption"
+cons:
+  - "Identity-focused only"
+  - "Protocol expertise required"
+  - "Enterprise sales cycles"
+  - "Certification requirements"
 ---
 
 ## Overview
 
-Okta is Okta is a marketplace for apps and extensions.
+Okta Integration Network (OIN) is the largest network of pre-built identity integrations. With 7,000+ integrations, it enables enterprises to connect identity management across their entire tech stack.
 
+## Key Statistics
 
+- **7,000+ integrations** pre-built
+- **150+ Secure Identity Integrations** (new 2025)
+- **100+ apps** per customer (global average)
+- **9% YoY growth** in app adoption
+- **40% security tools** among fastest-growing
 
+## 2025 Businesses at Work Insights
 
+- Global average apps per customer topped 100 for first time
+- Security tools account for 40% of fastest-growing apps
+- Bitwarden and Tailscale lead security adoption
+- Drata and Vanta lead compliance tools
+
+## Integration Types
+
+### SSO (Single Sign-On)
+- SAML 2.0
+- OpenID Connect (OIDC)
+- WS-Federation
+
+### Lifecycle Management
+- SCIM provisioning
+- User sync
+- Deprovisioning
+
+### Secure Identity Integrations
+New 2025 collection with deep security capabilities for critical apps.
+
+## Development
+
+Build integrations using:
+- SAML 2.0 or OIDC for SSO
+- SCIM 2.0 for provisioning
+- Okta SDKs
+- OAuth 2.0 for API access
+- Okta Workflows

@@ -2,72 +2,161 @@
 id: "cloudflare-apps"
 name: "Cloudflare Apps"
 slug: "cloudflare-apps"
-tagline: "App marketplace for Cloudflare"
-description: "CDN"
+tagline: "Apps for CDN and edge computing"
+description: "Cloudflare Apps was the marketplace for third-party applications on Cloudflare's CDN and edge computing platform. As of late 2024, the marketplace is transitioning to a new Workers-based experience. Cloudflare Workers provides serverless compute at the edge."
 url: "https://www.cloudflare.com/apps/"
 logo: "/images/stores/cloudflare-apps.svg"
-category: "enterprise"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Cloudflare"
-
-  website: "https://www.cloudflare.com/apps/developers"
+  name: "Cloudflare, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2016
+  website: "https://cloudflare.com"
 metrics:
-  appCount: null
+  appCount: 100
+  appCountSource: "Cloudflare (estimated, marketplace in transition as of Dec 2024)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Cloudflare does not charge commission on apps"
+  hasReducedCommission: false
+  reducedCommissionDetails: "App listings are free. Partners handle their own pricing."
 technical:
   hasApi: true
-  apiDocumentationUrl: "https://www.cloudflare.com/apps/developer/docs/getting-started"
+  apiDocumentationUrl: "https://developers.cloudflare.com/"
   hasSdk: true
   sdkPlatforms:
-    - "Javascript"
+    - "JavaScript"
     - "Rust"
-  supportsInAppPurchases: true
+    - "TypeScript"
+    - "Python"
+  sdkDocumentationUrl: "https://developers.cloudflare.com/workers/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "subscription"
+  paymentMethods:
+    - "Partner handles payments"
 submission:
-  guidelinesUrl: "https://www.cloudflare.com/apps/developer/docs/getting-started"
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developers.cloudflare.com/"
+  guidelinesSummary: "Apps must integrate with Cloudflare Workers or the Apps platform and pass security review."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Performance issues"
+    - "Integration problems"
+    - "Documentation gaps"
+  appealsProcess: "Contact apps-marketplace-support@cloudflare.com"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Cloudflare Apps - Edge Computing Marketplace"
+  metaDescription: "Build apps for Cloudflare. Workers-based apps, serverless edge computing."
+  keywords:
+    - "Cloudflare Apps"
+    - "Cloudflare Workers"
+    - "edge computing"
+    - "CDN apps"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 5
+  discoverability: 3
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 5
+  analytics: 4
+relatedStores:
+  - "heroku"
+  - "vercel"
+pros:
+  - "0% commission"
+  - "Workers-based edge computing"
+  - "Global edge network"
+  - "Serverless architecture"
+  - "Strong developer tools"
+  - "New Apps experience coming"
+cons:
+  - "Marketplace in transition"
+  - "Apps deprecated Dec 2024"
+  - "Workers expertise required"
+  - "Migrate to Workers recommended"
 ---
 
 ## Overview
 
-Cloudflare Apps is CDN
+Cloudflare Apps was the marketplace for third-party applications on Cloudflare's edge network. As of December 2024, the traditional Apps marketplace is transitioning to a new Workers-based experience.
 
-### Primary Products
+## Marketplace Transition
 
-Cloudflare
+After December 20, 2024:
+- Traditional Apps deprecated
+- Apps with Workers recommended
+- New Apps experience in development
+- Contact: apps-marketplace-support@cloudflare.com
 
-### Developer Community
+## Cloudflare Workers
 
-[Developer Community](https://community.cloudflare.com/c/developers/apps)
+Workers provides serverless compute at the edge:
+- **500 Workers** per Paid plan account
+- **100 Workers** per Free plan account
+- Workers for Platforms for larger needs
 
+## Apps with Workers
 
+Bundle complex worker logic for marketplace:
+- Worker-powered experiences
+- Few-click deployment
+- Cloudflare Apps distribution
+
+## Development Stack
+
+- JavaScript/TypeScript
+- Rust (via WebAssembly)
+- Python (via Pyodide)
+- Wrangler CLI
+- Workers AI
+
+## Platform Features
+
+- Global edge network
+- Zero cold starts
+- KV storage
+- Durable Objects
+- D1 database
+- R2 storage

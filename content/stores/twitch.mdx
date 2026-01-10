@@ -1,65 +1,181 @@
 ---
 id: "twitch"
-name: "Twitch"
+name: "Twitch Extensions"
 slug: "twitch"
-tagline: "Twitch app marketplace"
-description: "Twitch is a marketplace for apps and extensions."
+tagline: "200+ live streaming extensions"
+description: "Twitch Extensions is the official marketplace for interactive extensions on Twitch's live streaming platform. With 200+ extensions for viewer engagement, overlays, and interactive features, it enhances the streaming experience for millions of creators and viewers."
 url: "https://www.twitch.tv/p/extensions/"
 logo: "/images/stores/twitch.svg"
-category: "third-party"
+category: "gaming"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Twitch"
-
-  website: "https://www.twitch.tv/p/extensions/"
+  name: "Twitch Interactive (Amazon)"
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2017
+  website: "https://twitch.tv"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Twitch (200+ extensions)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 20
+      description: "Bits revenue share (estimated)"
+      conditions: "Twitch takes approximately 20% of Bits purchases in extensions"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Free extensions have no fees. Bits-enabled extensions share revenue with Twitch."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
+  hasApi: true
+  apiDocumentationUrl: "https://dev.twitch.tv/docs/extensions/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "TypeScript"
+    - "React"
+  sdkDocumentationUrl: "https://dev.twitch.tv/docs/extensions/"
   supportsInAppPurchases: true
-  supportsSubscriptions: true
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+    - "bits"
+  paymentMethods:
+    - "Bits (Twitch currency)"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://dev.twitch.tv/docs/extensions/guidelines-and-policies/"
+  guidelinesSummary: "Extensions must follow Twitch's policies, pass security review, and provide genuine value to streamers and viewers."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Policy violations"
+    - "Security vulnerabilities"
+    - "Poor user experience"
+    - "Performance issues"
+  appealsProcess: "Contact Twitch Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Twitch Extensions - Live Streaming Add-ons"
+  metaDescription: "Build extensions for Twitch. 200+ extensions for millions of streamers and viewers."
+  keywords:
+    - "Twitch Extensions"
+    - "Twitch add-ons"
+    - "streaming extensions"
+    - "Twitch overlay"
+ratings:
+  commission: 4
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "steam"
+  - "youtube"
+pros:
+  - "200+ extensions available"
+  - "Millions of streamers"
+  - "Bits monetization"
+  - "Interactive viewer features"
+  - "Amazon backing"
+  - "Growing creator ecosystem"
+cons:
+  - "Limited extension slots (6)"
+  - "Bits-only monetization"
+  - "Streaming-focused only"
+  - "Amazon revenue share"
 ---
 
 ## Overview
 
-Twitch is Twitch is a marketplace for apps and extensions.
+Twitch Extensions launched in 2017 and offers 200+ interactive add-ons for Twitch's live streaming platform. Extensions enhance streams with overlays, panels, and interactive features that engage viewers.
 
+## Key Statistics
 
+- **200+ extensions** available
+- New extensions added monthly
+- ~200 extensions in Viewer Engagement category alone
+- 6 extension slots per channel
 
+## Extension Slots
 
+Streamers can use up to 6 extensions:
+- Up to 2 component extensions
+- Maximum 1 overlay extension
+- Maximum 3 panel extensions
+
+## Extension Types
+
+### Overlay Extensions
+Full-screen transparent overlays on video.
+
+### Panel Extensions
+Displayed below the video player.
+
+### Component Extensions
+Positioned anywhere on the video.
+
+## Popular Categories
+
+- Viewer engagement
+- Polls & voting
+- Leaderboards
+- Loyalty & rewards
+- Sound alerts
+- Game integration
+- Analytics
+
+## Monetization
+
+### Bits Integration
+Extensions can accept Bits (Twitch's virtual currency):
+- Viewers spend Bits for interactions
+- Developers earn revenue share
+- ~80% to developer (estimated)
+
+## Development
+
+Build extensions using:
+- Twitch Developer Console
+- Extension Helper (JavaScript)
+- React/TypeScript
+- Twitch API integration
+- PubSub for real-time updates

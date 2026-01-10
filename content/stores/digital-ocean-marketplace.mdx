@@ -1,65 +1,151 @@
 ---
 id: "digital-ocean-marketplace"
-name: "Digital Ocean Marketplace"
+name: "DigitalOcean Marketplace"
 slug: "digital-ocean-marketplace"
-tagline: "Digital Ocean app marketplace"
-description: "Digital Ocean Marketplace is a marketplace for apps and extensions."
-url: "https://cloud.digitalocean.com/marketplace?i=a84ff2"
+tagline: "1-Click apps for cloud infrastructure"
+description: "DigitalOcean Marketplace is the official platform for 1-Click apps, Kubernetes applications, and SaaS add-ons for DigitalOcean's cloud infrastructure. It offers pre-configured Droplet images, Kubernetes apps, and AI models for quick deployment."
+url: "https://marketplace.digitalocean.com/"
 logo: "/images/stores/digital-ocean-marketplace.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Digital Ocean"
-
-  website: "https://cloud.digitalocean.com/marketplace?i=a84ff2"
+  name: "DigitalOcean, LLC"
+  headquarters: "New York, New York, USA"
+  foundedYear: 2018
+  website: "https://digitalocean.com"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "DigitalOcean Marketplace (estimated)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission on 1-Click apps"
+      conditions: "DigitalOcean does not charge commission on free 1-Click apps"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Most 1-Click apps are free. SaaS add-ons may have separate pricing handled by vendors."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://docs.digitalocean.com/reference/api/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Packer"
+    - "Terraform"
+    - "Helm"
+  sdkDocumentationUrl: "https://docs.digitalocean.com/products/marketplace/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "DigitalOcean Billing"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://docs.digitalocean.com/products/marketplace/"
+  guidelinesSummary: "Apps must meet DigitalOcean's technical requirements, pass security review, and provide proper documentation."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Image configuration issues"
+    - "Missing documentation"
+    - "Compatibility problems"
+  appealsProcess: "Contact DigitalOcean Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
   hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "DigitalOcean Marketplace - 1-Click Cloud Apps"
+  metaDescription: "Deploy pre-configured apps to DigitalOcean with 1-Click. Droplet images, Kubernetes apps, and AI models."
+  keywords:
+    - "DigitalOcean Marketplace"
+    - "1-Click apps"
+    - "cloud apps"
+    - "Kubernetes apps"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+  - "aws-marketplace"
+  - "azure-marketplace"
+pros:
+  - "No commission on 1-Click apps"
+  - "Quick deployment for users"
+  - "Supports Droplets, Kubernetes, AI models"
+  - "Strong developer community"
+  - "Simple pricing model"
+cons:
+  - "Smaller than AWS/Azure marketplaces"
+  - "Requires Packer/Terraform knowledge"
+  - "Limited to DigitalOcean infrastructure"
+  - "Fewer enterprise features"
 ---
 
 ## Overview
 
-Digital Ocean Marketplace is Digital Ocean Marketplace is a marketplace for apps and extensions.
+DigitalOcean Marketplace is the home for 1-Click apps that deploy pre-configured software on DigitalOcean's cloud infrastructure. It supports Droplet images, Kubernetes apps, SaaS add-ons, and AI models.
 
+## Types of 1-Click Offerings
 
+### Droplet 1-Click Apps
+Pre-built Droplet images with preconfigured software for quick deployment.
 
+### Kubernetes 1-Click Apps
+Pre-configured applications for Kubernetes clusters with automated setup.
 
+### 1-Click Models (Gradient AI)
+Deploy AI models like Meta Llama 3 and Mistral on GPU Droplets with no additional configuration.
+
+### SaaS Add-Ons
+Third-party services that integrate with DigitalOcean infrastructure.
+
+## App Categories
+
+- Developer tools (GitLab, Jenkins, Ansible, Terraform)
+- Web applications (WordPress, Ghost, Drupal)
+- Databases (MySQL, PostgreSQL, MongoDB)
+- Monitoring & analytics
+- Security & networking
+- AI & machine learning
+
+## Creating 1-Click Apps
+
+Build apps using:
+- Packer for Droplet images
+- Helm charts for Kubernetes apps
+- DigitalOcean's vendor portal
+- Terraform for infrastructure

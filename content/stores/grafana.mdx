@@ -1,65 +1,169 @@
 ---
 id: "grafana"
-name: "Grafana"
+name: "Grafana Plugins"
 slug: "grafana"
-tagline: "Grafana app marketplace"
-description: "Grafana is a marketplace for apps and extensions."
-url: "https://grafana.com/plugins"
+tagline: "Plugins for observability dashboards"
+description: "Grafana Plugins is the official catalog for extending Grafana's observability platform. With hundreds of plugins for data sources, panels, and apps, it enables custom visualizations and integrations for monitoring and analytics."
+url: "https://grafana.com/grafana/plugins/"
 logo: "/images/stores/grafana.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
+  - "linux"
+  - "windows"
+  - "macos"
 company:
-  name: "Grafana"
-
-  website: "http://docs.grafana.org/plugins/developing/apps/"
+  name: "Grafana Labs"
+  headquarters: "New York, USA"
+  foundedYear: 2016
+  website: "https://grafana.com"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Grafana (estimated 200+ plugins based on catalog)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Grafana plugins are free to publish"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Plugin publishing is free. Some plugins offer commercial versions with separate licensing."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://grafana.com/docs/grafana/latest/developers/plugins/"
+  hasSdk: true
+  sdkPlatforms:
+    - "TypeScript"
+    - "React"
+    - "Go"
+  sdkDocumentationUrl: "https://grafana.com/developers/plugin-tools/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://grafana.com/developers/plugin-tools/"
+  guidelinesSummary: "Plugins must follow Grafana's development guidelines and pass security review."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Performance issues"
+    - "Quality standards"
+    - "Documentation gaps"
+  appealsProcess: "Contact Grafana Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Grafana Plugins - Observability Extensions"
+  metaDescription: "Build plugins for Grafana. 200+ plugins for data sources, panels, and apps."
+  keywords:
+    - "Grafana Plugins"
+    - "Grafana extensions"
+    - "observability plugins"
+    - "dashboard visualization"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 5
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 5
+  analytics: 4
+relatedStores:
+  - "new-relic"
+  - "datadog"
+pros:
+  - "0% commission"
+  - "200+ plugins"
+  - "Strong developer tooling"
+  - "@grafana/create-plugin CLI"
+  - "Open source platform"
+  - "Active community"
+cons:
+  - "Technical expertise required"
+  - "Observability-focused"
+  - "Limited monetization"
+  - "Version compatibility"
 ---
 
 ## Overview
 
-Grafana is Grafana is a marketplace for apps and extensions.
+Grafana Plugins is the official catalog for extending Grafana's observability and visualization platform. With hundreds of plugins built by Grafana Labs, commercial partners, and the community, it extends Grafana's capabilities.
 
+## Plugin Types
 
+### Panel Plugins
+Create custom visualizations for any data.
 
+### Data Source Plugins
+Connect to databases, APIs, and services.
 
+### App Plugins
+Bundle panels, data sources, and pages into cohesive experiences.
+
+## Popular Data Sources
+
+- Prometheus
+- InfluxDB
+- Elasticsearch
+- MySQL/PostgreSQL
+- CloudWatch
+- Azure Monitor
+- Google Cloud Monitoring
+
+## Development Tools
+
+### @grafana/create-plugin
+CLI tool for scaffolding, developing, and testing plugins.
+
+### Plugin Tools
+- TypeScript/React support
+- Grafana UI components
+- Test utilities
+- Migration tools
+
+## Grafana Cloud
+
+Amazon Managed Grafana supports up to 50 additional plugins per workspace.
+
+## Development
+
+Build plugins using:
+- Grafana Plugin Tools
+- TypeScript and React
+- Go for backend plugins
+- Grafana API
+- Plugin SDK

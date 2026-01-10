@@ -1,65 +1,164 @@
 ---
 id: "box-apps"
-name: "Box Apps"
+name: "Box App Center"
 slug: "box-apps"
-tagline: "Box app marketplace"
-description: "Box Apps is a marketplace for apps and extensions."
-url: "https://cloud.app.box.com/apps"
+tagline: "Apps and integrations for content cloud"
+description: "Box App Center is the official marketplace for apps and integrations that extend Box's content cloud platform. With 1,500+ integrations across productivity, CRM, HR, and ERP stacks, it connects enterprise content with the tools teams use daily."
+url: "https://app.box.com/app-center"
 logo: "/images/stores/box-apps.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "windows"
+  - "macos"
+  - "ios"
+  - "android"
 company:
-  name: "Box"
-
-  website: "https://developer.box.com/"
+  name: "Box, Inc."
+  headquarters: "Redwood City, California, USA"
+  foundedYear: 2022
+  website: "https://box.com"
 metrics:
-  appCount: null
+  appCount: 1500
+  appCountSource: "Box (1,500+ integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Box does not charge commission; developers handle their own monetization"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Box App Center is free to publish on. Developers handle their own billing."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://developer.box.com/reference/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Java"
+    - ".NET"
+    - "iOS"
+    - "Android"
+  sdkDocumentationUrl: "https://developer.box.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.box.com/"
+  guidelinesSummary: "Apps must follow Box development guidelines, pass security review, and meet enterprise security requirements."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Poor user experience"
+    - "API misuse"
+    - "Enterprise compliance issues"
+  appealsProcess: "Contact Box Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Box App Center - Content Cloud Integrations"
+  metaDescription: "Build apps for Box's 1,500+ enterprise integrations. Connect content with productivity, CRM, and business tools."
+  keywords:
+    - "Box App Center"
+    - "Box integrations"
+    - "content cloud"
+    - "enterprise content management"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "dropbox"
+  - "google-workspace-marketplace"
+pros:
+  - "No commission fees"
+  - "1,500+ integrations"
+  - "Enterprise-grade security"
+  - "Strong partner ecosystem"
+  - "Multiple SDKs available"
+cons:
+  - "Enterprise focus may limit audience"
+  - "Security review required"
+  - "No built-in monetization"
+  - "Longer review process"
 ---
 
 ## Overview
 
-Box Apps is Box Apps is a marketplace for apps and extensions.
+Box App Center launched in 2022 as the destination for users, admins, and developers to discover and access 1,500+ applications that integrate with Box's content cloud platform.
 
+## Key Statistics
 
+- **1,500+ integrations** across categories
+- **Enterprise-grade** security requirements
+- Supports productivity, CRM, HR, ERP stacks
 
+## Key Integration Partners
 
+- Microsoft (Office, Teams)
+- Zoom
+- Salesforce
+- Slack
+- Google Workspace
+
+## Integration Categories
+
+- Productivity & collaboration
+- CRM & sales
+- HR & people management
+- ERP & finance
+- Legal & compliance
+- Healthcare & life sciences
+
+## AI Capabilities (2024-2025)
+
+- **Box AI Studio**: Rolling out January 2025
+- Deep GPT model partnerships
+- AI-governance engine for enterprise
+
+## Development
+
+Build integrations using:
+- Box REST API
+- Official SDKs (JS, Python, Java, .NET, iOS, Android)
+- OAuth 2.0 authentication
+- Webhooks for real-time updates
+- Box UI Elements

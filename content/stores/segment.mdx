@@ -1,65 +1,167 @@
 ---
 id: "segment"
-name: "Segment"
+name: "Segment Connections"
 slug: "segment"
-tagline: "Segment app marketplace"
-description: "Segment is a marketplace for apps and extensions."
-url: "https://segment.com/catalog"
+tagline: "700+ customer data integrations"
+description: "Segment Connections (Twilio Segment) is the integration catalog for Segment's customer data platform. With 700+ pre-built connectors spanning 450+ sources and 450+ destinations, it enables unified customer profiles across your entire tech stack."
+url: "https://segment.com/catalog/"
 logo: "/images/stores/segment.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Segment"
-
-  website: "https://segment.com/catalog"
+  name: "Twilio Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2012
+  website: "https://segment.com"
 metrics:
-  appCount: null
+  appCount: 700
+  appCountSource: "Segment (700+ integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Segment does not charge for integration listings"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Integrations are free to list. Partners maintain their own pricing."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://segment.com/docs/connections/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Java"
+    - "Swift"
+    - "Kotlin"
+    - "Go"
+  sdkDocumentationUrl: "https://segment.com/docs/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Partner handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://segment.com/docs/partners/"
+  guidelinesSummary: "Integrations must follow Segment's specifications and pass compatibility testing."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Integration issues"
+    - "Data handling problems"
+    - "Documentation gaps"
+    - "Performance issues"
+  appealsProcess: "Contact Segment Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
-  hasUserReviews: true
-  hasRatings: true
+  hasUserReviews: false
+  hasRatings: false
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Segment Connections - Customer Data Integrations"
+  metaDescription: "Build integrations for Segment. 700+ connectors, 450+ sources, 450+ destinations."
+  keywords:
+    - "Segment integrations"
+    - "Twilio Segment"
+    - "customer data platform"
+    - "CDP integrations"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 5
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 5
+relatedStores:
+  - "mparticle"
+  - "mixpanel"
+pros:
+  - "0% commission"
+  - "700+ integrations"
+  - "450+ sources"
+  - "450+ destinations"
+  - "Unified customer profiles"
+  - "Twilio backing"
+cons:
+  - "CDP-focused only"
+  - "Technical expertise required"
+  - "Enterprise pricing"
+  - "No built-in monetization"
 ---
 
 ## Overview
 
-Segment is Segment is a marketplace for apps and extensions.
+Segment Connections is the integration catalog for Twilio Segment's customer data platform. With 700+ pre-built connectors, it enables businesses to collect, clean, and activate customer data across their entire stack.
 
+## Key Statistics
 
+- **700+ integrations** total
+- **450+ sources** available
+- **450+ destinations** available
+- Unified customer profiles
+- Part of Twilio ecosystem
 
+## Source Types
 
+### Web Sources (Analytics.js)
+First-party data from websites.
+
+### Mobile Sources
+iOS and Android SDKs.
+
+### Server Sources
+Backend data collection.
+
+### Cloud App Sources
+Data from connected apps (Stripe, Zendesk, Braze, etc.).
+
+### Source Functions
+Custom user-created sources.
+
+## Destination Types
+
+- Data warehouses (Snowflake, BigQuery, Redshift, S3)
+- Business intelligence tools
+- Marketing automation
+- Analytics platforms
+- CRM systems
+
+## Development
+
+Build integrations using:
+- Segment Spec
+- Destinations Functions
+- Source Functions
+- Segment APIs
+- Official SDKs (JS, Python, Java, Swift, Kotlin, Go)

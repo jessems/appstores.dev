@@ -2,28 +2,46 @@
 id: "mac-app-store"
 name: "Mac App Store"
 slug: "mac-app-store"
-tagline: "Mac App Store app marketplace"
-description: "Mac App Store is a marketplace for apps and extensions."
-url: "https://www.apple.com/uk/osx/apps/app-store/"
+tagline: "Apple's macOS app marketplace"
+description: "Mac App Store is Apple's official marketplace for macOS applications. Part of Apple's broader App Store ecosystem with 1.9M+ apps, it offers curated software for Mac computers with integrated payment processing and automatic updates."
+url: "https://www.apple.com/app-store/"
 logo: "/images/stores/mac-app-store.svg"
 category: "official"
 platforms:
   - "macos"
 company:
-  name: "Mac App Store"
-
-  website: "https://www.apple.com/uk/osx/apps/app-store/"
+  name: "Apple Inc."
+  headquarters: "Cupertino, California, USA"
+  foundedYear: 2011
+  website: "https://apple.com"
 metrics:
-  appCount: null
+  appCount: 50000
+  appCountSource: "Apple (estimated 50,000 Mac apps from 1.9M+ total App Store apps)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 99
+    currency: "USD"
+    type: "annual"
   commissionTiers:
     - percentage: 30
       description: "Standard commission"
+      conditions: "Apple takes 30% of app sales and in-app purchases"
+    - percentage: 15
+      description: "App Store Small Business Program"
+      conditions: "15% for developers earning under $1M annually"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Small Business Program reduces commission to 15% for developers earning under $1 million per year. 90%+ of developers qualify."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
+  hasApi: true
+  apiDocumentationUrl: "https://developer.apple.com/documentation/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Swift"
+    - "Objective-C"
+    - "SwiftUI"
+    - "AppKit"
+  sdkDocumentationUrl: "https://developer.apple.com/macos/"
   supportsInAppPurchases: true
   supportsSubscriptions: true
   supportsAds: false
@@ -31,35 +49,118 @@ monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Apple ID"
+    - "Credit Card"
+    - "Apple Pay"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 10
+  payoutCurrency: "Local currency"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.apple.com/app-store/review/guidelines/"
+  guidelinesSummary: "Apps must follow Apple's Human Interface Guidelines, pass App Review, and meet security and privacy standards."
+  typicalReviewTime: "1-3 days"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Guideline violations"
+    - "Crashes or bugs"
+    - "Privacy issues"
+    - "Incomplete functionality"
+  appealsProcess: "App Review Board appeal process"
+  requiresApproval: true
 geographic:
   availableRegions:
-    - "Global"
+    - "Global (175+ countries)"
+  supportedLanguages:
+    - "40+ languages"
+  localizedStores: true
 features:
-  hasEditorialContent: false
-  hasAppBundles: false
-  hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
-  hasABTesting: false
+  hasEditorialContent: true
+  hasAppBundles: true
+  hasPreRegistration: true
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
+  hasABTesting: true
   hasUserReviews: true
   hasRatings: true
 metadata:
-  featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  featured: true
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Mac App Store - macOS Applications"
+  metaDescription: "Publish apps on Apple's Mac App Store. 15-30% commission with $406B ecosystem."
+  keywords:
+    - "Mac App Store"
+    - "macOS apps"
+    - "Apple apps"
+    - "Mac software"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 3
+  analytics: 5
+relatedStores:
+  - "apple-app-store"
+  - "microsoft-store"
+pros:
+  - "$406B US developer ecosystem (2024)"
+  - "1.9M+ apps across Apple platforms"
+  - "15% Small Business Program rate"
+  - "30,000+ new apps monthly"
+  - "Integrated payment and updates"
+  - "TestFlight beta testing"
+cons:
+  - "$99/year developer fee"
+  - "30% standard commission"
+  - "Strict review process"
+  - "Apple ecosystem lock-in"
 ---
 
 ## Overview
 
-Mac App Store is Mac App Store is a marketplace for apps and extensions.
+Mac App Store launched in 2011 as Apple's official marketplace for macOS applications. Part of Apple's broader App Store ecosystem that facilitated $406 billion in US developer billings and sales in 2024.
 
+## Apple App Store Key Statistics
 
+- **1.9M+ apps** across all Apple platforms
+- **$406B** US developer billings (2024)
+- **783,000+ publishers** on App Store
+- **30,000+ new apps** added monthly
+- **37%** from indie developers
+- **110,000 accounts** terminated for fraud
 
+## Developer Economics
 
+- 90%+ of billings have 0% Apple commission
+- 15% commission for Small Business Program (<$1M revenue)
+- 30% standard commission
+- Small developer earnings up 76% (2021-2024)
+
+## App Pricing
+
+- 94.6% of apps are free
+- 5.4% are paid apps
+- Freemium and subscription models dominate
+
+## Development
+
+Build Mac apps using:
+- Swift/SwiftUI
+- Objective-C/AppKit
+- Mac Catalyst (iOS to Mac)
+- Xcode IDE
+- TestFlight for beta testing
+- App Store Connect analytics

@@ -2,67 +2,174 @@
 id: "adobe-exchange"
 name: "Adobe Exchange"
 slug: "adobe-exchange"
-tagline: "App marketplace for Photoshop"
-description: "Adobe Exchange is a marketplace for Photoshop."
-url: "https://www.adobeexchange.com/"
+tagline: "Plugins for Creative Cloud and Experience Cloud"
+description: "Adobe Exchange is the official marketplace for plugins, extensions, and integrations for Adobe Creative Cloud and Experience Cloud applications. It offers thousands of add-ons for Photoshop, Illustrator, Premiere Pro, and enterprise Experience Cloud products."
+url: "https://exchange.adobe.com/"
 logo: "/images/stores/adobe-exchange.svg"
-category: "third-party"
+category: "specialty"
 platforms:
+  - "windows"
+  - "macos"
   - "web"
 company:
-  name: "Adobe"
-
-  website: "https://www.adobe.io/apis/creativecloud/overview.html"
+  name: "Adobe Inc."
+  headquarters: "San Jose, California, USA"
+  foundedYear: 2012
+  website: "https://adobe.com"
 metrics:
-  appCount: null
+  appCount: 5000
+  appCountSource: "Adobe (estimated 5,000+ plugins and extensions)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
     - percentage: 30
       description: "Standard commission"
+      conditions: "Adobe takes 30% of paid plugin sales via FastSpring"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Free plugins have no fees. Paid plugins use FastSpring with 30% commission. Adobe handles VAT for EU."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  apiDocumentationUrl: "https://developer.adobe.com/"
+  hasSdk: true
+  sdkPlatforms:
+    - "UXP"
+    - "CEP"
+    - "JavaScript"
+    - "ExtendScript"
+  sdkDocumentationUrl: "https://developer.adobe.com/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+  payoutMethods:
+    - "FastSpring"
+  minimumPayout: 50
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.adobe.com/developer-distribution/creative-cloud/docs/guides/submission/overview"
+  guidelinesSummary: "Plugins must pass Adobe's review for security, quality, and compatibility. UXP and ZXP formats supported."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Quality issues"
+    - "Compatibility problems"
+    - "Documentation gaps"
+  appealsProcess: "Contact Adobe Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "German"
+    - "French"
+    - "Japanese"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Adobe Exchange - Creative Cloud Plugins"
+  metaDescription: "Publish plugins for Photoshop, Illustrator, Premiere Pro. 5,000+ extensions available."
+  keywords:
+    - "Adobe Exchange"
+    - "Photoshop plugins"
+    - "Creative Cloud extensions"
+    - "Adobe plugins"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "figma-community"
+  - "sketch-app"
+pros:
+  - "5,000+ plugins estimated"
+  - "Massive Creative Cloud user base"
+  - "FastSpring e-commerce integration"
+  - "VAT handling for EU"
+  - "Dual desktop/web marketplace"
+  - "UXP modern plugin format"
+cons:
+  - "30% commission"
+  - "Strict review process"
+  - "Multiple plugin formats"
+  - "Adobe ecosystem lock-in"
 ---
 
 ## Overview
 
-Adobe Exchange is Adobe Exchange is a marketplace for Photoshop.
+Adobe Exchange is the official marketplace for Adobe Creative Cloud and Experience Cloud plugins and extensions. It serves millions of creative professionals with add-ons for Photoshop, Illustrator, Premiere Pro, and enterprise products.
 
-### Primary Products
+## Marketplace Structure
 
-Photoshop
+### Creative Cloud Marketplace
+Desktop app Plugin Marketplace and Exchange web surface showcase the same plugins.
 
+### Experience Cloud Apps
+Enterprise integrations for Adobe Workfront, Analytics, and other Experience Cloud products.
 
+## Plugin Formats
 
+- **UXP**: Modern JavaScript-based plugin format
+- **ZXP/CEP**: Legacy ExtendScript-based plugins
+- **MXI**: Older installation packages
+
+## Supported Applications
+
+- Photoshop
+- Illustrator
+- Premiere Pro
+- After Effects
+- InDesign
+- XD
+- Lightroom
+- Experience Cloud products
+
+## Monetization Features
+
+- FastSpring e-commerce platform
+- Merchant of Record for EU
+- VAT collection and remittance
+- Free or paid perpetual products
+- Subscription support
+
+## Development
+
+Build plugins using:
+- Developer Distribution portal
+- UXP (Unified Extensibility Platform)
+- CEP (Common Extensibility Platform)
+- Adobe APIs and SDKs

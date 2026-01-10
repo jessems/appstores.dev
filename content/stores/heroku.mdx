@@ -1,65 +1,170 @@
 ---
 id: "heroku"
-name: "Heroku"
+name: "Heroku Elements"
 slug: "heroku"
-tagline: "Heroku app marketplace"
-description: "Heroku is a marketplace for apps and extensions."
-url: "https://elements.heroku.com/addons"
+tagline: "200+ cloud platform add-ons"
+description: "Heroku Elements is the official marketplace for the Heroku cloud platform. With 175-200+ add-on services, 7,200+ deployment buttons, and 7,800+ buildpacks, it provides developers with managed services for databases, monitoring, caching, and more."
+url: "https://elements.heroku.com/"
 logo: "/images/stores/heroku.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Heroku"
-
-  website: "https://elements.heroku.com/addons"
+  name: "Heroku (Salesforce)"
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2011
+  website: "https://heroku.com"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Heroku (175-200+ add-on services)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 20
+      description: "Standard commission (estimated)"
+      conditions: "Heroku takes approximately 20% of add-on revenue"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Revenue share varies by add-on provider agreement."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://devcenter.heroku.com/articles/platform-api-reference"
+  hasSdk: true
+  sdkPlatforms:
+    - "Ruby"
+    - "Python"
+    - "Node.js"
+    - "Java"
+    - "PHP"
+    - "Go"
+  sdkDocumentationUrl: "https://devcenter.heroku.com/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://devcenter.heroku.com/articles/bringing-an-add-on-to-market"
+  guidelinesSummary: "Add-ons must be fully managed services that integrate with Heroku's provisioning API and meet quality standards."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Integration issues"
+    - "Service reliability"
+    - "Documentation gaps"
+    - "Support requirements"
+  appealsProcess: "Contact Heroku Add-on Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Heroku Elements - Cloud Platform Add-ons"
+  metaDescription: "Build add-ons for Heroku. 200+ services, 7,800+ buildpacks."
+  keywords:
+    - "Heroku Elements"
+    - "Heroku add-ons"
+    - "cloud platform"
+    - "PaaS marketplace"
+ratings:
+  commission: 4
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "aws-marketplace"
+  - "digital-ocean-marketplace"
+pros:
+  - "175-200+ add-on services"
+  - "7,200+ Heroku Buttons"
+  - "7,800+ buildpacks"
+  - "Managed service integration"
+  - "Developer-focused platform"
+  - "Salesforce backing"
+cons:
+  - "Estimated 20% commission"
+  - "Complex add-on requirements"
+  - "PaaS market competition"
+  - "Heroku ecosystem focus"
 ---
 
 ## Overview
 
-Heroku is Heroku is a marketplace for apps and extensions.
+Heroku Elements is the marketplace for Heroku's cloud platform. With 175-200+ managed add-on services, 7,200+ Heroku Buttons, and 7,800+ buildpacks, it extends Heroku's PaaS capabilities.
 
+## Key Statistics
 
+- **175-200+ add-ons** (managed services)
+- **7,200+ Heroku Buttons** (one-click deploys)
+- **7,800+ buildpacks** available
+- Thousands of total elements
+- Regular new add-on additions
 
+## Element Types
 
+### Add-ons (175-200+)
+Fully managed cloud services:
+- Databases (Postgres, Redis, MongoDB)
+- Monitoring & logging
+- Email & communication
+- Search engines
+- Caching
+- Analytics
+
+### Heroku Buttons (7,200+)
+One-click app deployment:
+- Template apps
+- Starter kits
+- Open source projects
+
+### Buildpacks (7,800+)
+Language and framework support:
+- Official buildpacks
+- Community buildpacks
+- Custom buildpacks
+
+## Development
+
+Build add-ons using:
+- Heroku Add-on Provider API
+- Provisioning API
+- SSO integration
+- Heroku CLI plugins
+- Partner portal

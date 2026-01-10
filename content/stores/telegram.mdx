@@ -1,65 +1,194 @@
 ---
 id: "telegram"
-name: "Telegram"
+name: "Telegram Bot Platform"
 slug: "telegram"
-tagline: "Telegram app marketplace"
-description: "Telegram is a marketplace for apps and extensions."
-url: "https://storebot.me/"
+tagline: "10 million+ bots and Mini Apps"
+description: "Telegram Bot Platform is the ecosystem for bots and Mini Apps on Telegram's messaging platform. With 10 million+ bots serving hundreds of millions of users, it enables automation, payments, games, and full web applications within the Telegram experience."
+url: "https://core.telegram.org/bots"
 logo: "/images/stores/telegram.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
+  - "ios"
+  - "android"
+  - "windows"
+  - "macos"
+  - "linux"
 company:
-  name: "Telegram"
-
-  website: "https://storebot.me/"
+  name: "Telegram FZ-LLC"
+  headquarters: "Dubai, UAE"
+  foundedYear: 2015
+  website: "https://telegram.org"
 metrics:
-  appCount: null
+  appCount: 10000000
+  appCountSource: "Telegram (10 million+ bots)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission on bots"
+      conditions: "Bot development is free. Telegram Stars have separate revenue share."
+  hasReducedCommission: false
+  reducedCommissionDetails: "Bots are free to create. Telegram Stars for in-app purchases have revenue sharing. Ads revenue sharing available."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
+  hasApi: true
+  apiDocumentationUrl: "https://core.telegram.org/bots/api"
+  hasSdk: true
+  sdkPlatforms:
+    - "Python"
+    - "JavaScript"
+    - "Java"
+    - "PHP"
+    - "Go"
+    - "Rust"
+  sdkDocumentationUrl: "https://core.telegram.org/bots"
   supportsInAppPurchases: true
   supportsSubscriptions: true
-  supportsAds: false
+  supportsAds: true
 monetization:
   models:
     - "free"
     - "paid"
+    - "subscription"
+    - "ads"
+  paymentMethods:
+    - "Telegram Stars"
+    - "Credit Card"
+    - "Cryptocurrency"
+  payoutMethods:
+    - "TON Blockchain"
+    - "Bank Transfer"
+  minimumPayout: 50
+  payoutCurrency: "USD"
+  payoutFrequency: "On-demand"
 submission:
-
+  guidelinesUrl: "https://core.telegram.org/bots"
+  guidelinesSummary: "Bots must follow Telegram's terms of service. No formal review process for basic bots."
+  typicalReviewTime: "Instant (basic bots)"
   hasAutomatedReview: false
-  hasHumanReview: true
+  hasHumanReview: false
+  commonRejectionReasons:
+    - "Terms of service violations"
+    - "Spam or abuse"
+    - "Privacy violations"
+  appealsProcess: "Contact Telegram support"
   requiresApproval: false
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "Multiple (user-defined)"
+  localizedStores: false
 features:
   hasEditorialContent: false
   hasAppBundles: false
   hasPreRegistration: false
   hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Telegram Bot Platform - Bots and Mini Apps"
+  metaDescription: "Build bots for Telegram's 900M+ users. 10 million+ bots, free to develop."
+  keywords:
+    - "Telegram bots"
+    - "Telegram Mini Apps"
+    - "Telegram Bot API"
+    - "messaging bots"
+ratings:
+  commission: 5
+  reviewProcess: 5
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 5
+  entryBarriers: 2
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+  - "discord"
+  - "slack"
+pros:
+  - "10 million+ bots"
+  - "Free to develop"
+  - "No review process"
+  - "900M+ users"
+  - "Telegram Stars monetization"
+  - "Mini Apps for full web apps"
+cons:
+  - "No official marketplace"
+  - "Discoverability challenges"
+  - "Crypto-focused payments"
+  - "Limited analytics"
 ---
 
 ## Overview
 
-Telegram is Telegram is a marketplace for apps and extensions.
+Telegram Bot Platform powers 10 million+ bots on Telegram's messaging platform. Free for developers, it enables automation, payments, games, and full web applications (Mini Apps) for 900 million+ users.
 
+## Key Statistics
 
+- **10 million+ bots** on platform
+- **900M+ users** globally
+- Free for users and developers
+- Multiple monetization options
 
+## Bot Types
 
+### Standard Bots
+Automated programs responding to commands and messages.
+
+### Mini Apps
+Full web applications running inside Telegram with rich interfaces.
+
+## Popular Bot Categories
+
+- Trading bots (crypto)
+- Productivity tools
+- Games & entertainment
+- Customer service
+- Notifications
+- Payment processing
+- Group management
+
+## Monetization Options
+
+### Telegram Stars
+In-app purchases for digital goods.
+
+### Telegram Ads
+Revenue sharing from ads displayed in channels.
+
+### Subscription Plans
+Paid access to premium bot features.
+
+### Third-Party Payments
+Integration with payment providers.
+
+## Top Trading Bots
+
+1. Trojan
+2. BONKbot
+3. Maestro ($12.8B volume, 573K+ users)
+4. Banana Gun
+5. SolTradingBot
+
+## Development
+
+Build bots using:
+- Telegram Bot API
+- BotFather for bot creation
+- Community SDKs (Python, JS, Java, PHP, Go, Rust)
+- Webhooks or polling
+- Mini Apps web platform

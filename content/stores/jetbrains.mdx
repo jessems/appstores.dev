@@ -1,65 +1,175 @@
 ---
 id: "jetbrains"
-name: "Jetbrains"
+name: "JetBrains Marketplace"
 slug: "jetbrains"
-tagline: "Jetbrains app marketplace"
-description: "Jetbrains is a marketplace for apps and extensions."
+tagline: "Plugins for IntelliJ-based IDEs"
+description: "JetBrains Marketplace is the official plugin repository for all JetBrains IDEs including IntelliJ IDEA, PyCharm, WebStorm, and more. With 8,860+ plugins, it extends the functionality of the world's most popular professional development tools."
 url: "https://plugins.jetbrains.com/marketplace"
 logo: "/images/stores/jetbrains.svg"
-category: "third-party"
+category: "specialty"
 platforms:
-  - "web"
+  - "windows"
+  - "macos"
+  - "linux"
 company:
-  name: "Jetbrains"
-
-  website: "https://plugins.jetbrains.com/marketplace"
+  name: "JetBrains s.r.o."
+  headquarters: "Prague, Czech Republic"
+  foundedYear: 2012
+  website: "https://jetbrains.com"
 metrics:
-  appCount: null
+  appCount: 8860
+  appCountSource: "JetBrains Marketplace"
+  appCountLastUpdated: "2025-Q1"
+  developerCount: 2000
+  developerCountSource: "JetBrains Plugin Developer Conf 2024 attendance"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "Free plugins"
+      conditions: "No commission for free plugins"
+    - percentage: 15
+      description: "Paid plugins"
+      conditions: "JetBrains takes 15% of paid plugin sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "JetBrains charges 15% commission on paid plugin sales. Free plugins have no fees. Perpetual licensing is now available for paid plugins."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://plugins.jetbrains.com/docs/marketplace/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Java"
+    - "Kotlin"
+  sdkDocumentationUrl: "https://plugins.jetbrains.com/docs/intellij/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+    - "JetBrains Account"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://plugins.jetbrains.com/docs/marketplace/about-marketplace.html"
+  guidelinesSummary: "Plugins must be compatible with supported IDE versions, follow JetBrains coding guidelines, and pass automated compatibility verification."
+  typicalReviewTime: "1-3 days"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Compatibility issues"
+    - "Poor code quality"
+    - "Security vulnerabilities"
+    - "Incomplete documentation"
+  appealsProcess: "Contact JetBrains Marketplace support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "JetBrains Marketplace - IDE Plugins and Extensions"
+  metaDescription: "Publish your IntelliJ IDEA plugins on JetBrains Marketplace. Reach millions of developers using JetBrains IDEs with 15% commission."
+  keywords:
+    - "JetBrains Marketplace"
+    - "IntelliJ plugins"
+    - "IDE plugins"
+    - "JetBrains"
+ratings:
+  commission: 4
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "github"
+  - "eclipse-marketplace"
+pros:
+  - "Only 15% commission on paid plugins"
+  - "Massive professional developer user base"
+  - "Works across all JetBrains IDEs"
+  - "Free plugin distribution at no cost"
+  - "Perpetual licensing now available"
+  - "Strong developer documentation"
+cons:
+  - "Requires Java/Kotlin expertise"
+  - "Complex plugin development SDK"
+  - "Platform-specific to JetBrains ecosystem"
+  - "Review process required for all plugins"
 ---
 
 ## Overview
 
-Jetbrains is Jetbrains is a marketplace for apps and extensions.
+JetBrains Marketplace is the official distribution hub for plugins extending JetBrains IDEs. With over 8,860 plugins, it serves millions of developers using IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, and other JetBrains products.
 
+## Key Statistics
 
+- **8,860+ plugins** available
+- **2,000+ plugin developers** (from Plugin Developer Conf 2024)
+- Supports all JetBrains IDEs
+- Perpetual and subscription licensing options
 
+## Supported IDEs
 
+- IntelliJ IDEA (Community & Ultimate)
+- PyCharm
+- WebStorm
+- PhpStorm
+- RubyMine
+- GoLand
+- Rider
+- CLion
+- DataGrip
+- Android Studio (compatible plugins)
+
+## Monetization Options
+
+### Licensing Types
+- **Subscription**: Monthly or annual recurring payments
+- **Perpetual**: One-time payment for lifetime access (new in 2024)
+- **Freemium**: Free tier with paid upgrades
+
+### Revenue Share
+- Free plugins: No fees
+- Paid plugins: 15% commission to JetBrains
+
+## Plugin Developer Conf
+
+JetBrains hosts an annual Plugin Developer Conference:
+- First event: November 2024 with 2,000+ attendees
+- Features talks on testing, localization, and user feedback
+- Returns November 2025

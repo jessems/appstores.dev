@@ -1,46 +1,73 @@
 ---
 id: "joomla"
-name: "Joomla"
+name: "Joomla Extensions Directory"
 slug: "joomla"
-tagline: "Joomla app marketplace"
-description: "Joomla is a marketplace for apps and extensions."
+tagline: "6,000 CMS extensions"
+description: "Joomla Extensions Directory (JED) is the official marketplace for extensions for the Joomla content management system. With approximately 6,000 extensions across components, modules, plugins, and templates, it serves millions of Joomla websites worldwide."
 url: "https://extensions.joomla.org/"
 logo: "/images/stores/joomla.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Joomla"
-
-  website: "https://developer.joomla.org/"
+  name: "Open Source Matters, Inc."
+  headquarters: "New York, USA"
+  foundedYear: 2007
+  website: "https://joomla.org"
 metrics:
-  appCount: null
+  appCount: 6000
+  appCountSource: "Joomla (approximately 6,000 extensions)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "JED is free to list. Developers handle their own pricing."
+  hasReducedCommission: false
+  reducedCommissionDetails: "Joomla Extensions Directory is free and open source. No fees for listing."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://docs.joomla.org/Joomla_API"
+  hasSdk: true
+  sdkPlatforms:
+    - "PHP"
+    - "JavaScript"
+    - "REST API"
+  sdkDocumentationUrl: "https://docs.joomla.org/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://extensions.joomla.org/support/knowledgebase/"
+  guidelinesSummary: "Extensions must be compatible with current Joomla versions, follow coding standards, and pass community review."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Compatibility issues"
+    - "Coding standard violations"
+    - "Incomplete documentation"
+  appealsProcess: "Contact JED team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
   hasBetaTesting: false
@@ -50,16 +77,85 @@ features:
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Joomla Extensions Directory - CMS Extensions"
+  metaDescription: "Publish extensions for Joomla. 6,000 extensions, 0% commission, open source."
+  keywords:
+    - "Joomla Extensions"
+    - "JED"
+    - "Joomla plugins"
+    - "CMS extensions"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 3
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 2
+relatedStores:
+  - "wordpress"
+  - "drupal"
+pros:
+  - "0% commission"
+  - "6,000 extensions"
+  - "Open source platform"
+  - "Free to list"
+  - "Active community"
+  - "No platform lock-in"
+cons:
+  - "Smaller than WordPress"
+  - "No built-in monetization"
+  - "CMS market competition"
+  - "Limited analytics"
 ---
 
 ## Overview
 
-Joomla is Joomla is a marketplace for apps and extensions.
+Joomla Extensions Directory (JED) is the official marketplace for Joomla CMS extensions. With approximately 6,000 extensions, it's the largest repository of Joomla components, modules, plugins, and templates.
 
+## Key Statistics
 
+- **~6,000 extensions** available
+- **5 extension types** supported
+- Open source and free platform
+- Active since 2007
+- Global community of developers
 
+## Extension Types
 
+### Components
+Core functionality extensions that appear in the admin menu.
+
+### Modules
+Smaller, self-contained content blocks for page positions.
+
+### Plugins
+Event-triggered extensions that extend core functionality.
+
+### Templates
+Design and layout themes for Joomla sites.
+
+### Languages
+Translation packs for internationalization.
+
+## Additional Types
+
+- Packages (bundled extensions)
+- Files (standalone files)
+- Libraries (shared code libraries)
+
+## Development
+
+Build extensions using:
+- Joomla Framework
+- PHP and MySQL
+- Joomla MVC architecture
+- Component Development Kit
+- Joomla API

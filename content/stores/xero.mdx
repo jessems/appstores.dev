@@ -1,65 +1,169 @@
 ---
 id: "xero"
-name: "Xero"
+name: "Xero App Store"
 slug: "xero"
-tagline: "Xero app marketplace"
-description: "Xero is a marketplace for apps and extensions."
-url: "https://www.xero.com/us/marketplace/s/app-functions"
+tagline: "Accounting integrations for small businesses"
+description: "Xero App Store is the official marketplace for integrations with Xero's cloud accounting platform. With 1,000+ third-party integrations and 4.6 million subscribers globally, it connects small businesses and accountants with apps for invoicing, inventory, payroll, payments, and more."
+url: "https://apps.xero.com/"
 logo: "/images/stores/xero.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Xero"
-
-  website: "https://www.xero.com/us/marketplace/s/app-functions"
+  name: "Xero Limited"
+  headquarters: "Wellington, New Zealand"
+  foundedYear: 2012
+  website: "https://xero.com"
 metrics:
-  appCount: null
+  appCount: 1000
+  appCountSource: "Xero (1,000+ third-party integrations)"
+  appCountLastUpdated: "2025-Q1"
+  monthlyActiveUsers: 4600000
+  monthlyActiveUsersSource: "Xero (4.6M subscribers)"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Xero does not take commission on app sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Xero App Store allows partners to handle their own billing and pricing. No revenue share with Xero."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://developer.xero.com/documentation/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Java"
+    - "C#"
+    - "Ruby"
+    - "PHP"
+  sdkDocumentationUrl: "https://developer.xero.com/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Partner handles payments"
+  payoutMethods:
+    - "Partner handles payouts"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.xero.com/documentation/xero-app-store/app-partner-guides/"
+  guidelinesSummary: "Apps must meet Xero's quality, security, and certification requirements to be listed in the App Store."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Poor OAuth implementation"
+    - "Insufficient testing"
+    - "User experience issues"
+  appealsProcess: "Contact Xero App Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Xero App Store - Accounting Integrations"
+  metaDescription: "Build apps for Xero's 4.6M subscribers. 1,000+ integrations, 0% commission."
+  keywords:
+    - "Xero App Store"
+    - "Xero integrations"
+    - "accounting apps"
+    - "small business software"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "quickbooks"
+  - "freshbook"
+pros:
+  - "0% commission on app revenue"
+  - "4.6M subscribers globally"
+  - "1,000+ integrations"
+  - "Strong OAuth and API support"
+  - "Access to 200,000+ accountants"
+  - "8.05% AI-powered apps (growing)"
+cons:
+  - "Partner handles own billing"
+  - "Certification process required"
+  - "Regional market variations"
+  - "Competition from native features"
 ---
 
 ## Overview
 
-Xero is Xero is a marketplace for apps and extensions.
+Xero App Store is the official marketplace for Xero's cloud accounting platform. With 1,000+ integrations and 4.6 million subscribers worldwide, it connects small businesses with essential business tools.
 
+## Key Statistics
 
+- **1,000+ integrations** globally
+- **4.6M subscribers** worldwide
+- **506 apps** in US store
+- **650 apps** in UK store
+- **200,000+ accountants** and bookkeepers
+- **8.05% AI-powered** apps (and growing)
 
+## Regional Stores
 
+- United States (506 apps)
+- United Kingdom (650 apps)
+- Australia
+- New Zealand
+- Canada
+- South Africa
+
+## App Categories
+
+- Invoicing & jobs
+- Inventory
+- Payments
+- Payroll & HR
+- Reporting
+- CRM & sales
+- Ecommerce
+- Time tracking
+
+## Development
+
+Build apps using:
+- Xero API (OAuth 2.0)
+- Official SDKs (JS, Python, Java, C#, Ruby, PHP)
+- Webhooks
+- Xero HQ for accountants

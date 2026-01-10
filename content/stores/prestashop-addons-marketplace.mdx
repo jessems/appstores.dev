@@ -2,64 +2,171 @@
 id: "prestashop-addons-marketplace"
 name: "PrestaShop Addons Marketplace"
 slug: "prestashop-addons-marketplace"
-tagline: "PrestaShop Addons Marketplace app marketplace"
-description: "PrestaShop Addons Marketplace is a marketplace for apps and extensions."
+tagline: "3,000+ e-commerce modules"
+description: "PrestaShop Addons Marketplace is the official marketplace for modules and themes for PrestaShop's open source e-commerce platform. With 3,000+ modules serving 30,000+ customers, it extends PrestaShop stores with payment, shipping, marketing, and design solutions."
 url: "https://addons.prestashop.com/en/"
 logo: "/images/stores/prestashop-addons-marketplace.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "PrestaShop Addons Marketplace"
-
-  website: "https://addons.prestashop.com/en/"
+  name: "PrestaShop SA"
+  headquarters: "Paris, France"
+  foundedYear: 2007
+  website: "https://prestashop.com"
 metrics:
-  appCount: null
+  appCount: 3000
+  appCountSource: "PrestaShop (3,000+ modules)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
     - percentage: 30
       description: "Standard commission"
+      conditions: "PrestaShop takes approximately 30% of module sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Free modules have no fees. Paid modules follow revenue share model."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://devdocs.prestashop-project.org/"
+  hasSdk: true
+  sdkPlatforms:
+    - "PHP"
+    - "JavaScript"
+    - "Smarty"
+  sdkDocumentationUrl: "https://devdocs.prestashop-project.org/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 50
+  payoutCurrency: "EUR"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://addons.prestashop.com/en/content/25-how-to-sell-on-prestashop-addons"
+  guidelinesSummary: "Modules must follow PrestaShop coding standards, pass quality review, and be compatible with supported versions."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Code quality issues"
+    - "Security vulnerabilities"
+    - "Compatibility problems"
+    - "Documentation gaps"
+  appealsProcess: "Contact PrestaShop Addons team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "French"
+    - "Spanish"
+    - "German"
+    - "Italian"
+  localizedStores: true
 features:
-  hasEditorialContent: false
-  hasAppBundles: false
+  hasEditorialContent: true
+  hasAppBundles: true
   hasPreRegistration: false
   hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "PrestaShop Addons Marketplace - E-commerce Modules"
+  metaDescription: "Build modules for PrestaShop. 3,000+ modules serving 30,000+ customers."
+  keywords:
+    - "PrestaShop Addons"
+    - "PrestaShop modules"
+    - "e-commerce plugins"
+    - "PrestaShop themes"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 4
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "woocommerce"
+  - "shopify"
+pros:
+  - "3,000+ modules"
+  - "30,000+ satisfied customers"
+  - "Open source platform"
+  - "Global marketplace"
+  - "Multi-language support"
+  - "Active developer community"
+cons:
+  - "~30% commission"
+  - "PHP expertise required"
+  - "Version compatibility"
+  - "Competition from alternatives"
 ---
 
 ## Overview
 
-PrestaShop Addons Marketplace is PrestaShop Addons Marketplace is a marketplace for apps and extensions.
+PrestaShop Addons Marketplace is the official module and theme marketplace for PrestaShop's open source e-commerce platform. With 3,000+ modules and 30,000+ satisfied customers, it's the central hub for extending PrestaShop stores.
 
+## Key Statistics
 
+- **3,000+ modules** available
+- **30,000+ satisfied** customers
+- Thousands of add-ons to choose from
+- Active global community
 
+## Alternative Marketplaces
 
+Beyond the official marketplace:
+- **Codecanyon**: ~300 PrestaShop modules
+- **PrestaHero**: 96 premium + 40 free modules
+- **FME Modules**: 150+ modules (versions 1.6-1.8)
+
+## Module Categories
+
+- Payment gateways
+- Shipping & logistics
+- SEO & marketing
+- Analytics & reporting
+- Customer experience
+- Admin tools
+- Import/export
+- Multi-vendor marketplace
+
+## Supported Versions
+
+- PrestaShop 1.6.x
+- PrestaShop 1.7.x
+- PrestaShop 8.x (latest)
+
+## Development
+
+Build modules using:
+- PHP
+- Smarty templating
+- JavaScript
+- PrestaShop Module Generator
+- DevDocs documentation

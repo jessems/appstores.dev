@@ -1,65 +1,166 @@
 ---
 id: "discourse"
-name: "Discourse"
+name: "Discourse Plugins"
 slug: "discourse"
-tagline: "Discourse app marketplace"
-description: "Discourse is a marketplace for apps and extensions."
-url: "https://meta.discourse.org/c/plugin"
+tagline: "Plugins for modern forum software"
+description: "Discourse Plugins is the official directory for extending Discourse's modern forum platform. With official and third-party plugins for moderation, integrations, and customization, it enables community administrators to tailor their forums."
+url: "https://www.discourse.org/plugins"
 logo: "/images/stores/discourse.svg"
-category: "third-party"
+category: "developer"
 platforms:
   - "web"
 company:
-  name: "Discourse"
-
-  website: "https://meta.discourse.org/c/plugin"
+  name: "Civilized Discourse Construction Kit, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2013
+  website: "https://discourse.org"
 metrics:
-  appCount: null
+  appCount: 100
+  appCountSource: "Discourse (estimated 100+ plugins based on directory)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Discourse plugins are free to publish"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Plugin publishing is free. Open source community model."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://docs.discourse.org/"
+  hasSdk: true
+  sdkPlatforms:
+    - "Ruby"
+    - "JavaScript"
+    - "Ember.js"
+  sdkDocumentationUrl: "https://meta.discourse.org/docs"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
+  guidelinesUrl: "https://meta.discourse.org/c/plugin/22"
+  guidelinesSummary: "Plugins should work with current Discourse versions and follow community guidelines."
+  typicalReviewTime: "Community-driven"
   hasAutomatedReview: false
   hasHumanReview: true
+  commonRejectionReasons:
+    - "Compatibility issues"
+    - "Security vulnerabilities"
+    - "Quality standards"
+    - "Duplicate functionality"
+  appealsProcess: "Meta Discourse discussion"
   requiresApproval: false
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
   hasBetaTesting: false
   hasAnalyticsDashboard: false
   hasABTesting: false
   hasUserReviews: true
-  hasRatings: true
+  hasRatings: false
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Discourse Plugins - Forum Software Extensions"
+  metaDescription: "Build plugins for Discourse. 100+ plugins for modern forum communities."
+  keywords:
+    - "Discourse plugins"
+    - "forum plugins"
+    - "community software"
+    - "Discourse extensions"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 5
+  analytics: 2
+relatedStores:
+  - "wordpress"
+  - "xenforo"
+pros:
+  - "0% commission"
+  - "100+ plugins"
+  - "Open source platform"
+  - "Active Meta community"
+  - "GitHub all-the-plugins repo"
+  - "Pavilion/Communiteq partners"
+cons:
+  - "Ruby/Ember expertise needed"
+  - "Forum-focused only"
+  - "Limited monetization"
+  - "Self-host complexity"
 ---
 
 ## Overview
 
-Discourse is Discourse is a marketplace for apps and extensions.
+Discourse Plugins is the official extension ecosystem for Discourse's modern, open-source forum software. With 100+ official and third-party plugins, it enables community administrators to customize and extend their forums.
 
+## Key Statistics
 
+- **100+ plugins** available
+- Official directory at discourse.org/plugins
+- GitHub all-the-plugins repository
+- Active Meta community
 
+## Plugin Sources
 
+### Official Directory
+discourse.org/plugins - curated plugins
+
+### Meta Discourse
+meta.discourse.org/c/plugin/22 - community directory
+
+### GitHub Repository
+github.com/discourse/all-the-plugins - comprehensive list
+
+## Hosting Plans & Plugins
+
+| Plan | Plugin Limit |
+|------|--------------|
+| Professional | 5 plugins (Discourse Team, Pavilion, Communiteq) |
+| Business | Any plugin |
+| Enterprise | Any plugin |
+
+## Plugin Categories
+
+- Moderation & trust
+- Authentication & SSO
+- Integrations (Slack, Discord)
+- Customization
+- SEO & marketing
+- Analytics
+- Gamification
+
+## Development
+
+Build plugins using:
+- Ruby on Rails
+- Ember.js (frontend)
+- Discourse API
+- Plugin outlet system
+- Theme components

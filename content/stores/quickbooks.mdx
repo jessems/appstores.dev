@@ -1,65 +1,180 @@
 ---
 id: "quickbooks"
-name: "Quickbooks"
+name: "QuickBooks App Store"
 slug: "quickbooks"
-tagline: "Quickbooks app marketplace"
-description: "Quickbooks is a marketplace for apps and extensions."
-url: "https://apps.intuit.com/"
+tagline: "750+ apps for small business accounting"
+description: "QuickBooks App Store is the official marketplace for integrations with Intuit's QuickBooks accounting platform. With 750+ business apps and 1,000+ payment integrations, it extends QuickBooks for millions of small businesses with tools for invoicing, payroll, inventory, and automation."
+url: "https://quickbooks.intuit.com/app-store/"
 logo: "/images/stores/quickbooks.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Quickbooks"
-
-  website: "https://developer.intuit.com/"
+  name: "Intuit Inc."
+  headquarters: "Mountain View, California, USA"
+  foundedYear: 2013
+  website: "https://intuit.com"
 metrics:
-  appCount: null
+  appCount: 750
+  appCountSource: "Intuit (750+ apps)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 15
+      description: "Standard commission (estimated)"
+      conditions: "Intuit takes approximately 15% of app revenue"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Commission rates vary by partner tier and agreement. Free apps have no fees."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  apiDocumentationUrl: "https://developer.intuit.com/app/developer/qbo/docs/get-started"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Java"
+    - "Python"
+    - "PHP"
+    - ".NET"
+  sdkDocumentationUrl: "https://developer.intuit.com/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.intuit.com/app/developer/qbo/docs/go-live"
+  guidelinesSummary: "Apps must pass Intuit's security review, meet user experience standards, and integrate properly with QuickBooks APIs."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Poor OAuth implementation"
+    - "Data handling issues"
+    - "User experience problems"
+  appealsProcess: "Contact Intuit Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "French"
+    - "Spanish"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "QuickBooks App Store - Small Business Accounting Apps"
+  metaDescription: "Build apps for QuickBooks. 750+ apps serving millions of small businesses."
+  keywords:
+    - "QuickBooks App Store"
+    - "QuickBooks integrations"
+    - "accounting apps"
+    - "Intuit apps"
+ratings:
+  commission: 4
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "xero"
+  - "freshbook"
+pros:
+  - "750+ apps available"
+  - "1,000+ payment integrations"
+  - "Millions of small businesses"
+  - "Strong API and SDK support"
+  - "Regular new app additions"
+  - "AI-driven apps emerging"
+cons:
+  - "Estimated 15% commission"
+  - "Certification required"
+  - "US-focused market"
+  - "Competition from native features"
 ---
 
 ## Overview
 
-Quickbooks is Quickbooks is a marketplace for apps and extensions.
+QuickBooks App Store is the official marketplace for Intuit's leading small business accounting platform. With 750+ apps and over 1,000 payment integrations, it serves millions of QuickBooks users.
 
+## Key Statistics
 
+- **750+ apps** available
+- **1,000+ payment integrations**
+- **29 new apps** added (February 2025)
+- **22 new apps** added (August 2025)
+- Millions of small business users
 
+## App Categories
 
+- Accounting & reporting
+- Payroll & HR
+- Payments & invoicing
+- Inventory & orders
+- Sales & CRM
+- Ecommerce
+- Time tracking
+- Automation
+
+## Popular Integrations
+
+- Shopify
+- Wix
+- eBay
+- Amazon (via A2X)
+- Connex
+- AutoEntry
+- Fathom
+- TSheets
+
+## Recent Additions (2025)
+
+- AI-driven collections apps
+- Automated backup tools
+- Advanced reporting and forecasting
+- Intelligent error management
+
+## Development
+
+Build apps using:
+- QuickBooks Online API
+- OAuth 2.0 authentication
+- Intuit Developer Portal
+- Official SDKs (JS, Java, Python, PHP, .NET)
+- Webhooks for real-time sync

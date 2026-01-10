@@ -1,29 +1,45 @@
 ---
 id: "amazon-alexa-skill-store"
-name: "Amazon Alexa Skill Store"
+name: "Amazon Alexa Skills Store"
 slug: "amazon-alexa-skill-store"
-tagline: "Voice apps marketplace"
-description: "Amazon Alexa Skill Store is a marketplace for Amazon Echo."
+tagline: "Voice apps for Alexa devices"
+description: "Amazon Alexa Skills Store is the official marketplace for voice applications on Alexa-enabled devices. With over 100,000 skills globally and compatibility with 100,000+ smart home devices, it's the world's largest voice app ecosystem."
 url: "https://www.amazon.com/alexa-skills/b?ie=UTF8&node=13727921011"
 logo: "/images/stores/amazon-alexa-skill-store.svg"
 category: "manufacturer"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Amazon"
-
+  name: "Amazon.com, Inc."
+  headquarters: "Seattle, Washington, USA"
+  foundedYear: 2015
   website: "https://developer.amazon.com/alexa"
 metrics:
-  appCount: null
+  appCount: 100000
+  appCountSource: "Amazon (100,000+ skills globally)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
     - percentage: 30
-      description: "Standard commission"
+      description: "In-skill purchases"
+      conditions: "Amazon takes 30% of in-skill purchase revenue"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Free skills have no fees. In-skill purchases have 30% commission. Amazon pays developers through Alexa Developer Rewards for highly-engaged skills."
 technical:
   hasApi: true
-
-  hasSdk: false
-
+  apiDocumentationUrl: "https://developer.amazon.com/docs/alexa-voice-service/api-overview.html"
+  hasSdk: true
+  sdkPlatforms:
+    - "Node.js"
+    - "Python"
+    - "Java"
+  sdkDocumentationUrl: "https://developer.amazon.com/alexa-skills-kit"
   supportsInAppPurchases: true
   supportsSubscriptions: true
   supportsAds: false
@@ -31,38 +47,129 @@ monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Amazon Pay"
+    - "Credit Card"
+  payoutMethods:
+    - "Bank Transfer"
+    - "Amazon Pay"
+  minimumPayout: 10
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.amazon.com/docs/alexa-skills-kit-sdk-for-nodejs/develop-your-first-skill.html"
+  guidelinesSummary: "Skills must follow Amazon's voice design guidelines, content policies, and pass certification including functional, security, and policy testing."
+  typicalReviewTime: "3-5 days"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Poor voice design"
+    - "Policy violations"
+    - "Functional issues"
+    - "Privacy concerns"
+  appealsProcess: "Contact Amazon Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
-    - "Global"
+    - "Global (12+ countries)"
+  supportedLanguages:
+    - "English"
+    - "German"
+    - "French"
+    - "Spanish"
+    - "Italian"
+    - "Japanese"
+    - "Portuguese"
+    - "Hindi"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
-  hasABTesting: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
+  hasABTesting: true
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Amazon Alexa Skills Store - Voice App Marketplace"
+  metaDescription: "Build voice apps for 100,000+ Alexa skills. Reach millions of Echo and Alexa-enabled device users."
+  keywords:
+    - "Alexa Skills"
+    - "Alexa Skills Store"
+    - "voice apps"
+    - "Amazon Echo"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 5
+  entryBarriers: 3
+  technicalFreedom: 3
+  analytics: 4
+relatedStores:
+  - "amazon-appstore"
+  - "google-assistant-actions"
+pros:
+  - "100,000+ skills globally"
+  - "100,000+ compatible smart home devices"
+  - "Free to publish skills"
+  - "Developer Rewards program"
+  - "Largest voice platform"
+cons:
+  - "30% commission on in-skill purchases"
+  - "Strict certification process"
+  - "Voice-only interface limitations"
+  - "Discoverability challenges"
 ---
 
 ## Overview
 
-Amazon Alexa Skill Store is Amazon Alexa Skill Store is a marketplace for Amazon Echo.
+Amazon Alexa Skills Store launched in 2015 alongside the Amazon Echo and has grown to over 100,000 skills globally. It powers voice interactions on Echo devices, Fire TV, third-party speakers, and 100,000+ compatible smart home devices.
 
-### Primary Products
+## Key Statistics
 
-Amazon Echo
+- **100,000+ skills** available globally
+- **100,000+ smart home devices** compatible
+- **12+ countries** with localized stores
+- Alexa Developer Rewards for top skills
 
+## Skill Categories
 
+- Smart home control
+- Games & trivia
+- Music & audio
+- News & information
+- Productivity
+- Shopping
+- Health & fitness
+- Education
 
+## Monetization Options
+
+### In-Skill Purchases
+- One-time purchases
+- Consumables
+- Subscriptions
+- 70% revenue share to developers
+
+### Alexa Developer Rewards
+Amazon pays bonuses for highly-engaged skills based on usage metrics.
+
+## Development
+
+Build skills using:
+- Alexa Skills Kit (ASK)
+- Node.js, Python, or Java SDKs
+- Alexa-hosted (free backend)
+- Voice design best practices

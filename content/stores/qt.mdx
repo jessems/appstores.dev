@@ -1,65 +1,171 @@
 ---
 id: "qt"
-name: "QT"
+name: "Qt Marketplace"
 slug: "qt"
-tagline: "QT app marketplace"
-description: "QT is a marketplace for apps and extensions."
-url: "https://www.qt.io/blog/qt-marketplace"
+tagline: "200+ Qt extensions and plugins"
+description: "Qt Marketplace is the official extension platform for Qt development framework. With 200+ extensions including plugins, libraries, and tools, it serves Qt's ecosystem of 1+ million developers building cross-platform applications."
+url: "https://marketplace.qt.io/"
 logo: "/images/stores/qt.svg"
-category: "third-party"
+category: "developer"
 platforms:
-  - "web"
+  - "windows"
+  - "macos"
+  - "linux"
+  - "ios"
+  - "android"
 company:
-  name: "QT"
-
-  website: "https://www.qt.io/blog/qt-marketplace"
+  name: "The Qt Company"
+  headquarters: "Espoo, Finland"
+  foundedYear: 1994
+  website: "https://qt.io"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Qt Marketplace (estimated 200+ extensions, 100+ at 2019 launch)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
+    - percentage: 25
+      description: "First year commission"
+      conditions: "25% cut on paid extensions in first year"
     - percentage: 30
-      description: "Standard commission"
+      description: "Subsequent years"
+      conditions: "30% cut on paid extensions after first year"
+  hasReducedCommission: true
+  reducedCommissionDetails: "Lower commission (25%) for the first year of extension sales."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://doc.qt.io/"
+  hasSdk: true
+  sdkPlatforms:
+    - "C++"
+    - "QML"
+    - "Python (PyQt/PySide)"
+  sdkDocumentationUrl: "https://doc.qt.io/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://marketplace.qt.io/"
+  guidelinesSummary: "Extensions must be compatible with Qt framework and follow quality standards."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Compatibility issues"
+    - "Quality standards"
+    - "Documentation gaps"
+    - "Security concerns"
+  appealsProcess: "Contact Qt support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Qt Marketplace - Qt Extensions & Plugins"
+  metaDescription: "Build extensions for Qt. 200+ plugins for 1M+ developers."
+  keywords:
+    - "Qt extensions"
+    - "Qt marketplace"
+    - "Qt plugins"
+    - "Qt Creator"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 5
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 4
+relatedStores:
+  - "visual-studio-marketplace"
+  - "jetbrains-marketplace"
+pros:
+  - "200+ extensions"
+  - "1M+ developer ecosystem"
+  - "Cross-platform support"
+  - "Qt Creator integration"
+  - "KDE frameworks included"
+  - "Lower first-year commission"
+cons:
+  - "25-30% commission"
+  - "C++/QML expertise required"
+  - "Qt ecosystem only"
+  - "Smaller than IDE marketplaces"
 ---
 
 ## Overview
 
-QT is QT is a marketplace for apps and extensions.
+Qt Marketplace is the official extension platform for Qt development framework. With 200+ extensions, it provides plugins for Qt Creator, libraries with new APIs, and tools for Qt's ecosystem of over 1 million developers building cross-platform applications.
 
+## Key Statistics
 
+- **200+ extensions** (estimated)
+- **100+ extensions** at December 2019 launch
+- **1M+ developers** in Qt ecosystem
+- Cross-platform support
 
+## Commission Structure
+
+| Year | Commission |
+|------|------------|
+| First year | 25% |
+| Subsequent years | 30% |
+
+## Extension Categories
+
+- Qt Creator plugins
+- Libraries & APIs
+- KDE frameworks
+- Tools & utilities
+- Testing solutions
+- Build systems
+
+## Notable Extensions
+
+- Felgo (additional Qt APIs)
+- Incredibuild (network build system)
+- Froglogic (Qt testing)
+- KDAB KUESA (workflow software)
+- KDE add-ons
+
+## Development
+
+Build extensions using:
+- C++ programming
+- QML/Qt Quick
+- Qt Creator SDK
+- Plugin architecture
+- Qt documentation
 

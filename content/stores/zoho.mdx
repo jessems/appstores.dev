@@ -1,65 +1,178 @@
 ---
 id: "zoho"
-name: "Zoho"
+name: "Zoho Marketplace"
 slug: "zoho"
-tagline: "Zoho app marketplace"
-description: "Zoho is a marketplace for apps and extensions."
+tagline: "2,500+ extensions for 29 Zoho products"
+description: "Zoho Marketplace is the official extension platform for the Zoho suite of business applications. With 2,500+ extensions spanning 40+ business categories, it connects 100,000+ users with tools for sales, marketing, customer support, accounting, and back-office operations across 29 Zoho products."
 url: "https://marketplace.zoho.com/home"
 logo: "/images/stores/zoho.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Zoho"
-
-  website: "https://marketplace.zoho.com/home"
+  name: "Zoho Corporation"
+  headquarters: "Chennai, India"
+  foundedYear: 2016
+  website: "https://zoho.com"
 metrics:
-  appCount: null
+  appCount: 2500
+  appCountSource: "Zoho (2,500+ extensions)"
+  appCountLastUpdated: "2025-Q1"
+  monthlyActiveUsers: 100000
+  monthlyActiveUsersSource: "Zoho (100,000+ business users)"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
     - percentage: 30
       description: "Standard commission"
+      conditions: "Zoho takes 30% of paid extension sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Free extensions have no fees. Paid extensions follow 70/30 revenue split."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
+  hasApi: true
+  apiDocumentationUrl: "https://www.zoho.com/developer/"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Deluge"
+    - "REST API"
+  sdkDocumentationUrl: "https://www.zoho.com/developer/help/"
+  supportsInAppPurchases: false
   supportsSubscriptions: true
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+    - "PayPal"
+  payoutMethods:
+    - "Bank Transfer"
+    - "PayPal"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://www.zoho.com/developer/help/extensions/publish.html"
+  guidelinesSummary: "Extensions must follow Zoho's quality guidelines, security requirements, and provide clear value to users."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Poor user experience"
+    - "API misuse"
+    - "Insufficient documentation"
+  appealsProcess: "Contact Zoho Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+    - "German"
+    - "French"
+    - "Spanish"
+    - "Japanese"
+    - "Chinese"
+  localizedStores: true
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Zoho Marketplace - Business App Extensions"
+  metaDescription: "Build extensions for 29 Zoho products. 2,500+ extensions reaching 100,000+ business users."
+  keywords:
+    - "Zoho Marketplace"
+    - "Zoho extensions"
+    - "Zoho CRM plugins"
+    - "business app integrations"
+ratings:
+  commission: 3
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "salesforce"
+  - "hubspot"
+pros:
+  - "2,500+ extensions available"
+  - "30,000+ monthly installations"
+  - "100,000+ business users reached"
+  - "29 Zoho products supported"
+  - "40+ business categories"
+  - "374,000+ total installations"
+cons:
+  - "30% commission rate"
+  - "Deluge scripting learning curve"
+  - "Limited to Zoho ecosystem"
+  - "Competition from native features"
 ---
 
 ## Overview
 
-Zoho is Zoho is a marketplace for apps and extensions.
+Zoho Marketplace is the official extension platform for Zoho's comprehensive business software suite. With 2,500+ extensions as of early 2025, it has grown significantly from the 1,000+ milestone celebrated in 2024.
 
+## Key Statistics
 
+- **2,500+ extensions** available (2025)
+- **30,000+ monthly installations**
+- **100,000+ business users** reached globally
+- **374,000+ total installations**
+- **29 Zoho products** supported
+- **40+ business categories**
 
+## Supported Products
 
+- Zoho CRM
+- Zoho Desk
+- Zoho Books
+- Zoho Projects
+- Zoho Creator
+- Zoho Analytics
+- Zoho Mail
+- Zoho People
+- And 21+ more products
+
+## Extension Types
+
+- CRM automations
+- Workflow integrations
+- Data connectors
+- Reporting tools
+- Communication bridges
+- Industry-specific solutions
+
+## Development
+
+Build extensions using:
+- Zoho Developer Console
+- Deluge scripting language
+- REST APIs
+- Widgets and custom UI
+- Webhooks

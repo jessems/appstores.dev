@@ -1,65 +1,151 @@
 ---
 id: "pipedrive"
-name: "Pipedrive"
+name: "Pipedrive Marketplace"
 slug: "pipedrive"
-tagline: "Pipedrive app marketplace"
-description: "Pipedrive is a marketplace for apps and extensions."
-url: "https://marketplace.pipedrive.com/"
+tagline: "Apps and integrations for sales CRM"
+description: "Pipedrive Marketplace is the official platform for apps and integrations that extend Pipedrive's sales CRM. With 500+ integrations for lead generation, video calls, project management, and marketing, it helps sales teams optimize their revenue cycle."
+url: "https://www.pipedrive.com/en/marketplace"
 logo: "/images/stores/pipedrive.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Pipedrive"
-
-  website: "https://marketplace.pipedrive.com/"
+  name: "Pipedrive OÜ"
+  headquarters: "Tallinn, Estonia"
+  foundedYear: 2015
+  website: "https://pipedrive.com"
 metrics:
-  appCount: null
+  appCount: 500
+  appCountSource: "Pipedrive (500+ integrations)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Pipedrive does not charge commission; developers handle their own monetization"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Pipedrive Marketplace is free to publish on. Developers handle their own billing and monetization."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://developers.pipedrive.com/docs/api/v1"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "REST API"
+  sdkDocumentationUrl: "https://developers.pipedrive.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developers.pipedrive.com/"
+  guidelinesSummary: "Apps must follow Pipedrive's development guidelines and provide value to sales teams using Pipedrive CRM."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Poor user experience"
+    - "Security concerns"
+    - "API misuse"
+    - "Incomplete functionality"
+  appealsProcess: "Contact Pipedrive Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Pipedrive Marketplace - Sales CRM Apps & Integrations"
+  metaDescription: "Build apps for Pipedrive's sales CRM. 500+ integrations available with no commission fees."
+  keywords:
+    - "Pipedrive Marketplace"
+    - "Pipedrive apps"
+    - "CRM integrations"
+    - "sales apps"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "hubspot"
+  - "salesforce"
+pros:
+  - "No commission fees"
+  - "500+ integrations available"
+  - "AI-powered marketplace search (2024)"
+  - "Smart integration recommendations"
+  - "Strong REST API"
+cons:
+  - "No built-in monetization"
+  - "Smaller than Salesforce/HubSpot"
+  - "Review process required"
+  - "CRM-focused niche"
 ---
 
 ## Overview
 
-Pipedrive is Pipedrive is a marketplace for apps and extensions.
+Pipedrive Marketplace offers 500+ integrations for Pipedrive's sales CRM platform. The marketplace connects sales teams with tools for lead generation, video calls, project management, marketing, and more.
 
+## Key Statistics
 
+- **500+ integrations** available
+- **600+ ecosystem partners**
+- AI-powered marketplace search (2024)
+- Smart integration recommendations
 
+## 2024 Marketplace Updates
 
+- **Smart integration recommendations**: Personalized app suggestions based on usage
+- **AI-powered marketplace search**: Natural language processing to find relevant tools
+- Deeper integrations with AI-powered analytics
+
+## Integration Categories
+
+- Lead generation
+- Video calls & meetings
+- Project management
+- Marketing automation
+- Customer support
+- Finance & accounting
+- Communication tools
+
+## Development
+
+Build integrations using:
+- Pipedrive REST API
+- OAuth 2.0 authentication
+- Webhooks for real-time updates
+- App Extensions framework

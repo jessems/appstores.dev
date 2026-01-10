@@ -1,65 +1,167 @@
 ---
 id: "stripe"
-name: "Stripe"
+name: "Stripe App Marketplace"
 slug: "stripe"
-tagline: "Stripe app marketplace"
-description: "Stripe is a marketplace for apps and extensions."
-url: "https://stripe.com/works-with/type/platform"
+tagline: "Apps for payment infrastructure"
+description: "Stripe App Marketplace is the official platform for apps extending Stripe's payment infrastructure. With 341+ apps from 302 partners, it serves businesses processing payments through Stripe with tools for fraud prevention, accounting, analytics, subscriptions, and commerce operations."
+url: "https://marketplace.stripe.com/"
 logo: "/images/stores/stripe.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
 company:
-  name: "Stripe"
-
-  website: "https://stripe.com/works-with/type/platform"
+  name: "Stripe, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2022
+  website: "https://stripe.com"
 metrics:
-  appCount: null
+  appCount: 341
+  appCountSource: "Stripe (341 apps, October 2025)"
+  appCountLastUpdated: "2025-Q4"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Stripe does not charge commission on app sales"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Stripe App Marketplace does not take revenue share. Partners handle their own pricing and billing."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://stripe.com/docs/api"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Ruby"
+    - "PHP"
+    - "Java"
+    - "Go"
+    - ".NET"
+  sdkDocumentationUrl: "https://stripe.com/docs/stripe-apps"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+  paymentMethods:
+    - "Partner handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://stripe.com/docs/stripe-apps/review-requirements"
+  guidelinesSummary: "Apps must meet Stripe's security, UX, and quality standards. Focus on dashboard integration and user experience."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "Poor user experience"
+    - "Inconsistent dashboard integration"
+    - "Performance issues"
+  appealsProcess: "Contact Stripe Apps team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Stripe App Marketplace - Payment Infrastructure Apps"
+  metaDescription: "Build apps for Stripe. 341+ apps, 302 partners, 0% commission on payments platform."
+  keywords:
+    - "Stripe Apps"
+    - "Stripe Marketplace"
+    - "payment apps"
+    - "fintech integrations"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 5
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "squareup"
+  - "shopify"
+pros:
+  - "0% commission"
+  - "341+ apps available"
+  - "302 ISV partners"
+  - "78% of Forbes AI 50 use Stripe"
+  - "500M+ daily API requests"
+  - "54 supported languages/frameworks"
+  - "7.04% AI-powered apps"
+cons:
+  - "Relatively new marketplace (2022)"
+  - "Dashboard-focused apps only"
+  - "Strict review requirements"
+  - "Limited app categories"
 ---
 
 ## Overview
 
-Stripe is Stripe is a marketplace for apps and extensions.
+Stripe App Marketplace launched in 2022 and has grown to 341+ apps from 302 ISV partners. It extends Stripe's payment infrastructure with apps that integrate directly into the Stripe Dashboard.
 
+## Key Statistics
 
+- **341+ apps** (October 2025)
+- **302 ISV partners**
+- **5.57% growth** in last 30 days
+- **7.04% AI-powered** apps
+- **75% US-based** partners
+- More than doubled since launch (70 to 341)
 
+## Developer Ecosystem
 
+- **54 programming languages** and frameworks supported
+- **500M+ API requests** processed daily
+- **16,000+ attendees** at Stripe Sessions 2025
+- **7 lines of code** to start integration
+
+## Industry Adoption
+
+- 78% of Forbes AI 50 companies use Stripe
+- 73% of US eCommerce startups use Stripe
+- 80% of largest US software companies use Stripe
+- 78% adoption among SaaS companies
+
+## App Categories
+
+- Fraud & risk
+- Accounting & finance
+- Analytics & reporting
+- Subscriptions & billing
+- Commerce operations
+- Customer support
+
+## Development
+
+Build apps using:
+- Stripe Apps SDK
+- Dashboard UI extensions
+- Stripe API integration
+- React-based UI toolkit

@@ -1,65 +1,150 @@
 ---
 id: "trello"
-name: "Trello"
+name: "Trello Power-Ups"
 slug: "trello"
-tagline: "Trello app marketplace"
-description: "Trello is a marketplace for apps and extensions."
+tagline: "Apps and integrations for Trello boards"
+description: "Trello Power-Ups is the official marketplace for integrations, automations, and add-ons that extend Trello's project management platform. With 200+ Power-Ups available, developers can enhance Trello boards with additional features for millions of users."
 url: "https://trello.com/power-ups"
 logo: "/images/stores/trello.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
 company:
-  name: "Trello"
-
-  website: "https://developers.trello.com/docs/get-started"
+  name: "Trello (Atlassian)"
+  headquarters: "Sydney, Australia"
+  foundedYear: 2016
+  website: "https://trello.com"
 metrics:
-  appCount: null
+  appCount: 200
+  appCountSource: "Trello Power-Ups directory"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Trello does not charge commission; developers handle their own monetization"
+  hasReducedCommission: false
+  reducedCommissionDetails: "Trello does not charge any commission on Power-Up sales. Most Power-Ups are free, though some partners offer premium subscriptions handled outside Trello."
 technical:
   hasApi: true
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  apiDocumentationUrl: "https://developers.trello.com/docs/api-introduction"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+  sdkDocumentationUrl: "https://developers.trello.com/"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Developer handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developers.trello.com/docs/power-up-guidelines"
+  guidelinesSummary: "Power-Ups must follow Trello's guidelines for functionality, user experience, and security. JavaScript-based development required."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Poor user experience"
+    - "Security concerns"
+    - "Guidelines violations"
+    - "Incomplete functionality"
+  appealsProcess: "Contact Trello Developer Relations"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Trello Power-Ups - Apps and Integrations"
+  metaDescription: "Build Trello Power-Ups for millions of users. 200+ integrations available with no commission fees."
+  keywords:
+    - "Trello Power-Ups"
+    - "Trello apps"
+    - "Trello integrations"
+    - "project management apps"
+ratings:
+  commission: 5
+  reviewProcess: 3
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "atlassian-marketplace"
+  - "asana-app-directory"
+pros:
+  - "No commission fees"
+  - "Part of Atlassian ecosystem"
+  - "Unlimited Power-Ups for all Trello users"
+  - "Well-documented API"
+  - "Large Trello user base"
+cons:
+  - "No built-in monetization"
+  - "Smaller marketplace than Atlassian"
+  - "JavaScript only"
+  - "Limited to Trello functionality"
 ---
 
 ## Overview
 
-Trello is Trello is a marketplace for apps and extensions.
+Trello Power-Ups marketplace launched in 2016 and offers 200+ integrations that extend Trello's Kanban-style project management boards. As part of Atlassian since 2017, it provides developers access to Trello's millions of active users.
 
+## Key Features
 
+- **200+ Power-Ups** available
+- **Unlimited Power-Ups** for all Trello users (including free tier)
+- **No commission** - developers handle monetization
+- **Part of Atlassian** ecosystem
 
+## Power-Up Categories
 
+- Automation & workflows
+- Reporting & analytics
+- Time tracking
+- CRM & sales integrations
+- Development tools
+- Communication tools
+
+## Development
+
+Power-Ups are built with:
+- JavaScript (browser-based)
+- Trello REST API
+- Power-Up Client Library
+- OAuth for authentication
+
+## Free vs Premium Power-Ups
+
+- Most Power-Ups are free to use
+- Some partners offer premium subscriptions
+- Premium billing handled by developers
+- No Trello-managed payment system

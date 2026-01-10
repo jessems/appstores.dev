@@ -2,28 +2,42 @@
 id: "bigcommerce-apps-marketplace"
 name: "BigCommerce Apps Marketplace"
 slug: "bigcommerce-apps-marketplace"
-tagline: "App marketplace for BigCommerce"
-description: "Ecommerce solution"
+tagline: "Apps for enterprise e-commerce"
+description: "BigCommerce Apps Marketplace is the official app store for BigCommerce's enterprise e-commerce platform. With 1,300+ apps and integrations across marketing, analytics, shipping, and payments, it helps merchants extend their online stores with vetted solutions."
 url: "https://www.bigcommerce.com/apps/"
 logo: "/images/stores/bigcommerce-apps-marketplace.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
 company:
-  name: "BigCommerce"
-
-  website: "https://developer.bigcommerce.com/"
+  name: "BigCommerce, Inc."
+  headquarters: "Austin, Texas, USA"
+  foundedYear: 2015
+  website: "https://bigcommerce.com"
 metrics:
-  appCount: null
+  appCount: 1300
+  appCountSource: "BigCommerce (1,300+ apps)"
+  appCountLastUpdated: "2025-Q1"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
+    - percentage: 20
       description: "Standard commission"
+      conditions: "BigCommerce takes 20% of app revenue (estimated)"
+  hasReducedCommission: true
+  reducedCommissionDetails: "BigCommerce has tiered partner levels (Standard, Preferred, Elite) with varying benefits and revenue share arrangements."
 technical:
   hasApi: true
   apiDocumentationUrl: "https://developer.bigcommerce.com/api-docs"
-  hasSdk: false
-
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "REST API"
+    - "GraphQL"
+  sdkDocumentationUrl: "https://developer.bigcommerce.com/"
   supportsInAppPurchases: true
   supportsSubscriptions: true
   supportsAds: false
@@ -31,41 +45,121 @@ monetization:
   models:
     - "free"
     - "paid"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+  payoutMethods:
+    - "Bank Transfer"
+  minimumPayout: 100
+  payoutCurrency: "USD"
+  payoutFrequency: "Monthly"
 submission:
-  guidelinesUrl: "https://developer.bigcommerce.com/api-docs"
-  hasAutomatedReview: false
+  guidelinesUrl: "https://developer.bigcommerce.com/docs/start"
+  guidelinesSummary: "Apps must meet BigCommerce quality standards, pass security review, and integrate properly with the platform APIs."
+  typicalReviewTime: "2-4 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "API integration issues"
+    - "Poor user experience"
+    - "Missing documentation"
+  appealsProcess: "Contact BigCommerce Partner team"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "BigCommerce Apps Marketplace - E-commerce Apps"
+  metaDescription: "Build apps for BigCommerce's 1,300+ app marketplace. Reach enterprise e-commerce merchants."
+  keywords:
+    - "BigCommerce Apps"
+    - "BigCommerce Marketplace"
+    - "e-commerce apps"
+    - "online store apps"
+ratings:
+  commission: 4
+  reviewProcess: 3
+  stability: 4
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 4
+relatedStores:
+  - "shopify"
+  - "woocommerce"
+pros:
+  - "1,300+ apps available"
+  - "250+ marketing apps alone"
+  - "Growing AI app category (9.72%)"
+  - "Tiered partner program"
+  - "Strong REST and GraphQL APIs"
+cons:
+  - "Estimated 20% commission"
+  - "2-4 week review process"
+  - "Smaller than Shopify"
+  - "Enterprise focus"
 ---
 
 ## Overview
 
-BigCommerce Apps Marketplace is Ecommerce solution
+BigCommerce Apps Marketplace offers 1,300+ apps and integrations for BigCommerce's enterprise e-commerce platform. Apps are vetted and organized into a tiered partner system (Standard, Preferred, Elite).
 
-### Primary Products
+## Key Statistics
 
-BigCommerce
+- **1,300+ apps** and integrations
+- **250+ marketing apps**
+- **9.72% AI-powered** apps (growing)
+- **65.42% US-based** partners
 
-### Developer Community
+## Partner Tiers
 
-[Developer Community](https://support.bigcommerce.com/s/group/0F913000000HLjECAW/bigcommerce-developers)
+### Standard Partners
+Basic app listings with standard benefits
 
+### Preferred Partners
+Enhanced visibility and support
 
+### Elite Partners
+Premium tier for differentiated vertical solutions or core platform functionality
+
+## App Categories
+
+- Advertising & marketing
+- Analytics & reporting
+- Email marketing
+- Mobile optimization
+- Multichannel listings
+- Payments & security
+- Shipping & fulfillment
+- Customer service
+
+## Development
+
+Build apps using:
+- BigCommerce REST API
+- GraphQL Storefront API
+- OAuth 2.0 authentication
+- Webhooks
+- Single-click app installation

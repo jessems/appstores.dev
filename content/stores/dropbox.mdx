@@ -1,65 +1,168 @@
 ---
 id: "dropbox"
-name: "Dropbox"
+name: "Dropbox App Center"
 slug: "dropbox"
-tagline: "Dropbox app marketplace"
-description: "Dropbox is a marketplace for apps and extensions."
-url: "https://www.dropbox.com/business/app-integrations"
+tagline: "109 cloud storage integrations"
+description: "Dropbox App Center is the official directory for third-party applications connecting to Dropbox's cloud storage platform. With 109 apps from 96 ISV partners, it extends Dropbox with productivity, collaboration, and workflow automation tools."
+url: "https://www.dropbox.com/apps"
 logo: "/images/stores/dropbox.svg"
-category: "third-party"
+category: "enterprise"
 platforms:
   - "web"
+  - "ios"
+  - "android"
+  - "windows"
+  - "macos"
 company:
-  name: "Dropbox"
-
-  website: "https://www.dropbox.com/business/app-integrations"
+  name: "Dropbox, Inc."
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2013
+  website: "https://dropbox.com"
 metrics:
-  appCount: null
+  appCount: 109
+  appCountSource: "Dropbox (109 apps, April 2025)"
+  appCountLastUpdated: "2025-Q2"
 fees:
+  registrationFee:
+    amount: 0
+    currency: "USD"
+    type: "one-time"
   commissionTiers:
-    - percentage: 30
-      description: "Standard commission"
+    - percentage: 0
+      description: "No commission"
+      conditions: "Dropbox does not charge for App Center listings"
+  hasReducedCommission: false
+  reducedCommissionDetails: "App Center integrations are free to list. Partners handle their own pricing."
 technical:
-  hasApi: false
-
-  hasSdk: false
-
-  supportsInAppPurchases: true
-  supportsSubscriptions: true
+  hasApi: true
+  apiDocumentationUrl: "https://www.dropbox.com/developers"
+  hasSdk: true
+  sdkPlatforms:
+    - "JavaScript"
+    - "Python"
+    - "Java"
+    - ".NET"
+    - "Swift"
+  sdkDocumentationUrl: "https://www.dropbox.com/developers/documentation"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
   supportsAds: false
 monetization:
   models:
     - "free"
-    - "paid"
+  paymentMethods:
+    - "Partner handles payments"
 submission:
-
-  hasAutomatedReview: false
+  guidelinesUrl: "https://www.dropbox.com/developers/apps"
+  guidelinesSummary: "Apps must follow Dropbox's API guidelines and pass security review."
+  typicalReviewTime: "1-2 weeks"
+  hasAutomatedReview: true
   hasHumanReview: true
-  requiresApproval: false
+  commonRejectionReasons:
+    - "Security vulnerabilities"
+    - "API misuse"
+    - "Privacy concerns"
+    - "Poor user experience"
+  appealsProcess: "Contact Dropbox Developer Support"
+  requiresApproval: true
 geographic:
   availableRegions:
     - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
 features:
-  hasEditorialContent: false
+  hasEditorialContent: true
   hasAppBundles: false
   hasPreRegistration: false
-  hasBetaTesting: false
-  hasAnalyticsDashboard: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
   hasABTesting: false
   hasUserReviews: true
   hasRatings: true
 metadata:
   featured: false
-  verified: false
-  lastUpdated: "2026-01-08"
+  verified: true
+  lastUpdated: "2025-01-10"
   dateAdded: "2026-01-08"
   status: "active"
+seo:
+  metaTitle: "Dropbox App Center - Cloud Storage Integrations"
+  metaDescription: "Build apps for Dropbox. 109 apps from 96 ISV partners."
+  keywords:
+    - "Dropbox App Center"
+    - "Dropbox integrations"
+    - "cloud storage apps"
+    - "Dropbox API"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 5
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 3
+  entryBarriers: 3
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+  - "box-apps"
+  - "google-workspace"
+pros:
+  - "0% commission"
+  - "109 apps available"
+  - "96 ISV partners"
+  - "8.26% AI-powered apps"
+  - "Strong API and SDK support"
+  - "Enterprise customer base"
+cons:
+  - "Smaller marketplace"
+  - "Storage-focused integrations"
+  - "No built-in monetization"
+  - "Competition from Google Drive"
 ---
 
 ## Overview
 
-Dropbox is Dropbox is a marketplace for apps and extensions.
+Dropbox App Center is the official directory for third-party applications extending Dropbox's cloud storage platform. With 109 apps from 96 ISV partners, it connects Dropbox users with productivity and collaboration tools.
 
+## Key Statistics
 
+- **109 apps** available (April 2025)
+- **96 ISV partners**
+- **8.26% AI-powered** apps
+- **68.18% US-based** partners
+- Growing AI/ML integration category
 
+## Partner Geography
 
+- United States: 68.18%
+- Canada: 5.68%
+- Australia: 4.55%
+- Other regions: 21.59%
+
+## App Categories
+
+- Productivity & collaboration
+- Document management
+- Backup & security
+- E-signatures
+- Workflow automation
+- Project management
+
+## Popular Integrations
+
+- Zoom
+- Slack
+- Microsoft Office
+- Google Workspace
+- Adobe
+- Trello
+
+## Development
+
+Build apps using:
+- Dropbox API v2
+- OAuth 2.0 authentication
+- Official SDKs (JS, Python, Java, .NET, Swift)
+- Webhooks
+- Dropbox Chooser/Saver
