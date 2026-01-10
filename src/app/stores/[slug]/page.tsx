@@ -148,7 +148,7 @@ export default async function StorePage({ params }: StorePageProps) {
               <div className="flex items-center gap-2">
                 <h1 className="text-3xl font-bold">{store.name}</h1>
                 {store.metadata.verified && (
-                  <CheckCircle className="h-6 w-6 text-blue-500" />
+                  <CheckCircle className="h-6 w-6 text-dracula-cyan" />
                 )}
               </div>
               <p className="mt-1 text-lg text-muted-foreground">
@@ -192,7 +192,7 @@ export default async function StorePage({ params }: StorePageProps) {
                   <Smartphone className="h-4 w-4" />
                   <span className="text-sm">Apps</span>
                 </div>
-                <p className="text-2xl font-bold">
+                <p className="text-2xl font-bold font-mono">
                   {formatNumber(store.metrics.appCount)}
                 </p>
               </CardContent>
@@ -206,7 +206,7 @@ export default async function StorePage({ params }: StorePageProps) {
                   <DollarSign className="h-4 w-4" />
                   <span className="text-sm">Commission</span>
                 </div>
-                <p className="text-2xl font-bold">
+                <p className="text-2xl font-bold font-mono">
                   {store.fees.commissionTiers[0].percentage}%
                 </p>
               </CardContent>
@@ -220,7 +220,7 @@ export default async function StorePage({ params }: StorePageProps) {
                   <Clock className="h-4 w-4" />
                   <span className="text-sm">Review Time</span>
                 </div>
-                <p className="text-2xl font-bold">
+                <p className="text-2xl font-bold font-mono">
                   {store.submission.typicalReviewTime}
                 </p>
               </CardContent>
@@ -234,7 +234,7 @@ export default async function StorePage({ params }: StorePageProps) {
                   <Users className="h-4 w-4" />
                   <span className="text-sm">Developers</span>
                 </div>
-                <p className="text-2xl font-bold">
+                <p className="text-2xl font-bold font-mono">
                   {formatNumber(store.metrics.developerCount)}
                 </p>
               </CardContent>
@@ -295,7 +295,7 @@ export default async function StorePage({ params }: StorePageProps) {
                 {store.pros && store.pros.length > 0 && (
                   <Card>
                     <CardHeader>
-                      <CardTitle className="flex items-center gap-2 text-green-600">
+                      <CardTitle className="flex items-center gap-2 text-dracula-green">
                         <ThumbsUp className="h-5 w-5" />
                         Pros
                       </CardTitle>
@@ -304,7 +304,7 @@ export default async function StorePage({ params }: StorePageProps) {
                       <ul className="space-y-2">
                         {store.pros.map((pro, i) => (
                           <li key={i} className="flex items-start gap-2">
-                            <span className="text-green-600">+</span>
+                            <span className="text-dracula-green">+</span>
                             <span className="text-sm">{pro}</span>
                           </li>
                         ))}
@@ -316,7 +316,7 @@ export default async function StorePage({ params }: StorePageProps) {
                 {store.cons && store.cons.length > 0 && (
                   <Card>
                     <CardHeader>
-                      <CardTitle className="flex items-center gap-2 text-red-600">
+                      <CardTitle className="flex items-center gap-2 text-dracula-red">
                         <ThumbsDown className="h-5 w-5" />
                         Cons
                       </CardTitle>
@@ -325,7 +325,7 @@ export default async function StorePage({ params }: StorePageProps) {
                       <ul className="space-y-2">
                         {store.cons.map((con, i) => (
                           <li key={i} className="flex items-start gap-2">
-                            <span className="text-red-600">-</span>
+                            <span className="text-dracula-red">-</span>
                             <span className="text-sm">{con}</span>
                           </li>
                         ))}
@@ -348,7 +348,7 @@ export default async function StorePage({ params }: StorePageProps) {
               <CardContent>
                 {store.fees.registrationFee ? (
                   <div>
-                    <p className="text-3xl font-bold">
+                    <p className="text-3xl font-bold font-mono">
                       {store.fees.registrationFee.currency}{" "}
                       {store.fees.registrationFee.amount}
                     </p>
@@ -359,7 +359,7 @@ export default async function StorePage({ params }: StorePageProps) {
                     </p>
                   </div>
                 ) : (
-                  <p className="text-2xl font-bold text-green-600">Free</p>
+                  <p className="text-2xl font-bold font-mono text-dracula-green">Free</p>
                 )}
               </CardContent>
             </Card>
@@ -380,7 +380,7 @@ export default async function StorePage({ params }: StorePageProps) {
                           </p>
                         )}
                       </div>
-                      <p className="text-xl font-bold">{tier.percentage}%</p>
+                      <p className="text-xl font-bold font-mono">{tier.percentage}%</p>
                     </div>
                   ))}
                 </div>

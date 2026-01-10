@@ -40,15 +40,15 @@ export function Hero({ storeCount, totalAppCount }: HeroProps) {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-2 gap-8 sm:grid-cols-3 max-w-xl mx-auto">
             <div>
-              <p className="text-3xl font-bold">{storeCount}+</p>
+              <p className="text-3xl font-bold font-mono">{storeCount}+</p>
               <p className="text-sm text-muted-foreground">App Stores</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">{formatNumber(totalAppCount)}+</p>
+              <p className="text-3xl font-bold font-mono">{formatNumber(totalAppCount)}+</p>
               <p className="text-sm text-muted-foreground">Total Apps</p>
             </div>
             <div className="col-span-2 sm:col-span-1">
-              <p className="text-3xl font-bold">8+</p>
+              <p className="text-3xl font-bold font-mono">8+</p>
               <p className="text-sm text-muted-foreground">Categories</p>
             </div>
           </div>

@@ -43,7 +43,7 @@ export function StoreCard({ store }: StoreCardProps) {
                     {store.name}
                   </h3>
                   {store.metadata.verified && (
-                    <CheckCircle className="h-4 w-4 flex-shrink-0 text-blue-500" />
+                    <CheckCircle className="h-4 w-4 flex-shrink-0 text-dracula-cyan" />
                   )}
                 </div>
                 {category && (
@@ -73,12 +73,12 @@ export function StoreCard({ store }: StoreCardProps) {
                   <span className="text-xs">No rating yet</span>
                 </span>
                 {store.metrics.appCount && (
-                  <span className="text-muted-foreground whitespace-nowrap">
+                  <span className="text-muted-foreground whitespace-nowrap font-mono text-xs">
                     {formatNumber(store.metrics.appCount)} apps
                   </span>
                 )}
                 {primaryCommission && (
-                  <span className="font-medium whitespace-nowrap">
+                  <span className="font-medium whitespace-nowrap font-mono">
                     {primaryCommission.percentage}%
                   </span>
                 )}

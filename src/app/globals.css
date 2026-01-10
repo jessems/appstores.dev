@@ -44,75 +44,69 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Dracula semantic colors for Tailwind utilities */
+  --color-dracula-cyan: var(--dracula-cyan);
+  --color-dracula-green: var(--dracula-green);
+  --color-dracula-orange: var(--dracula-orange);
+  --color-dracula-pink: var(--dracula-pink);
+  --color-dracula-purple: var(--dracula-purple);
+  --color-dracula-red: var(--dracula-red);
+  --color-dracula-yellow: var(--dracula-yellow);
 }
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Dracula Core Palette */
+  --dracula-background: oklch(0.27 0.02 277);
+  --dracula-current-line: oklch(0.36 0.03 277);
+  --dracula-foreground: oklch(0.97 0.01 110);
+  --dracula-comment: oklch(0.53 0.07 260);
+  --dracula-cyan: oklch(0.87 0.11 210);
+  --dracula-green: oklch(0.87 0.22 145);
+  --dracula-orange: oklch(0.84 0.13 70);
+  --dracula-pink: oklch(0.74 0.19 350);
+  --dracula-purple: oklch(0.73 0.17 300);
+  --dracula-red: oklch(0.68 0.22 25);
+  --dracula-yellow: oklch(0.94 0.14 110);
+
+  /* shadcn mappings to Dracula */
+  --background: var(--dracula-background);
+  --foreground: var(--dracula-foreground);
+  --card: var(--dracula-current-line);
+  --card-foreground: var(--dracula-foreground);
+  --popover: var(--dracula-current-line);
+  --popover-foreground: var(--dracula-foreground);
+  --primary: var(--dracula-purple);
+  --primary-foreground: var(--dracula-background);
+  --secondary: var(--dracula-current-line);
+  --secondary-foreground: var(--dracula-foreground);
+  --muted: oklch(0.30 0.02 277);
+  --muted-foreground: var(--dracula-comment);
+  --accent: oklch(0.87 0.11 210 / 15%);
+  --accent-foreground: var(--dracula-cyan);
+  --destructive: var(--dracula-red);
+  --border: oklch(0.53 0.07 260 / 30%);
+  --input: oklch(0.53 0.07 260 / 40%);
+  --ring: var(--dracula-purple);
+
+  /* Charts using Dracula palette */
+  --chart-1: var(--dracula-cyan);
+  --chart-2: var(--dracula-green);
+  --chart-3: var(--dracula-orange);
+  --chart-4: var(--dracula-pink);
+  --chart-5: var(--dracula-yellow);
+
+  /* Sidebar */
+  --sidebar: var(--dracula-background);
+  --sidebar-foreground: var(--dracula-foreground);
+  --sidebar-primary: var(--dracula-purple);
+  --sidebar-primary-foreground: var(--dracula-background);
+  --sidebar-accent: var(--dracula-current-line);
+  --sidebar-accent-foreground: var(--dracula-foreground);
+  --sidebar-border: oklch(0.53 0.07 260 / 30%);
+  --sidebar-ring: var(--dracula-purple);
 }
 
 @layer base {
