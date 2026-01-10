@@ -2620,6 +2620,156 @@
     "content": "\n## Overview\n\nAzure Marketplace is part of Microsoft's commercial marketplace, alongside AppSource for business applications. It offers ISVs access to Microsoft's enterprise customers with one of the lowest transaction fees in the industry.\n\n## Fee Structure\n\n- **Flat 3% transaction fee** on all sales\n- No upfront listing fees\n- ISVs keep approximately 97% of revenue\n- Microsoft handles tax collection and remittance\n\n## ISV Incentive Programs (FY25)\n\n### Marketplace Transact and Grow\n- Revenue tracked by Publisher ID across all listings\n- $20,000 rebate at $100K eligible Azure Consumed Revenue (ACR)\n- $50,000 additional rebate at $4M eligible ACR\n\n## Integration Benefits\n\n- Customers can use existing Azure commitments\n- Simplified procurement through Azure billing\n- Enterprise Agreement support\n- Co-sell opportunities with Microsoft sellers\n"
   },
   {
+    "id": "baidu-wenxin-plugins",
+    "name": "Baidu Wenxin Plugin Store",
+    "slug": "baidu-wenxin-plugins",
+    "tagline": "Plugin marketplace for Baidu's ERNIE Bot",
+    "description": "The Baidu Wenxin Yiyan Plugin Store is the official plugin marketplace for ERNIE Bot, Baidu's conversational AI. Users can access plugins for office productivity, multimedia content, and professional queries, extending the AI assistant's capabilities within China's largest search ecosystem.",
+    "url": "https://yiyan.baidu.com",
+    "logo": "/images/stores/baidu-wenxin-plugins.svg",
+    "category": "ai-developer",
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Baidu Inc.",
+      "headquarters": "Beijing, China",
+      "foundedYear": 2000,
+      "website": "https://baidu.com"
+    },
+    "metrics": {
+      "appCount": 500,
+      "appCountSource": "Baidu announcements",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 100000000,
+      "developerCount": 50000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish plugins",
+          "conditions": "Subject to Baidu review"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://cloud.baidu.com/doc/WENXINWORKSHOP/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript",
+        "Java"
+      ],
+      "sdkDocumentationUrl": "https://cloud.baidu.com/doc/WENXINWORKSHOP/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium"
+      ],
+      "paymentMethods": [
+        "Alipay",
+        "WeChat Pay"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://yiyan.baidu.com",
+      "guidelinesSummary": "Plugins must comply with Chinese regulations, Baidu's content policies, and technical requirements for the ERNIE platform.",
+      "typicalReviewTime": "3-7 days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Regulatory non-compliance",
+        "Content policy violations",
+        "Technical issues"
+      ],
+      "appealsProcess": "Baidu developer support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "China (Mainland)",
+        "Hong Kong"
+      ],
+      "restrictedRegions": [
+        "Most countries outside China"
+      ],
+      "supportedLanguages": [
+        "Chinese (Simplified)",
+        "Chinese (Traditional)",
+        "English"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 4,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Baidu Wenxin Plugin Store - ERNIE Bot Plugins",
+      "metaDescription": "Extend ERNIE Bot with plugins from Baidu's Wenxin Yiyan Plugin Store. Access productivity tools, multimedia generation, and professional queries.",
+      "keywords": [
+        "Baidu",
+        "ERNIE Bot",
+        "Wenxin Yiyan",
+        "AI plugins",
+        "China AI",
+        "Chinese AI"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 3,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 3,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "coze-bot-store"
+    ],
+    "pros": [
+      "Largest AI user base in China",
+      "Deep Baidu ecosystem integration",
+      "Office productivity focus",
+      "Multimedia generation capabilities",
+      "No plugin publishing fees"
+    ],
+    "cons": [
+      "Limited to China/Chinese language",
+      "Regulatory compliance required",
+      "Baidu account required",
+      "Limited international documentation"
+    ],
+    "content": "\n## Overview\n\nThe Baidu Wenxin Yiyan Plugin Store is the official marketplace for plugins extending ERNIE Bot (文心一言), Baidu's conversational AI assistant. As China's answer to ChatGPT, it offers plugins focused on productivity, content creation, and professional information access.\n\n## ERNIE Bot (Wenxin Yiyan)\n\n### Background\n- Launched March 2023\n- Built on ERNIE (Enhanced Representation through kNowledge IntEgration)\n- First major Chinese LLM to launch publicly\n- Integrated across Baidu products\n\n### Capabilities\n- Conversational AI\n- Content generation\n- Code assistance\n- Image generation\n- Document analysis\n\n## Plugin Categories\n\n### Office Productivity\n- PPT generation\n- Document creation\n- Spreadsheet automation\n- Meeting summaries\n- Email drafting\n\n### Multimodal Content\n- Image generation\n- Audio/video extraction\n- Text-to-speech\n- Image understanding\n- Video summarization\n\n### Mind Mapping\n- Automatic mind map creation\n- Concept visualization\n- Brainstorming tools\n- Knowledge organization\n\n### Professional Queries\n- Academic research\n- Legal information\n- Medical knowledge\n- Financial data\n- Industry reports\n\n## Plugin Development\n\n### Requirements\n- Baidu developer account\n- Chinese business registration (for commercial)\n- API endpoint hosting\n- Compliance documentation\n\n### Technical Stack\n- ERNIE API integration\n- Wenxin Workshop SDK\n- RESTful API design\n- OAuth authentication\n\n## Wenxin Workshop\n\nBaidu's AI development platform:\n- Model fine-tuning\n- Prompt engineering\n- Plugin development\n- API management\n- Usage analytics\n\n## User Experience\n\n### Accessing Plugins\n1. Open ERNIE Bot (yiyan.baidu.com)\n2. Navigate to plugin marketplace\n3. Browse or search for plugins\n4. Enable desired plugins\n5. Use plugins via natural language\n\n### Example Commands\n- \"Generate a PPT about renewable energy\"\n- \"Create a mind map of project management\"\n- \"Extract audio from this video\"\n- \"Summarize this legal document\"\n\n## Ecosystem Integration\n\nERNIE Bot integrates with:\n- Baidu Search\n- Baidu Maps\n- Baidu Cloud\n- Baidu Docs\n- Other Baidu services\n\n## Regulatory Compliance\n\nPlugins must comply with:\n- Chinese cybersecurity laws\n- Content moderation requirements\n- Data localization rules\n- AI ethics guidelines\n\n## Market Position\n\nERNIE Bot competes with:\n- Alibaba Tongyi Qianwen\n- Tencent Hunyuan\n- ByteDance Doubao\n- Zhipu ChatGLM\n\n## Getting Started\n\n1. Register for Baidu developer account\n2. Apply for Wenxin Workshop access\n3. Review plugin development documentation\n4. Build and test your plugin\n5. Submit for review\n6. Launch on the plugin store\n"
+  },
+  {
     "id": "basecamp-integratiions",
     "name": "Basecamp Integrations",
     "slug": "basecamp-integratiions",
@@ -3495,6 +3645,153 @@
     "content": "\n## Overview\n\nBox App Center launched in 2022 as the destination for users, admins, and developers to discover and access 1,500+ applications that integrate with Box's content cloud platform.\n\n## Key Statistics\n\n- **1,500+ integrations** across categories\n- **Enterprise-grade** security requirements\n- Supports productivity, CRM, HR, ERP stacks\n\n## Key Integration Partners\n\n- Microsoft (Office, Teams)\n- Zoom\n- Salesforce\n- Slack\n- Google Workspace\n\n## Integration Categories\n\n- Productivity & collaboration\n- CRM & sales\n- HR & people management\n- ERP & finance\n- Legal & compliance\n- Healthcare & life sciences\n\n## AI Capabilities (2024-2025)\n\n- **Box AI Studio**: Rolling out January 2025\n- Deep GPT model partnerships\n- AI-governance engine for enterprise\n\n## Development\n\nBuild integrations using:\n- Box REST API\n- Official SDKs (JS, Python, Java, .NET, iOS, Android)\n- OAuth 2.0 authentication\n- Webhooks for real-time updates\n- Box UI Elements\n"
   },
   {
+    "id": "character-ai",
+    "name": "Character.AI",
+    "slug": "character-ai",
+    "tagline": "AI character platform for personality-driven conversations",
+    "description": "Character.AI is a consumer-focused platform where users can create, share, and chat with millions of AI characters. From roleplay and entertainment to education and creative exploration, it offers personality-driven conversational AI experiences.",
+    "url": "https://character.ai",
+    "logo": "/images/stores/character-ai.svg",
+    "category": "ai-assistants",
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Character Technologies Inc.",
+      "headquarters": "Palo Alto, California, USA",
+      "foundedYear": 2021,
+      "website": "https://character.ai"
+    },
+    "metrics": {
+      "appCount": 10000000,
+      "appCountSource": "Platform announcements (millions of characters)",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 20000000,
+      "developerCount": 5000000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create characters",
+          "conditions": "Basic features free, c.ai+ for premium"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": false,
+      "hasSdk": false,
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Apple Pay",
+        "Google Pay"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://character.ai/community-guidelines",
+      "guidelinesSummary": "Characters must comply with community guidelines, cannot impersonate real people harmfully, and must be appropriate for the platform's audience.",
+      "typicalReviewTime": "Instant",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Community guideline violations",
+        "Inappropriate content",
+        "Harmful impersonation"
+      ],
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Spanish",
+        "Portuguese",
+        "French",
+        "German",
+        "Japanese",
+        "Korean",
+        "Multiple others"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": false,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 5,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Character.AI - AI Character Creation Platform",
+      "metaDescription": "Chat with millions of AI characters or create your own on Character.AI. Roleplay, entertainment, education, and creative exploration with personality-driven AI.",
+      "keywords": [
+        "Character AI",
+        "AI characters",
+        "AI roleplay",
+        "chatbot",
+        "AI companion",
+        "virtual characters"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 2,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 5,
+      "technicalFreedom": 2,
+      "analytics": 1
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "poe-bot-store"
+    ],
+    "pros": [
+      "Millions of user-created characters available",
+      "Free to create and chat with characters",
+      "Strong focus on personality and roleplay",
+      "Voice chat capabilities",
+      "Active community of creators",
+      "Easy character creation tools"
+    ],
+    "cons": [
+      "No API for developers",
+      "No monetization for character creators",
+      "Limited to conversational interactions",
+      "Content moderation can be restrictive",
+      "No external integrations"
+    ],
+    "content": "\n## Overview\n\nCharacter.AI is a consumer-focused AI platform that specializes in personality-driven, conversational AI characters. Founded in 2021 by former Google AI researchers, it has grown to millions of users who chat with and create AI characters for entertainment, roleplay, education, and creative exploration.\n\n## Key Features\n\n### Character Creation\nCreators can design characters with:\n- Unique personalities and backstories\n- Custom voices (Voice feature)\n- Detailed character definitions\n- Greeting messages and conversation starters\n- Avatar images\n\n### Character Types\nPopular character categories include:\n- Fictional characters (anime, games, movies)\n- Historical figures\n- Original creations\n- AI companions\n- Educational tutors\n- Roleplay scenarios\n\n### Chat Experience\n- Natural, personality-consistent conversations\n- Memory of previous interactions\n- Multi-character group chats\n- Voice chat support\n\n## Subscription: c.ai+\n\nThe premium subscription ($9.99/month) includes:\n- Priority access during high traffic\n- Faster response times\n- Early access to new features\n- Exclusive community features\n\n## Character Discovery\n\n- Browse by category (Anime, Games, Movies, Education, etc.)\n- Trending and popular characters\n- Creator profiles\n- Character ratings\n- Search functionality\n\n## Use Cases\n\n### Entertainment\n- Roleplay with fictional characters\n- Creative storytelling\n- Game companions\n\n### Education\n- Language learning partners\n- Subject-specific tutors\n- Historical figure conversations\n\n### Productivity\n- Brainstorming partners\n- Interview practice\n- Writing assistants\n\n## Platform History\n\n- **2021**: Founded by Noam Shazeer and Daniel De Freitas\n- **2022**: Public beta launch\n- **2023**: Mobile apps released, c.ai+ subscription launched\n- **2024**: Voice features added, continued growth\n\n## Getting Started\n\n1. Create a free account\n2. Browse or search for characters\n3. Start chatting\n4. Create your own character:\n   - Define personality and background\n   - Set greeting message\n   - Add avatar\n   - Publish and share\n"
+  },
+  {
     "id": "chrome-web-store",
     "name": "Chrome Web Store",
     "slug": "chrome-web-store",
@@ -3783,6 +4080,146 @@
       "Nonprofit focused"
     ],
     "content": "\n## Overview\n\nCiviCRM Extensions Directory is the official extension repository for CiviCRM open source nonprofit CRM. With 200+ extensions for fundraising, events, memberships, and communications, it extends CiviCRM for nonprofits, NGOs, and civic organizations worldwide.\n\n## Key Statistics\n\n- **200+ extensions** (estimated)\n- Open source since 2005\n- Multi-CMS support (WordPress, Drupal, Joomla, Backdrop)\n- Usage tracking across thousands of sites\n\n## Popular Extensions (by usage)\n\n- **Mosaico** - Email template builder (4,007 sites)\n- **Extended Reports** - Advanced reporting (2,442 sites)\n- **CiviRules** - Automation rules (2,386 sites)\n\n## Recent Changes (2024)\n\n### CiviCRM 5.79 (November 2024)\n- Updated in-app extension directory\n- Administrators can now install any stable extension\n- Previously limited to reviewed extensions only\n\n## Extension Types\n\n### Native Extensions\nWork with any CMS:\n- Core functionality extensions\n- Reporting tools\n- Payment processors\n- API integrations\n\n### CMS-Specific Extensions\nIntegration with specific platforms:\n- WordPress plugins\n- Drupal modules\n- Joomla extensions\n- Backdrop modules\n\n## Extension Categories\n\n- Fundraising & donations\n- Event management\n- Membership management\n- Email marketing\n- Reporting & analytics\n- Payment processing\n- Integration connectors\n\n## Usage Tracking\n\nExtensions are ranked by popularity based on the number of sites that report using each module. This provides valuable insight into which extensions are most trusted and widely adopted.\n\n## Development\n\nBuild extensions using:\n- PHP programming\n- CiviCRM API\n- Extension framework\n- Developer documentation\n- Community support\n\n"
+  },
+  {
+    "id": "claude-mcp-marketplace",
+    "name": "Claude MCP Marketplace",
+    "slug": "claude-mcp-marketplace",
+    "tagline": "Model Context Protocol servers and plugins for Claude",
+    "description": "The Claude MCP Marketplace is Anthropic's ecosystem for extending Claude's capabilities through Model Context Protocol servers, plugins, and skills. Developers can build and share tools that give Claude access to external services, databases, and APIs.",
+    "url": "https://github.com/anthropics/skills",
+    "logo": "/images/stores/claude-mcp-marketplace.svg",
+    "category": "ai-developer",
+    "platforms": [
+      "web",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "company": {
+      "name": "Anthropic",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2021,
+      "website": "https://anthropic.com"
+    },
+    "metrics": {
+      "appCount": 500,
+      "appCountSource": "MCP registries combined",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 5000000,
+      "developerCount": 100000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish MCP servers and plugins",
+          "conditions": "Open-source ecosystem"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://modelcontextprotocol.io/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "TypeScript",
+        "Python"
+      ],
+      "sdkDocumentationUrl": "https://modelcontextprotocol.io/docs",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free"
+      ],
+      "paymentMethods": []
+    },
+    "submission": {
+      "guidelinesUrl": "https://github.com/anthropics/claude-plugins-official",
+      "guidelinesSummary": "MCP servers should follow the Model Context Protocol specification. Trust and verify plugins before installation as they run with elevated permissions.",
+      "typicalReviewTime": "Community-driven (no formal review)",
+      "hasAutomatedReview": false,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Security concerns",
+        "Poor implementation",
+        "Protocol violations"
+      ],
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": false,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 1,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Claude MCP Marketplace - Model Context Protocol Plugins",
+      "metaDescription": "Extend Claude's capabilities with MCP servers and plugins. Access databases, APIs, and external services through the Model Context Protocol ecosystem.",
+      "keywords": [
+        "Claude",
+        "MCP",
+        "Model Context Protocol",
+        "AI plugins",
+        "Anthropic",
+        "Claude Code"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 3,
+      "technicalFreedom": 5,
+      "analytics": 2
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "github-copilot-extensions"
+    ],
+    "pros": [
+      "Open protocol anyone can implement",
+      "No commission or fees",
+      "Full technical control",
+      "Active developer community",
+      "Works with Claude.ai and Claude Code",
+      "Persistent storage and state support"
+    ],
+    "cons": [
+      "Decentralized (no single official store)",
+      "Security trust required for installation",
+      "Technical knowledge required",
+      "No monetization options"
+    ],
+    "content": "\n## Overview\n\nThe Claude MCP Marketplace encompasses the ecosystem of Model Context Protocol servers and plugins that extend Claude's capabilities. MCP is an open protocol introduced by Anthropic that standardizes how LLMs communicate with external tools, databases, and services.\n\n## Model Context Protocol (MCP)\n\n### What is MCP?\nMCP provides a standardized way for AI models to:\n- Access external data sources\n- Execute actions on third-party services\n- Maintain persistent state\n- Interact with local and remote tools\n\n### Protocol Benefits\n- **Standardization**: One protocol for all integrations\n- **Security**: Controlled access to external resources\n- **Flexibility**: Works across different AI platforms\n- **Extensibility**: Easy to add new capabilities\n\n## MCP Server Categories\n\n### Official (Anthropic)\n- File system access\n- Git operations\n- Database connections\n- Web browsing\n\n### Search & Web\n- Web scraping tools\n- Search engine integrations\n- API connectors\n\n### Communication\n- Slack integrations\n- Email access\n- Messaging platforms\n\n### Productivity\n- Calendar access\n- Task management\n- Document handling\n\n### Development\n- Code analysis\n- Testing tools\n- Deployment automation\n\n### Database\n- PostgreSQL, MySQL connections\n- Vector databases\n- Data warehouses\n\n## Claude Artifacts Integration\n\nArtifacts can now connect to MCP:\n- Interactive applications with external service access\n- Read/write to tools like Asana, Google Calendar, Slack\n- Persistent storage across sessions\n- Personal or shared storage options\n\n## MCP Registries & Directories\n\n### Official Registry\n- registry.modelcontextprotocol.io\n- Authoritative metadata repository\n- Currently in preview\n\n### Community Directories\n- **MCP.so**: Largest collection\n- **mcpservers.org**: Curated directory\n- **mcpmarket.com**: Discovery marketplace\n- **Cline MCP Marketplace**: One-click installs\n\n## Claude Code Plugins\n\nClaude Code 2.0.13 introduced plugin marketplace:\n- Package slash commands\n- Bundle specialized agents\n- Include MCP servers\n- Single-command installation\n\n### Official Plugin Repository\n- github.com/anthropics/claude-plugins-official\n- Curated high-quality plugins\n- Anthropic-vetted for trust\n\n## Building MCP Servers\n\n### TypeScript SDK\n```typescript\nimport { Server } from \"@modelcontextprotocol/sdk/server\";\n\nconst server = new Server({\n  name: \"my-mcp-server\",\n  version: \"1.0.0\"\n});\n\n// Define tools and resources\n```\n\n### Python SDK\n```python\nfrom mcp import Server\n\nserver = Server(\"my-mcp-server\")\n\n# Define tools and resources\n```\n\n## Security Considerations\n\n- Trust plugins before installing\n- MCP servers run with elevated permissions\n- Anthropic does not control third-party servers\n- Review source code when possible\n- Use official/verified sources\n"
   },
   {
     "id": "cloudera-solutions-gallery",
@@ -4075,6 +4512,149 @@
     "content": "\n## Overview\n\nCloudflare Apps was the marketplace for third-party applications on Cloudflare's edge network. As of December 2024, the traditional Apps marketplace is transitioning to a new Workers-based experience.\n\n## Marketplace Transition\n\nAfter December 20, 2024:\n- Traditional Apps deprecated\n- Apps with Workers recommended\n- New Apps experience in development\n- Contact: apps-marketplace-support@cloudflare.com\n\n## Cloudflare Workers\n\nWorkers provides serverless compute at the edge:\n- **500 Workers** per Paid plan account\n- **100 Workers** per Free plan account\n- Workers for Platforms for larger needs\n\n## Apps with Workers\n\nBundle complex worker logic for marketplace:\n- Worker-powered experiences\n- Few-click deployment\n- Cloudflare Apps distribution\n\n## Development Stack\n\n- JavaScript/TypeScript\n- Rust (via WebAssembly)\n- Python (via Pyodide)\n- Wrangler CLI\n- Workers AI\n\n## Platform Features\n\n- Global edge network\n- Zero cold starts\n- KV storage\n- Durable Objects\n- D1 database\n- R2 storage\n"
   },
   {
+    "id": "coze-bot-store",
+    "name": "Coze Bot Store",
+    "slug": "coze-bot-store",
+    "tagline": "ByteDance's AI bot platform with multi-channel deployment",
+    "description": "Coze is ByteDance's AI bot development platform offering a no-code builder, 60+ plugins, and deployment to Discord, Telegram, Slack, and more. It's positioned as an international alternative to OpenAI's GPTs with powerful workflow automation capabilities.",
+    "url": "https://coze.com",
+    "logo": "/images/stores/coze-bot-store.svg",
+    "category": "ai-assistants",
+    "platforms": [
+      "web",
+      "cross-platform"
+    ],
+    "company": {
+      "name": "ByteDance Ltd.",
+      "headquarters": "Beijing, China",
+      "foundedYear": 2012,
+      "website": "https://bytedance.com"
+    },
+    "metrics": {
+      "appCount": 200000,
+      "appCountSource": "Estimated based on platform announcements",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 10000000,
+      "developerCount": 500000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create and publish bots",
+          "conditions": "Generous free tier with API credits included"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://www.coze.com/docs",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript"
+      ],
+      "sdkDocumentationUrl": "https://github.com/coze-dev/coze-studio",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free"
+      ],
+      "paymentMethods": [
+        "Free tier available"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://www.coze.com/docs",
+      "guidelinesSummary": "Bots must comply with platform policies and cannot generate harmful or illegal content.",
+      "typicalReviewTime": "Instant",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Policy violations",
+        "Harmful content"
+      ],
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (International version)",
+        "China (Douyin version)"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Chinese",
+        "Japanese",
+        "Multiple others"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 4,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Coze Bot Store - ByteDance AI Bot Platform",
+      "metaDescription": "Build and deploy AI bots with Coze. No-code development, 60+ plugins, and multi-channel deployment to Discord, Telegram, Slack, and messaging apps.",
+      "keywords": [
+        "Coze",
+        "ByteDance AI",
+        "AI bots",
+        "Discord bot",
+        "Telegram bot",
+        "no-code AI"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 3,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 5,
+      "technicalFreedom": 4,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "poe-bot-store"
+    ],
+    "pros": [
+      "Free tier with generous API credits",
+      "60+ built-in plugins for common tasks",
+      "Multi-channel deployment (Discord, Telegram, Slack, Messenger, Reddit)",
+      "No-code drag-and-drop interface",
+      "Supports MCP (Model Context Protocol)",
+      "Open-source Coze Studio available"
+    ],
+    "cons": [
+      "ByteDance ownership may concern some users",
+      "Smaller international community than OpenAI",
+      "Limited documentation in English",
+      "China/International versions are separate"
+    ],
+    "content": "\n## Overview\n\nCoze is ByteDance's AI bot development platform, launched in early 2024 as the company's answer to OpenAI's GPTs. It provides a comprehensive no-code environment for building, deploying, and sharing AI chatbots across multiple platforms.\n\n## Key Features\n\n### Bot Builder\nThe drag-and-drop interface enables:\n- Natural language bot configuration\n- Visual workflow design\n- Plugin integration\n- Knowledge base management\n\n### 60+ Built-in Plugins\nPlugins cover various use cases:\n- Information reading and web search\n- Travel planning\n- Productivity tools (PPT generation, mind maps)\n- Image understanding\n- Audio/video processing\n- API integrations\n\n### Multi-Channel Deployment\nDeploy bots to:\n- Discord\n- Telegram\n- Slack\n- Facebook Messenger\n- Reddit\n- Line\n- WhatsApp (coming)\n\n## Technical Architecture\n\n### Doubao Model\nCoze runs on ByteDance's in-house Doubao large language model, with support for:\n- Text generation\n- Image understanding\n- Code generation\n- Multimodal interactions\n\n### MCP Support\nCoze supports the Model Context Protocol (MCP) for:\n- Integration with Lark (Feishu)\n- Docs and Sheets automation\n- External service connections\n\n### Coze Studio (Open Source)\nThe core engine is available as open-source:\n- GitHub: github.com/coze-dev/coze-studio\n- One-stop visual development for AI Agents\n- Self-hosting options\n\n## Coze Space (2025)\n\nByteDance launched Coze Space in 2025, an internal beta for AI agent collaboration:\n- General-purpose agent interface\n- \"Expert Agent\" system for specialized tasks\n- Team collaboration features\n\n## Getting Started\n\n1. Sign up at coze.com (international) or coze.cn (China)\n2. Create a new bot in the Bot Builder\n3. Configure personality and knowledge\n4. Add plugins for extended capabilities\n5. Test in the playground\n6. Deploy to your preferred channels\n"
+  },
+  {
     "id": "cyberark-marketplace",
     "name": "CyberArk Marketplace",
     "slug": "cyberark-marketplace",
@@ -4216,6 +4796,143 @@
       "Specialized market"
     ],
     "content": "\n## Overview\n\nCyberArk Marketplace is the official integration platform for CyberArk privileged access security. With 300+ integrations across 25 technology categories and 13,000+ downloads, it extends privileged access management to enterprise security tools and DevOps pipelines.\n\n## Key Statistics\n\n- **300+ integrations** (estimated)\n- **25 technology categories**\n- **13,000+ downloads** to date\n- Industry-leading PAM platform\n\n## 2024 Performance\n\n- Record Q4 and full year 2024 results\n- Continued ecosystem expansion\n- Identity security focus\n\n## Technology Categories\n\n- Cloud platforms\n- DevOps tools\n- SIEM solutions\n- ITSM systems\n- Infrastructure automation\n- Identity providers\n\n## Integration Types\n\n### Certified Partners\nEnterprise-grade integrations\n\n### Community Contributions\nOpen source and community-built\n\n### DevOps Pipeline\n- Ansible\n- Terraform\n- Jenkins\n- Kubernetes\n\n## Popular Integrations\n\n- AWS & Azure\n- Palo Alto Cortex\n- CrowdStrike\n- Splunk\n- ServiceNow\n- UiPath\n\n## Development\n\nBuild integrations via:\n- CyberArk REST API\n- Ansible modules\n- Terraform providers\n- Partner program\n- Community contribution\n\n"
+  },
+  {
+    "id": "dify-marketplace",
+    "name": "Dify Marketplace",
+    "slug": "dify-marketplace",
+    "tagline": "Plugin marketplace for the open-source AI workflow platform",
+    "description": "The Dify Marketplace provides plugins and extensions for Dify, the open-source platform for building AI applications. Expand your AI workflows with tools for search, databases, communication, and custom integrations on the platform used by 180,000+ developers.",
+    "url": "https://marketplace.dify.ai",
+    "logo": "/images/stores/dify-marketplace.svg",
+    "category": "ai-developer",
+    "platforms": [
+      "web",
+      "cross-platform"
+    ],
+    "company": {
+      "name": "LangGenius Inc.",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2023,
+      "website": "https://dify.ai"
+    },
+    "metrics": {
+      "appCount": 200,
+      "appCountSource": "Dify Marketplace",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 180000,
+      "developerCount": 60000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free and open-source",
+          "conditions": "Apache 2.0 with additional conditions"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://docs.dify.ai/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript"
+      ],
+      "sdkDocumentationUrl": "https://docs.dify.ai/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://docs.dify.ai/",
+      "guidelinesSummary": "Plugins should follow Dify's contribution guidelines and plugin development standards.",
+      "typicalReviewTime": "Community-driven",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Chinese",
+        "Japanese"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 3,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Dify Marketplace - AI Workflow Plugin Directory",
+      "metaDescription": "Extend Dify's AI workflow capabilities with plugins for search, databases, and integrations. Open-source platform used by 180,000+ developers.",
+      "keywords": [
+        "Dify",
+        "AI workflows",
+        "LLM apps",
+        "open-source AI",
+        "AI plugins"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 5,
+      "entryBarriers": 4,
+      "technicalFreedom": 5,
+      "analytics": 4
+    },
+    "relatedStores": [
+      "huggingface-spaces",
+      "claude-mcp-marketplace"
+    ],
+    "pros": [
+      "Fully open-source (Apache 2.0 base)",
+      "Self-hosting option available",
+      "Hundreds of LLM integrations",
+      "Visual workflow builder",
+      "50+ built-in tools",
+      "Active community (60K+ developers)"
+    ],
+    "cons": [
+      "Smaller ecosystem than proprietary alternatives",
+      "Self-hosting requires infrastructure",
+      "Learning curve for complex workflows"
+    ],
+    "content": "\n## Overview\n\nThe Dify Marketplace provides plugins and extensions for Dify, an open-source platform for building AI applications. With visual workflow design, RAG pipelines, and agent capabilities, Dify serves as a comprehensive platform for AI development, and the marketplace extends its functionality.\n\n## Dify Platform Features\n\n### Workflow Builder\nVisual canvas for building AI workflows:\n- Drag-and-drop interface\n- Node-based logic\n- Branching and loops\n- Testing and debugging\n\n### Model Support\nIntegration with hundreds of LLMs:\n- OpenAI GPT models\n- Anthropic Claude\n- Google Gemini\n- Open-source models (Llama, Mistral)\n- Any OpenAI-compatible API\n\n### RAG Pipeline\nComplete document processing:\n- PDF, PPT, document ingestion\n- Text extraction and chunking\n- Vector embedding\n- Retrieval optimization\n\n### Agent Capabilities\n50+ built-in tools including:\n- Google Search\n- DALL-E\n- Stable Diffusion\n- WolframAlpha\n- Custom API calls\n\n## Marketplace Plugins\n\n### Search Tools\n- Brave Search API\n- Web scraping\n- Academic search\n- News aggregation\n\n### Database Connectors\n- PostgreSQL\n- MongoDB\n- Pinecone\n- Weaviate\n\n### Communication\n- Slack integration\n- Email sending\n- Webhook triggers\n- API connectors\n\n### Productivity\n- Document generation\n- Data transformation\n- Scheduling\n- Notifications\n\n## Deployment Options\n\n### Dify Cloud\n- Managed hosting\n- Free tier: 200 GPT-4 calls\n- Sandbox environment\n- Easy setup\n\n### Self-Hosted\n- Docker deployment\n- Full control\n- Data privacy\n- Custom infrastructure\n\n## Building for Dify\n\n### Plugin Development\n```python\nfrom dify_plugin import Plugin\n\nclass MyPlugin(Plugin):\n    def execute(self, inputs):\n        # Plugin logic here\n        return outputs\n```\n\n### Contribution Process\n1. Fork the repository\n2. Develop your plugin\n3. Follow coding standards\n4. Submit pull request\n5. Community review\n\n## Open Source\n\nDify is licensed under Dify Open Source License (Apache 2.0 base with additional conditions):\n- Commercial use allowed\n- Modification permitted\n- Attribution required\n- Some enterprise features require license\n\n## Community\n\n- **GitHub**: 50K+ stars\n- **Discord**: Active developer community\n- **Documentation**: Comprehensive guides\n- **Examples**: Template applications\n\n## Use Cases\n\n### Chatbots\nBuild conversational AI with:\n- Custom knowledge bases\n- Multi-turn conversations\n- Tool-augmented responses\n\n### Document Analysis\nProcess and analyze documents:\n- Q&A over documents\n- Summarization\n- Information extraction\n\n### Workflow Automation\nAutomate complex tasks:\n- Multi-step processing\n- Conditional logic\n- External integrations\n"
   },
   {
     "id": "digital-ocean-marketplace",
@@ -6730,6 +7447,149 @@
     "content": "\n## Overview\n\nFreshworks Marketplace serves the entire Freshworks product suite including Freshdesk (customer support), Freshservice (IT service management), Freshsales (CRM), and more. With 1,400+ public integrations and 150,000+ active installations, it's a major enterprise marketplace.\n\n## Key Statistics\n\n- **1,400+ public integrations**\n- **150,000+ active installations**\n- **500+ global partners**\n- **Up to 40% partner margins**\n\n## Supported Products\n\n- **Freshdesk**: Customer support software\n- **Freshservice**: IT service management\n- **Freshsales**: Sales CRM\n- **Freshmarketer**: Marketing automation\n- **Freshchat**: Messaging platform\n\n## Partner Program (2024)\n\nFreshworks offers 3 partner tiers:\n- Deal registration benefits\n- AI training resources\n- Up to 40% margins for resellers\n- Access to 1,400+ marketplace integrations\n\n## Integration Categories\n\n- Communication & collaboration\n- Productivity & workflow\n- Analytics & reporting\n- CRM & sales\n- IT & DevOps\n- Finance & billing\n"
   },
   {
+    "id": "github-copilot-extensions",
+    "name": "GitHub Copilot Extensions",
+    "slug": "github-copilot-extensions",
+    "tagline": "Third-party extensions for GitHub Copilot",
+    "description": "GitHub Copilot Extensions marketplace allows developers to extend GitHub Copilot's capabilities with third-party tools, services, and data sources. Build extensions that integrate directly into the Copilot chat experience.",
+    "url": "https://github.com/marketplace?type=apps&copilot_app=true",
+    "logo": "/images/stores/github-copilot-extensions.svg",
+    "category": "ai-copilots",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "company": {
+      "name": "GitHub Inc. (Microsoft)",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2008,
+      "website": "https://github.com"
+    },
+    "metrics": {
+      "appCount": 100,
+      "appCountSource": "GitHub Marketplace",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 50000000,
+      "developerCount": 100000000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish extensions",
+          "conditions": "GitHub account required"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://docs.github.com/en/copilot/building-copilot-extensions",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Go"
+      ],
+      "sdkDocumentationUrl": "https://docs.github.com/en/copilot/building-copilot-extensions",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free"
+      ],
+      "paymentMethods": [
+        "GitHub Sponsors"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://docs.github.com/en/copilot/building-copilot-extensions",
+      "guidelinesSummary": "Extensions must comply with GitHub's acceptable use policies and provide value to Copilot users.",
+      "typicalReviewTime": "1-7 days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Policy violations",
+        "Security issues",
+        "Poor user experience"
+      ],
+      "appealsProcess": "GitHub support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 2,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "GitHub Copilot Extensions - AI Development Tool Marketplace",
+      "metaDescription": "Build and publish extensions for GitHub Copilot. Integrate third-party tools and services into the AI coding assistant used by millions of developers.",
+      "keywords": [
+        "GitHub Copilot",
+        "Copilot extensions",
+        "AI coding",
+        "developer tools",
+        "code assistant"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 5,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 3,
+      "technicalFreedom": 4,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "microsoft-copilot-store",
+      "github"
+    ],
+    "pros": [
+      "Access to 100M+ GitHub developers",
+      "Integrated into daily developer workflow",
+      "No commission fees",
+      "Strong documentation and SDK",
+      "Part of Microsoft ecosystem"
+    ],
+    "cons": [
+      "Requires GitHub Copilot subscription",
+      "Still emerging marketplace (fewer extensions)",
+      "Limited monetization options",
+      "Developer-focused audience only"
+    ],
+    "content": "\n## Overview\n\nGitHub Copilot Extensions is a marketplace within GitHub Marketplace specifically for apps that extend GitHub Copilot's capabilities. These extensions integrate directly into Copilot Chat, allowing developers to access third-party tools and services without leaving their workflow.\n\n## Extension Capabilities\n\n### Chat Integration\nExtensions can:\n- Respond to @mentions in Copilot Chat\n- Access conversation context\n- Provide specialized assistance\n- Connect to external services\n\n### Tool Integration\n- Pull in external data sources\n- Execute actions on third-party platforms\n- Automate development workflows\n- Enhance code suggestions\n\n## Available Extensions\n\nPopular extension categories:\n- **Documentation**: API docs, library references\n- **CI/CD**: Build tools, deployment services\n- **Security**: Vulnerability scanning, code analysis\n- **Testing**: Test generation, coverage tools\n- **Database**: Query assistance, schema management\n- **Monitoring**: Log analysis, performance tools\n\n## Building Extensions\n\n### Architecture\nExtensions are built as:\n- GitHub Apps with Copilot capabilities\n- Webhook endpoints that respond to Copilot requests\n- OAuth-authenticated services\n\n### Development Process\n1. Create a GitHub App\n2. Enable Copilot extension features\n3. Implement webhook handlers\n4. Handle authentication\n5. Submit to marketplace\n\n### SDK Support\n- Official SDKs for major languages\n- Sample extension templates\n- Local development tools\n- Testing utilities\n\n## User Experience\n\nWhen users have an extension installed:\n1. Mention the extension in Copilot Chat: `@extension-name`\n2. Ask questions or request actions\n3. Extension responds with contextual help\n4. Actions execute on connected services\n\n## Requirements\n\n### For Developers\n- GitHub account\n- GitHub App registration\n- Webhook endpoint hosting\n- API documentation\n\n### For Users\n- GitHub Copilot subscription\n- Extension installation permission\n- GitHub account\n\n## Best Practices\n\n- Provide clear, focused functionality\n- Handle errors gracefully\n- Respect rate limits\n- Document capabilities thoroughly\n- Support common use cases\n"
+  },
+  {
     "id": "github",
     "name": "GitHub Marketplace",
     "slug": "github",
@@ -6883,6 +7743,153 @@
       "Competitive market for common tools"
     ],
     "content": "\n## Overview\n\nGitHub Marketplace launched in 2017 and eliminated its 25% commission in 2019, making it one of the most developer-friendly marketplaces. It hosts GitHub Apps, Actions, and integrations for the world's largest developer community.\n\n## App Types\n\n### GitHub Apps\n- Full OAuth and webhook integrations\n- Access to GitHub APIs\n- Per-repository or organization-wide installation\n\n### GitHub Actions\n- CI/CD workflow automation\n- Reusable workflow components\n- Marketplace distribution\n\n## Pricing Models\n\n- **Free**: No charge to users\n- **Flat rate**: Fixed monthly/yearly fee\n- **Per-unit**: Price per user or organization seat\n- **Free trial**: Optional 14-day trial period\n\n## Publisher Requirements\n\nPaid plans require verified publisher status:\n- Verified email and identity\n- Valid payment information\n- Compliance with GitHub's policies\n"
+  },
+  {
+    "id": "google-gemini-gems",
+    "name": "Google Gemini Gems",
+    "slug": "google-gemini-gems",
+    "tagline": "Custom AI experts built on Google Gemini",
+    "description": "Gemini Gems are custom AI experts you can create within Google Gemini. Build personalized assistants for any topic, from career coaching to coding help, and share them across Google Workspace apps including Docs, Sheets, Gmail, and Drive.",
+    "url": "https://gemini.google.com",
+    "logo": "/images/stores/google-gemini-gems.svg",
+    "category": "ai-assistants",
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Google LLC",
+      "headquarters": "Mountain View, California, USA",
+      "foundedYear": 1998,
+      "website": "https://google.com"
+    },
+    "metrics": {
+      "appCount": 100000,
+      "appCountSource": "Estimated based on user growth",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 50000000,
+      "developerCount": 500000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create Gems",
+          "conditions": "Requires Gemini Advanced subscription ($19.99/month)"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://ai.google.dev/docs",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript",
+        "Go",
+        "Swift"
+      ],
+      "sdkDocumentationUrl": "https://ai.google.dev/gemini-api/docs",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Google Pay"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://policies.google.com/terms/generative-ai",
+      "guidelinesSummary": "Gems must comply with Google's Generative AI policies and cannot be used to generate harmful, deceptive, or illegal content.",
+      "typicalReviewTime": "Instant",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Policy violations",
+        "Harmful content generation",
+        "Deceptive practices"
+      ],
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (180+ countries)"
+      ],
+      "restrictedRegions": [
+        "Limited availability in some regions"
+      ],
+      "supportedLanguages": [
+        "40+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": false,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 2,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Google Gemini Gems - Custom AI Expert Marketplace",
+      "metaDescription": "Create and share custom AI experts with Google Gemini Gems. Build personalized assistants integrated with Google Workspace apps.",
+      "keywords": [
+        "Gemini Gems",
+        "Google Gemini",
+        "AI experts",
+        "custom AI",
+        "Google Workspace AI"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 2,
+      "competitiveness": 3,
+      "entryBarriers": 4,
+      "technicalFreedom": 3,
+      "analytics": 2
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "microsoft-copilot-store"
+    ],
+    "pros": [
+      "Deep integration with Google Workspace (Docs, Sheets, Gmail)",
+      "Shareable via Google Drive permissions (Viewer/Editor)",
+      "Premade Gems available for common use cases",
+      "No commission fees",
+      "Access to Gemini's multimodal capabilities"
+    ],
+    "cons": [
+      "Requires Gemini Advanced subscription",
+      "No public marketplace yet (Super Gems Marketplace coming)",
+      "Limited sharing compared to GPT Store",
+      "No monetization options for creators",
+      "Fewer customization options than competitors"
+    ],
+    "content": "\n## Overview\n\nGemini Gems are custom AI experts that users can create within Google's Gemini AI platform. Unveiled at Google I/O in August 2024, Gems allow users to build personalized assistants tailored to specific tasks, from brainstorming partners to coding helpers.\n\n## Key Features\n\n### Workspace Integration\nGems are deeply integrated with Google Workspace:\n- Available in Docs, Sheets, Slides side panels\n- Accessible from Gmail and Google Drive\n- Seamless context sharing across apps\n\n### Gem Creation\nUsers can create Gems by:\n- Selecting from premade templates (Learning Coach, Brainstormer, Career Guide, Writing Editor, Coding Partner)\n- Creating custom Gems with natural language instructions\n- Defining personality, expertise, and response style\n\n### Sharing Capabilities\nAs of September 2025, Gems support sharing via:\n- Drive-style permissions (Viewer or Editor)\n- Direct link sharing\n- Organization-wide distribution for Workspace accounts\n\n## Super Gems (Coming Soon)\n\nGoogle is developing \"Super Gems\" which will:\n- Function as pre-built AI workflows\n- Allow visual creation of AI apps without coding\n- Enable publishing to a public Super Gems Marketplace\n- Support monetization for creators\n\n## Premade Gems\n\nGoogle provides several premade Gems:\n- **Learning Coach**: Personalized tutoring and study assistance\n- **Brainstormer**: Creative ideation and problem-solving\n- **Career Guide**: Professional development and job search help\n- **Writing Editor**: Content review and improvement\n- **Coding Partner**: Programming assistance and debugging\n\n## Requirements\n\n- Gemini Advanced, Business, or Enterprise subscription\n- Google account\n- Available in 180+ countries\n"
   },
   {
     "id": "google-play",
@@ -8091,6 +9098,154 @@
       "Review process can take 2-4 weeks"
     ],
     "content": "\n## Overview\n\nHubSpot App Marketplace is one of the most developer-friendly enterprise marketplaces, taking 0% commission from app sales. Launched in 2017, it connects over 1,500 apps with HubSpot's growing customer base.\n\n## App Partner Program\n\n### Key Benefits\n- 0% commission on all app sales\n- Free marketplace listing\n- Developer support resources\n- Access to HubSpot's API and SDKs\n- Discounted INBOUND event sponsorship\n\n### Certification Requirements\nAs of August 2025:\n- All certified apps follow a 2-year certification cycle\n- Apps must meet UX, security, and functionality standards\n- Failure to recertify results in loss of certified status\n\n## Monetization\n\nDevelopers handle their own billing and payments:\n- No HubSpot-managed checkout\n- Use your own payment processor\n- Keep 100% of revenue\n"
+  },
+  {
+    "id": "huggingface-spaces",
+    "name": "Hugging Face Spaces",
+    "slug": "huggingface-spaces",
+    "tagline": "The largest directory of AI apps and demos",
+    "description": "Hugging Face Spaces is the world's largest directory of AI applications with 500,000+ apps spanning text, image, video, audio, and 3D generation. Developers can build, host, and share ML demos using Gradio, Streamlit, or Docker directly on Hugging Face infrastructure.",
+    "url": "https://huggingface.co/spaces",
+    "logo": "/images/stores/huggingface-spaces.svg",
+    "category": "ai-developer",
+    "platforms": [
+      "web"
+    ],
+    "company": {
+      "name": "Hugging Face Inc.",
+      "headquarters": "New York, USA",
+      "foundedYear": 2016,
+      "website": "https://huggingface.co"
+    },
+    "metrics": {
+      "appCount": 500000,
+      "appCountSource": "Hugging Face Spaces directory",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 15000000,
+      "developerCount": 500000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free tier available",
+          "conditions": "Basic CPU hosting included free"
+        },
+        {
+          "percentage": 0,
+          "description": "Paid compute options",
+          "conditions": "GPU upgrades billed directly, no commission"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://huggingface.co/docs/hub/spaces",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript"
+      ],
+      "sdkDocumentationUrl": "https://huggingface.co/docs",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card"
+      ],
+      "payoutMethods": []
+    },
+    "submission": {
+      "guidelinesUrl": "https://huggingface.co/docs/hub/spaces-overview",
+      "guidelinesSummary": "Spaces should follow community guidelines, not host harmful content, and properly attribute models and datasets used.",
+      "typicalReviewTime": "Instant (automated)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Community guideline violations",
+        "Resource abuse",
+        "Harmful content"
+      ],
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Multiple (community-driven)"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 2,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Hugging Face Spaces - AI App Directory",
+      "metaDescription": "Explore 500,000+ AI apps on Hugging Face Spaces. Build and host ML demos with Gradio, Streamlit, or Docker on free GPU infrastructure.",
+      "keywords": [
+        "Hugging Face",
+        "AI apps",
+        "ML demos",
+        "Gradio",
+        "Streamlit",
+        "AI models"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 4,
+      "competitiveness": 4,
+      "entryBarriers": 4,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "dify-marketplace",
+      "claude-mcp-marketplace"
+    ],
+    "pros": [
+      "500K+ AI apps - largest directory",
+      "Free CPU hosting included",
+      "Built-in Gradio/Streamlit support",
+      "GPU upgrade options available",
+      "Direct model hub integration",
+      "Active community and discovery"
+    ],
+    "cons": [
+      "Free tier has resource limits",
+      "GPU instances can be expensive",
+      "No built-in monetization for creators",
+      "Queue times during peak usage"
+    ],
+    "content": "\n## Overview\n\nHugging Face Spaces is the world's largest directory of AI applications, hosting over 500,000 apps that showcase everything from text generation to 3D modeling. It serves as both a hosting platform for ML demos and a discovery engine for exploring AI capabilities.\n\n## Space Types\n\n### Gradio Spaces\n- Python-based ML interface library\n- Easy-to-build interactive UIs\n- Built-in components for common ML tasks\n- Automatic API generation\n\n### Streamlit Spaces\n- Python apps with rich widgets\n- Data visualization focus\n- Rapid prototyping\n- Dashboard-style interfaces\n\n### Docker Spaces\n- Full container flexibility\n- Any programming language\n- Custom dependencies\n- Complex application architectures\n\n### Static Spaces\n- HTML/CSS/JavaScript\n- Simple hosting\n- Fast loading\n- No backend required\n\n## AI App Categories\n\n### Image Generation\n- Text-to-image models\n- Image editing tools\n- Style transfer\n- Upscaling and enhancement\n\n### Text Generation\n- Chatbots and assistants\n- Content creation\n- Translation\n- Summarization\n\n### Audio & Music\n- Text-to-speech\n- Music generation\n- Voice cloning\n- Audio processing\n\n### Video\n- Text-to-video\n- Video editing\n- Frame interpolation\n- Video analysis\n\n### 3D & Vision\n- 3D generation\n- Object detection\n- Segmentation\n- Depth estimation\n\n### Code & Development\n- Code generation\n- Code explanation\n- Debugging assistants\n- Documentation tools\n\n## Compute Options\n\n### Free Tier\n- 2 vCPU\n- 16GB RAM\n- CPU-only execution\n- Basic for demos\n\n### Paid Upgrades\n- **GPU**: A10G, A100, T4, L4\n- **ZeroGPU**: Shared GPU for sporadic use\n- **CPU Upgrade**: More RAM and cores\n- **Persistent Storage**: For stateful apps\n\n## Model Hub Integration\n\nSpaces connect directly to Hugging Face Hub:\n- 400,000+ pre-trained models\n- 100,000+ datasets\n- One-line model loading\n- Automatic caching\n\n## Building a Space\n\n1. Create Space (Gradio, Streamlit, or Docker)\n2. Write your application code\n3. Define requirements.txt\n4. Push to Hugging Face\n5. Space builds and deploys automatically\n\n### Example Gradio Space\n```python\nimport gradio as gr\n\ndef greet(name):\n    return f\"Hello {name}!\"\n\ndemo = gr.Interface(fn=greet, inputs=\"text\", outputs=\"text\")\ndemo.launch()\n```\n\n## Discovery Features\n\n- Trending Spaces\n- Category browsing\n- Community Collections\n- Organization Spaces\n- Search functionality\n- Likes and bookmarks\n\n## Use Cases\n\n- **Research**: Share paper demos\n- **Prototyping**: Test model ideas\n- **Education**: Interactive tutorials\n- **Portfolio**: Showcase ML skills\n- **Business**: Product demos\n"
   },
   {
     "id": "instapage",
@@ -9992,6 +11147,163 @@
     "content": "\n## Overview\n\nMatomo Marketplace is the official plugin marketplace for Matomo's privacy-focused analytics platform. With 40+ core plugins and 100+ community plugins, it provides an open marketplace similar to Google Play or App Store for analytics extensions.\n\n## Key Statistics\n\n- **100+ plugins** (estimated)\n- **40+ core plugins** maintained by Matomo\n- **18 premium plugins** in Premium Bundle\n- Open, community-driven marketplace\n\n## Premium Bundle\n\nAccess to 18 exceptional plugins at discounted price:\n- Media Analytics\n- Heatmaps\n- Session Recording\n- A/B Testing\n- And more...\n\n## Plugin Categories\n\n- Reporting & analytics\n- Tracking enhancements\n- Integrations\n- Visualization\n- Privacy features\n- Performance\n\n## Open Marketplace\n\n- No pre-approval required\n- Community-driven\n- Free and premium plugins\n- Developer freedom\n\n## Development\n\nBuild plugins using:\n- PHP programming\n- Matomo Plugin API\n- JavaScript widgets\n- Developer documentation\n- Distribution guide\n\n"
   },
   {
+    "id": "microsoft-copilot-store",
+    "name": "Microsoft 365 Copilot Store",
+    "slug": "microsoft-copilot-store",
+    "tagline": "Plugin and agent marketplace for Microsoft 365 Copilot",
+    "description": "The Microsoft 365 Copilot Store is the official marketplace for plugins, agents, and extensions that enhance Microsoft 365 Copilot across Teams, Outlook, Word, Excel, and PowerPoint. Developers can extend Copilot's capabilities and reach millions of enterprise users.",
+    "url": "https://developer.microsoft.com/en-us/microsoft-365/copilot",
+    "logo": "/images/stores/microsoft-copilot-store.svg",
+    "category": "ai-copilots",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Microsoft Corporation",
+      "headquarters": "Redmond, Washington, USA",
+      "foundedYear": 1975,
+      "website": "https://microsoft.com"
+    },
+    "metrics": {
+      "appCount": 2000,
+      "appCountSource": "Microsoft announcements",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 400000000,
+      "developerCount": 50000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish plugins",
+          "conditions": "Standard Microsoft Partner Center registration"
+        },
+        {
+          "percentage": 15,
+          "description": "Commercial marketplace transactions",
+          "conditions": "For paid plugins sold through marketplace"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "TypeScript",
+        "C#",
+        ".NET"
+      ],
+      "sdkDocumentationUrl": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Enterprise billing"
+      ],
+      "payoutMethods": [
+        "Bank Transfer"
+      ],
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/publish",
+      "guidelinesSummary": "Plugins must meet Microsoft Commercial Marketplace certification policies and Microsoft 365 store validation guidelines.",
+      "typicalReviewTime": "3-5 business days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Certification policy violations",
+        "Security vulnerabilities",
+        "Missing privacy policy",
+        "Inadequate documentation"
+      ],
+      "appealsProcess": "Microsoft Partner Center support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (where Microsoft 365 is available)"
+      ],
+      "supportedLanguages": [
+        "40+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 1,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Microsoft 365 Copilot Store - AI Plugin Marketplace",
+      "metaDescription": "Build and publish plugins for Microsoft 365 Copilot. Extend AI capabilities across Teams, Outlook, Word, Excel, and PowerPoint for enterprise users.",
+      "keywords": [
+        "Microsoft Copilot",
+        "M365 plugins",
+        "Copilot extensions",
+        "Teams apps",
+        "enterprise AI"
+      ]
+    },
+    "ratings": {
+      "commission": 4,
+      "reviewProcess": 3,
+      "stability": 5,
+      "developerSupport": 4,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 3,
+      "technicalFreedom": 3,
+      "analytics": 4
+    },
+    "relatedStores": [
+      "github-copilot-extensions",
+      "slack-ai-apps"
+    ],
+    "pros": [
+      "Massive enterprise user base (400M+ Microsoft 365 users)",
+      "Integration across entire Microsoft 365 suite",
+      "Strong enterprise security and compliance",
+      "Commercial marketplace monetization",
+      "Comprehensive SDK and documentation",
+      "IT admin controls for enterprise deployment"
+    ],
+    "cons": [
+      "Complex certification process",
+      "Enterprise focus may limit consumer reach",
+      "Requires Microsoft 365 Copilot license for users",
+      "Longer review times than consumer platforms"
+    ],
+    "content": "\n## Overview\n\nThe Microsoft 365 Copilot Store is the official marketplace for extending Microsoft's AI-powered productivity assistant. Plugins and agents appear in Teams, Outlook, Word, Excel, PowerPoint, and the dedicated Agent Store within Microsoft 365 Copilot.\n\n## Extensibility Options\n\n### Agents\nCustom AI agents built with:\n- **Copilot Studio**: No-code agent builder\n- **Azure AI Foundry**: Advanced AI development\n- **Visual Studio Code**: Full code control\n\n### API Plugins\nConnect Copilot to external services:\n- REST API integrations\n- OpenAPI specification support\n- Authentication handling\n\n### Copilot Connectors\nBring external data into Copilot:\n- Data source connections\n- Microsoft Graph integration\n- Enterprise data access\n\n## Development Tools\n\n### Microsoft 365 Agents SDK\n- Core agent components\n- Enterprise-grade publishing\n- Multi-channel deployment (Teams, web, 15+ channels)\n\n### Teams Toolkit\n- Visual Studio Code extension\n- Quick plugin scaffolding\n- Local debugging support\n\n### Copilot Studio\n- No-code/low-code builder\n- Visual conversation designer\n- Built-in testing\n\n## Publishing Process\n\n1. **Develop**: Build using SDK, Teams Toolkit, or Copilot Studio\n2. **Test**: Local testing and validation\n3. **Submit**: Upload to Microsoft Partner Center\n4. **Certify**: Pass security and policy review\n5. **Publish**: Deploy to marketplace\n6. **Enable**: IT admins enable for organization\n\n## Enterprise Features\n\n- **Admin Controls**: IT admins control which plugins users can access\n- **Security**: Enterprise-grade security certification\n- **Compliance**: Meet organizational compliance requirements\n- **Governance**: Audit logs and usage tracking\n\n## Monetization\n\nSell through Microsoft Commercial Marketplace:\n- Per-seat licensing\n- Usage-based pricing\n- Subscription models\n- Enterprise agreements\n"
+  },
+  {
     "id": "microsoft-store",
     "name": "Microsoft Store",
     "slug": "microsoft-store",
@@ -11171,6 +12483,164 @@
     "content": "\n## Overview\n\nNING Apps is the official app platform for NING social network builder. With 20+ add-on applications for community features, it extends NING networks with blogs, forums, photos, videos, and integrations for 2+ million hosted networks.\n\n## Key Statistics\n\n- **20+ add-on apps** (estimated)\n- **2+ million networks** hosted since 2004\n- **21,000 active customers**\n- **44+ million users** served\n\n## Core Apps (All Plans)\n\n- Drag-and-drop builder\n- Photo plugins\n- Video plugins\n- Blogs\n- Forums\n- Traffic analytics\n- Custom domain\n\n## Plan Tiers\n\n| Plan | Add-on Apps | RSS Feeds |\n|------|-------------|-----------|\n| Mini | 2 | 1 |\n| Standard | More | More |\n| Premium | Full | Unlimited |\n\n## Popular Integrations\n\nThird-party connections:\n- Twitter\n- Buffer\n- Airtable\n- Feedly\n- Discord\n- OneSignal\n\n## Integration Categories\n\n- Social networks\n- Team chat\n- Spreadsheets\n- Automation\n- Notifications\n\n## Features\n\n- Community website builder\n- Social network creation\n- Member management\n- Content publishing\n- Analytics dashboard\n\n"
   },
   {
+    "id": "notion-ai-templates",
+    "name": "Notion AI Templates",
+    "slug": "notion-ai-templates",
+    "tagline": "AI-powered templates for Notion workspaces",
+    "description": "The Notion Template Marketplace features 30,000+ templates including AI-powered templates that leverage Notion AI for enhanced productivity. Creators can build and sell templates that integrate AI capabilities for writing, analysis, and automation.",
+    "url": "https://www.notion.com/templates/category/ai",
+    "logo": "/images/stores/notion-ai-templates.svg",
+    "category": "ai-copilots",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Notion Labs Inc.",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2013,
+      "website": "https://notion.com"
+    },
+    "metrics": {
+      "appCount": 30000,
+      "appCountSource": "Notion Template Marketplace",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 100000000,
+      "developerCount": 50000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free templates",
+          "conditions": "No fees for free template distribution"
+        },
+        {
+          "percentage": 20,
+          "description": "Paid template sales",
+          "conditions": "Notion takes percentage of paid template sales"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://developers.notion.com/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "JavaScript",
+        "Python"
+      ],
+      "sdkDocumentationUrl": "https://developers.notion.com/",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid"
+      ],
+      "paymentMethods": [
+        "Stripe"
+      ],
+      "payoutMethods": [
+        "Stripe Connect"
+      ],
+      "payoutFrequency": "Per sale"
+    },
+    "submission": {
+      "guidelinesUrl": "https://www.notion.com/help/selling-on-marketplace",
+      "guidelinesSummary": "Templates must be original, provide value, and comply with Notion's community guidelines. Paid templates require Stripe onboarding.",
+      "typicalReviewTime": "1-5 business days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Low quality or duplicate content",
+        "Misleading descriptions",
+        "Policy violations"
+      ],
+      "appealsProcess": "Notion support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Korean",
+        "Japanese",
+        "French",
+        "German",
+        "Spanish",
+        "Portuguese"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 4,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Notion AI Templates - AI-Powered Productivity Templates",
+      "metaDescription": "Discover AI-powered Notion templates. Enhance your workspace with templates featuring Notion AI for writing, analysis, and workflow automation.",
+      "keywords": [
+        "Notion templates",
+        "Notion AI",
+        "productivity templates",
+        "AI workspace",
+        "template marketplace"
+      ]
+    },
+    "ratings": {
+      "commission": 4,
+      "reviewProcess": 4,
+      "stability": 5,
+      "developerSupport": 3,
+      "discoverability": 4,
+      "competitiveness": 4,
+      "entryBarriers": 4,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "slack-ai-apps",
+      "openai-gpt-store"
+    ],
+    "pros": [
+      "100M+ Notion users as potential audience",
+      "Monetization through paid templates",
+      "Deep Notion AI integration",
+      "Strong discovery through curated collections",
+      "Creator profiles and branding"
+    ],
+    "cons": [
+      "20% commission on paid templates",
+      "Requires approval to sell",
+      "Competitive marketplace",
+      "Limited to Notion ecosystem"
+    ],
+    "content": "\n## Overview\n\nThe Notion Template Marketplace hosts 30,000+ templates, with a growing category of AI-powered templates that leverage Notion AI. Creators can build, share, and sell templates that incorporate AI capabilities for content creation, analysis, and productivity enhancement.\n\n## AI Template Categories\n\n### AI Writing Tools\n- Automated drafting assistance\n- Tone adjustment capabilities\n- Translation integrations\n- Content summarization\n\n### AI Prompts\n- Curated prompt libraries\n- Workflow-specific prompt collections\n- Creative and professional prompts\n- Prompt engineering guides\n\n### AI-Powered Tools\n- Data analysis templates\n- Research organization\n- Meeting note automation\n- Project planning with AI\n\n## Notion AI Features\n\nNotion AI is integrated throughout the workspace:\n- **Write**: Draft, brainstorm, and expand content\n- **Edit**: Improve, translate, and adjust tone\n- **Summarize**: Condense documents and notes\n- **Extract**: Pull key information from content\n- **Explain**: Clarify complex topics\n\n## Top Free AI Templates\n\nPopular free AI templates include:\n- AI content calendars\n- Meeting note templates with AI summaries\n- Research databases with AI organization\n- Project trackers with AI insights\n\n## Selling Templates\n\n### Requirements\n1. Create Notion creator profile at notion.so/profile\n2. Join waitlist for marketplace selling\n3. Get approved by Notion team\n4. Onboard with Stripe for payments\n\n### Pricing\n- Creators set their own prices\n- Notion takes 20% commission\n- Stripe handles payment processing\n- Direct deposits to creator accounts\n\n### Best Practices\n- Provide comprehensive documentation\n- Include setup instructions\n- Offer customization guidance\n- Create video walkthroughs\n- Respond to buyer questions\n\n## Template Collections\n\nNotion curates AI templates into collections:\n- \"Top 10 Free AI Templates\"\n- \"Templates to Supercharge Workflows with Notion AI\"\n- \"AI-Powered Tools\"\n- \"AI Prompts\"\n\n## Integration Capabilities\n\nAI templates can leverage:\n- Notion AI blocks and commands\n- Database automations\n- API connections\n- Third-party integrations\n- Synced databases\n"
+  },
+  {
     "id": "okta",
     "name": "Okta Integration Network",
     "slug": "okta",
@@ -11319,6 +12789,159 @@
       "Certification requirements"
     ],
     "content": "\n## Overview\n\nOkta Integration Network (OIN) is the largest network of pre-built identity integrations. With 7,000+ integrations, it enables enterprises to connect identity management across their entire tech stack.\n\n## Key Statistics\n\n- **7,000+ integrations** pre-built\n- **150+ Secure Identity Integrations** (new 2025)\n- **100+ apps** per customer (global average)\n- **9% YoY growth** in app adoption\n- **40% security tools** among fastest-growing\n\n## 2025 Businesses at Work Insights\n\n- Global average apps per customer topped 100 for first time\n- Security tools account for 40% of fastest-growing apps\n- Bitwarden and Tailscale lead security adoption\n- Drata and Vanta lead compliance tools\n\n## Integration Types\n\n### SSO (Single Sign-On)\n- SAML 2.0\n- OpenID Connect (OIDC)\n- WS-Federation\n\n### Lifecycle Management\n- SCIM provisioning\n- User sync\n- Deprovisioning\n\n### Secure Identity Integrations\nNew 2025 collection with deep security capabilities for critical apps.\n\n## Development\n\nBuild integrations using:\n- SAML 2.0 or OIDC for SSO\n- SCIM 2.0 for provisioning\n- Okta SDKs\n- OAuth 2.0 for API access\n- Okta Workflows\n"
+  },
+  {
+    "id": "openai-gpt-store",
+    "name": "OpenAI GPT Store",
+    "slug": "openai-gpt-store",
+    "tagline": "Marketplace for custom GPTs built on ChatGPT",
+    "description": "The GPT Store is OpenAI's official marketplace for discovering and sharing custom versions of ChatGPT. With over 3 million custom GPTs, creators can build specialized AI assistants for specific tasks and earn revenue through the GPT builder revenue program.",
+    "url": "https://chat.openai.com/gpts",
+    "logo": "/images/stores/openai-gpt-store.svg",
+    "category": "ai-assistants",
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "OpenAI",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2015,
+      "website": "https://openai.com"
+    },
+    "metrics": {
+      "appCount": 3000000,
+      "appCountSource": "OpenAI announcements",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 200000000,
+      "developerCount": 1000000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create and publish GPTs",
+          "conditions": "Requires ChatGPT Plus, Team, or Enterprise subscription to create"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Revenue sharing available through GPT Builder Revenue Program based on user engagement"
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://platform.openai.com/docs/actions",
+      "hasSdk": false,
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Debit Card"
+      ],
+      "payoutMethods": [
+        "Not yet publicly available"
+      ],
+      "payoutFrequency": "Program in limited rollout"
+    },
+    "submission": {
+      "guidelinesUrl": "https://openai.com/policies/usage-policies",
+      "guidelinesSummary": "GPTs must comply with OpenAI's usage policies, cannot generate harmful content, and must respect intellectual property rights.",
+      "typicalReviewTime": "Instant to 24 hours",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Violates usage policies",
+        "Generates harmful or inappropriate content",
+        "Impersonates real people without permission",
+        "Attempts to bypass safety guidelines"
+      ],
+      "appealsProcess": "Contact OpenAI support for policy clarification",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (where ChatGPT is available)"
+      ],
+      "restrictedRegions": [
+        "China",
+        "Russia",
+        "Iran",
+        "North Korea"
+      ],
+      "supportedLanguages": [
+        "95+ languages"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 1,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "OpenAI GPT Store - Custom GPT Marketplace",
+      "metaDescription": "Discover and create custom GPTs on OpenAI's GPT Store. Build AI assistants, earn revenue, and access millions of specialized ChatGPT applications.",
+      "keywords": [
+        "GPT Store",
+        "Custom GPT",
+        "ChatGPT",
+        "OpenAI",
+        "AI assistants",
+        "GPT marketplace"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 5,
+      "entryBarriers": 4,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "google-gemini-gems",
+      "poe-bot-store",
+      "coze-bot-store"
+    ],
+    "pros": [
+      "Largest AI assistant marketplace with 3M+ GPTs",
+      "No commission fees on creations",
+      "Massive built-in user base (200M+ ChatGPT users)",
+      "Easy no-code GPT creation with GPT Builder",
+      "Revenue sharing program for popular creators",
+      "Weekly featured GPTs drive discovery"
+    ],
+    "cons": [
+      "Requires ChatGPT Plus subscription ($20/month) to create",
+      "Limited customization compared to API development",
+      "Revenue program still in limited rollout",
+      "High competition with millions of GPTs",
+      "No direct monetization options yet"
+    ],
+    "content": "\n## Overview\n\nThe OpenAI GPT Store launched in January 2024 as the official marketplace for custom GPTs built on ChatGPT. It allows anyone with a ChatGPT Plus, Team, or Enterprise subscription to create specialized AI assistants without coding and share them with the world.\n\n## Key Features for Creators\n\n### GPT Builder\nThe no-code GPT Builder allows creators to:\n- Define custom instructions and personality\n- Upload knowledge files (PDFs, documents, data)\n- Enable capabilities like web browsing, DALL-E image generation, and code interpreter\n- Create custom actions that connect to external APIs\n\n### Discovery & Distribution\n- Featured GPTs highlighted weekly by OpenAI editors\n- Category-based browsing (Writing, Productivity, Research, Education, Lifestyle, Programming)\n- Leaderboards showing trending and popular GPTs\n- Direct sharing via links\n\n### Revenue Program\nOpenAI's GPT Builder Revenue Program shares revenue with creators based on user engagement. The program is currently in limited rollout for US-based builders.\n\n## Categories\n\n- **Writing**: Content creation, editing, copywriting assistants\n- **Productivity**: Task management, automation, workflow tools\n- **Research & Analysis**: Data analysis, academic research, fact-checking\n- **Education**: Tutoring, learning aids, skill development\n- **Lifestyle**: Health, fitness, cooking, travel planning\n- **Programming**: Code generation, debugging, documentation\n\n## Getting Started\n\n1. Subscribe to ChatGPT Plus, Team, or Enterprise\n2. Navigate to \"Explore GPTs\" and click \"Create\"\n3. Use natural language to describe your GPT to the GPT Builder\n4. Configure knowledge, capabilities, and actions\n5. Test and refine your GPT\n6. Publish to the GPT Store\n"
   },
   {
     "id": "opencart-extension-store",
@@ -12314,6 +13937,164 @@
       "Requires Planview license"
     ],
     "content": "\n## Overview\n\nPlanview AdaptiveWork Apps Marketplace (formerly Clarizen) is the official integration platform for Planview AdaptiveWork enterprise project management. With 30+ apps and integrations including Salesforce, JIRA, Box, and Google, it extends project visibility for enterprise teams worldwide.\n\n## Key Statistics\n\n- **30+ integrations** (estimated)\n- Enterprise project management platform\n- REST and SOAP API support\n- MuleSoft connector available\n\n## History\n\n- Founded as Clarizen in 2006\n- Acquired by Planview\n- Rebranded to Planview AdaptiveWork\n\n## Key Integrations\n\n- **Salesforce** - CRM integration\n- **JIRA** - ALM/development\n- **Box** - File storage\n- **Google** - Workspace integration\n- **Microsoft Teams** - Collaboration\n- **SharePoint** - Document management\n- **ServiceNow** - IT service management\n- **Slack** - Team messaging\n\n## Integration Features\n\n### Microsoft Teams App\nComprehensive productivity interface for collaboration within the Microsoft Teams ecosystem.\n\n### Slack Bot\nStay up-to-date with projects without leaving Slack.\n\n### SharePoint Connector\nNative connector eliminates \"SharePoint sprawl\" by bringing project visibility to documents.\n\n## API Capabilities\n\n- REST API for modern integrations\n- SOAP API for legacy systems\n- MuleSoft connector for enterprise integration\n- Robust email engine for automation\n\n## Development\n\nBuild integrations using:\n- REST API\n- SOAP API\n- MuleSoft connector\n- Partner program\n- Developer documentation\n\n"
+  },
+  {
+    "id": "poe-bot-store",
+    "name": "Poe Bot Store",
+    "slug": "poe-bot-store",
+    "tagline": "Multi-model AI bot marketplace with creator monetization",
+    "description": "Poe is Quora's AI platform that aggregates multiple AI models and hosts a marketplace of custom bots. Creators can build bots using any supported model and monetize through subscription revenue sharing and per-message pricing.",
+    "url": "https://poe.com",
+    "logo": "/images/stores/poe-bot-store.svg",
+    "category": "ai-assistants",
+    "platforms": [
+      "web",
+      "ios",
+      "android",
+      "macos"
+    ],
+    "company": {
+      "name": "Quora Inc.",
+      "headquarters": "Mountain View, California, USA",
+      "foundedYear": 2009,
+      "website": "https://quora.com"
+    },
+    "metrics": {
+      "appCount": 500000,
+      "appCountSource": "Estimated based on platform growth",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 20000000,
+      "developerCount": 100000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create Prompt Bots",
+          "conditions": "No coding required, uses natural language instructions"
+        },
+        {
+          "percentage": 0,
+          "description": "Server Bots with custom backend",
+          "conditions": "Creators cover their own API/hosting costs"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Revenue sharing through subscription referrals and price-per-message model"
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://creator.poe.com/docs",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Python",
+        "JavaScript"
+      ],
+      "sdkDocumentationUrl": "https://creator.poe.com/docs/server-bots",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Apple Pay",
+        "Google Pay"
+      ],
+      "payoutMethods": [
+        "Stripe"
+      ],
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://poe.com/about",
+      "guidelinesSummary": "Bots must comply with Poe's content policies, cannot generate illegal content, and must clearly identify as AI.",
+      "typicalReviewTime": "Instant to 24 hours",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Policy violations",
+        "Harmful content",
+        "Impersonation without disclosure"
+      ],
+      "appealsProcess": "Contact Poe support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "Multiple languages supported by underlying models"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 3,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Poe Bot Store - Multi-Model AI Bot Marketplace",
+      "metaDescription": "Create and monetize AI bots on Poe. Access multiple AI models, build custom bots, and earn through subscription sharing and per-message pricing.",
+      "keywords": [
+        "Poe",
+        "AI bots",
+        "chatbot marketplace",
+        "GPT alternative",
+        "Claude bot",
+        "bot monetization"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 5,
+      "technicalFreedom": 4,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "openai-gpt-store",
+      "coze-bot-store",
+      "character-ai"
+    ],
+    "pros": [
+      "Access to multiple AI models (GPT-4, Claude, Gemini, Llama)",
+      "Two monetization paths: subscription revenue share and per-message pricing",
+      "Both no-code (Prompt Bots) and code (Server Bots) options",
+      "Free tier available for basic usage",
+      "Multi-bot chat feature for combining bot capabilities",
+      "Enterprise tier coming for businesses"
+    ],
+    "cons": [
+      "Smaller user base than ChatGPT",
+      "Server Bots require technical expertise",
+      "Creators must cover their own API costs for Server Bots",
+      "Revenue share details not fully transparent"
+    ],
+    "content": "\n## Overview\n\nPoe (Platform for Open Exploration) is Quora's AI platform launched in 2022 that positions itself as the \"app store of conversational AI.\" It aggregates multiple AI models from OpenAI, Anthropic, Google, Meta, and others, while hosting a marketplace of user-created bots.\n\n## Bot Types\n\n### Prompt Bots (No-Code)\n- Created using natural language instructions\n- Poe prepends your instructions to every user message\n- No programming required\n- Perfect for specialized assistants, tutors, and creative bots\n\n### Server Bots (Code-Based)\n- Configure webhook endpoints for custom backend logic\n- Full control over bot behavior and data fetching\n- Connect to external APIs and databases\n- Requires hosting infrastructure\n\n## Monetization Options\n\n### Subscription Revenue Share\nWhen your bot encourages a user to subscribe to Poe Premium, you receive a share of the subscription revenue.\n\n### Price-Per-Message\nIntroduced in April 2024, creators can set a specific price in compute points for each message sent to their bot. This is essential for bots with significant API costs.\n\n## Supported Models\n\nPoe provides access to:\n- **OpenAI**: GPT-4, GPT-4 Turbo, GPT-3.5\n- **Anthropic**: Claude 3 Opus, Sonnet, Haiku\n- **Google**: Gemini Pro\n- **Meta**: Llama 2, Llama 3\n- **Mistral**: Mistral Large, Medium, Small\n- And many more specialized models\n\n## 2025 Features\n\n- **Poe Apps**: Interactive applications beyond chat\n- **Multi-Bot Chat**: Combine multiple bots in one conversation\n- **Enterprise Tier**: Coming for business deployments\n- **Enhanced Analytics**: Detailed usage and revenue tracking\n\n## Getting Started\n\n1. Create a free Poe account\n2. Navigate to Creator Portal\n3. Choose Prompt Bot or Server Bot\n4. Configure your bot's instructions and capabilities\n5. Set monetization options\n6. Publish to the bot marketplace\n"
   },
   {
     "id": "prestashop-addons-marketplace",
@@ -13504,6 +15285,162 @@
       "Niche market"
     ],
     "content": "\n## Overview\n\nRWS AppStore (formerly SDL AppStore) is the official plugin marketplace for Trados Studio translation software. With 200+ plugins including 80+ open-source community plugins on GitHub, it extends translation management with machine translation, productivity tools, and integrations.\n\n## Key Statistics\n\n- **200+ plugins** (estimated)\n- **80+ open-source plugins** on GitHub\n- **80+ MT providers** supported\n- Industry-leading translation CAT tool\n\n## Trados Studio 2024\n\n- **600+ enhancements** and fixes in SR1\n- Redesigned AppStore interface\n- AI Assistant with LLM apps\n- Modern, accessible design\n\n## Plugin Categories\n\n- Machine Translation providers\n- Quality assurance\n- File filters\n- Productivity tools\n- Project automation\n- Integration connectors\n\n## Popular Plugins\n\n- OpenAI LLM App\n- Azure OpenAI App\n- Google Cloud Translation\n- DeepL integration\n- Community plugins\n\n## Development\n\nBuild plugins using:\n- C#/.NET development\n- Trados Studio SDK\n- Plugin architecture\n- Community GitHub repo\n- Developer documentation\n\n"
+  },
+  {
+    "id": "salesforce-agentexchange",
+    "name": "Salesforce AgentExchange",
+    "slug": "salesforce-agentexchange",
+    "tagline": "AI agent marketplace for Salesforce Agentforce",
+    "description": "AgentExchange is Salesforce's official marketplace for discovering, evaluating, and deploying pre-built AI agents and components for Agentforce. With 200+ launch partners and hundreds of actions, it provides enterprise-ready agentic AI solutions built on the trusted Salesforce platform.",
+    "url": "https://agentexchange.salesforce.com",
+    "logo": "/images/stores/salesforce-agentexchange.svg",
+    "category": "ai-agents",
+    "platforms": [
+      "web",
+      "cross-platform"
+    ],
+    "company": {
+      "name": "Salesforce Inc.",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 1999,
+      "website": "https://salesforce.com"
+    },
+    "metrics": {
+      "appCount": 500,
+      "appCountSource": "Salesforce announcements",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 150000,
+      "developerCount": 1000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 15,
+          "description": "AppExchange standard commission",
+          "conditions": "For paid listings on AppExchange"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://developer.salesforce.com/docs/einstein/genai/overview",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Apex",
+        "JavaScript",
+        "Python"
+      ],
+      "sdkDocumentationUrl": "https://developer.salesforce.com/docs",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Salesforce billing",
+        "Enterprise contracts"
+      ],
+      "payoutMethods": [
+        "Salesforce Partner payout"
+      ],
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/",
+      "guidelinesSummary": "Agents must pass Salesforce security review, comply with trust guidelines, and meet quality standards for enterprise deployment.",
+      "typicalReviewTime": "2-6 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Security vulnerabilities",
+        "Trust guideline violations",
+        "Performance issues",
+        "Inadequate documentation"
+      ],
+      "appealsProcess": "Salesforce Partner support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Spanish",
+        "French",
+        "German",
+        "Japanese",
+        "Portuguese"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": true,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 1,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Salesforce AgentExchange - Enterprise AI Agent Marketplace",
+      "metaDescription": "Discover and deploy AI agents for Salesforce Agentforce. Access 200+ partner solutions with pre-built agents, actions, and templates for enterprise automation.",
+      "keywords": [
+        "Salesforce AI",
+        "Agentforce",
+        "AI agents",
+        "enterprise AI",
+        "AppExchange",
+        "Einstein AI"
+      ]
+    },
+    "ratings": {
+      "commission": 3,
+      "reviewProcess": 2,
+      "stability": 5,
+      "developerSupport": 4,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 2,
+      "technicalFreedom": 3,
+      "analytics": 5
+    },
+    "relatedStores": [
+      "salesforce",
+      "zapier-agents"
+    ],
+    "pros": [
+      "150K+ Salesforce customers as potential market",
+      "Enterprise-grade security and trust",
+      "Einstein Trust Layer for AI safety",
+      "Deep CRM and business data integration",
+      "200+ launch partners with pre-built solutions",
+      "Multi-cloud deployment options"
+    ],
+    "cons": [
+      "Long security review process (2-6 weeks)",
+      "Salesforce platform expertise required",
+      "Enterprise sales cycles",
+      "Complex certification requirements",
+      "15% commission on paid listings"
+    ],
+    "content": "\n## Overview\n\nAgentExchange is Salesforce's dedicated marketplace for AI agents built on the Agentforce platform. Launched as an evolution of AppExchange for the agentic AI era, it provides a trusted hub for enterprises to discover, evaluate, and deploy pre-built AI agent solutions.\n\n## AgentExchange Components\n\n### Actions\nExpand agent capabilities with:\n- Custom integrations (Apex, Flows, APIs)\n- External service connections\n- Data retrieval and manipulation\n- Process automation\n\n### Prompt Templates\nPre-written guides for consistent agent behavior:\n- Response formatting\n- Task-specific instructions\n- Brand voice guidelines\n- Compliance requirements\n\n### Topics\nFocus agent behavior on specific tasks:\n- Scope definition\n- Guardrail configuration\n- Capability boundaries\n- Performance optimization\n\n### Agent Templates\nComplete AI solutions including:\n- Pre-configured topics\n- Bundled actions\n- Ready-to-deploy agents\n- Industry-specific solutions\n\n## Einstein Trust Layer\n\nAll agents operate within Salesforce's Einstein Trust Layer:\n- **Dynamic Grounding**: Real-time data context\n- **Zero Data Retention**: No customer data stored by LLMs\n- **Toxicity Detection**: Content safety filtering\n- **Audit Trails**: Complete action logging\n- **Data Masking**: Sensitive information protection\n\n## Launch Partners\n\n200+ partners including:\n- Technology integrators\n- ISV partners\n- System integrators\n- Consulting firms\n\nOver 1,000 partners trained to build AI agents.\n\n## Agentforce Platform\n\n### Agent Builder\nCreate agents using:\n- Low-code/no-code tools\n- Natural language instructions\n- Pre-built templates\n- Custom development\n\n### Agent Capabilities\n- **Sales Agents**: Lead qualification, opportunity management\n- **Service Agents**: Case resolution, customer support\n- **Marketing Agents**: Campaign optimization, personalization\n- **Commerce Agents**: Product recommendations, order management\n\n### Multi-Cloud Support\nAgents work across:\n- Sales Cloud\n- Service Cloud\n- Marketing Cloud\n- Commerce Cloud\n- Platform\n\n## Security & Compliance\n\nEnterprise-grade requirements:\n- Salesforce security review\n- SOC 2 compliance\n- GDPR compatibility\n- Industry-specific certifications\n- Penetration testing\n\n## Getting Started\n\n1. Join Salesforce Partner Program\n2. Complete Agentforce training\n3. Build and test your agent/component\n4. Submit for security review\n5. Publish to AgentExchange\n6. Market to Salesforce customers\n"
   },
   {
     "id": "salesforce",
@@ -15002,6 +16939,158 @@
       "SketchUp ecosystem only"
     ],
     "content": "\n## Overview\n\nSketchUp Extension Warehouse is the official marketplace for SketchUp's 3D modeling software. With thousands of extensions available, most of which are free, it provides tools for architecture, interior design, construction, and 3D visualization.\n\n## Key Statistics\n\n- **1,000+ extensions** (estimated)\n- Hundreds of free and paid options\n- Community-developed plugins\n- Professional and hobbyist tools\n\n## Third-Party Alternatives\n\n- SketchUcation Plugin Store: 900+ plugins\n- Additional curated collections\n\n## Extension Categories\n\n- Rendering & visualization\n- Architecture tools\n- Interior design\n- Construction\n- Landscape design\n- Utilities & helpers\n- Import/export\n\n## Popular Extensions\n\n- Rendering plugins\n- Parametric design tools\n- Import/export converters\n- Measurement tools\n- Visualization enhancers\n\n## Development\n\nBuild extensions using:\n- Ruby scripting language\n- SketchUp Ruby API\n- C/C++ for advanced extensions\n- Extension Warehouse SDK\n- Developer documentation\n\n"
+  },
+  {
+    "id": "slack-ai-apps",
+    "name": "Slack AI Apps",
+    "slug": "slack-ai-apps",
+    "tagline": "AI-powered apps and agents for Slack",
+    "description": "The Slack AI Apps marketplace features AI-powered integrations that bring intelligent capabilities directly into Slack conversations. From AI assistants by Anthropic and Google to specialized productivity bots, these apps put AI to work in the flow of team communication.",
+    "url": "https://slack.com/marketplace/category/At07HZAKCSAC-ai-apps-assistants",
+    "logo": "/images/stores/slack-ai-apps.svg",
+    "category": "ai-copilots",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "ios",
+      "android"
+    ],
+    "company": {
+      "name": "Salesforce (Slack Technologies)",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2009,
+      "website": "https://slack.com"
+    },
+    "metrics": {
+      "appCount": 400,
+      "appCountSource": "Slack Marketplace (AI category)",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 40000000,
+      "developerCount": 100000
+    },
+    "fees": {
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to list apps",
+          "conditions": "Must meet Slack app guidelines"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://api.slack.com/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "JavaScript",
+        "Python",
+        "Java"
+      ],
+      "sdkDocumentationUrl": "https://api.slack.com/tools",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Enterprise billing"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://api.slack.com/start/distributing",
+      "guidelinesSummary": "Apps must adhere to Slack's app guidelines, zero data retention policies, and zero LLM training requirements for AI apps.",
+      "typicalReviewTime": "1-5 business days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Security vulnerabilities",
+        "Privacy policy issues",
+        "Poor user experience",
+        "Guideline violations"
+      ],
+      "appealsProcess": "Slack developer support",
+      "requiresApproval": true
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Spanish",
+        "French",
+        "German",
+        "Japanese",
+        "Portuguese"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 3,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Slack AI Apps - AI-Powered Slack Integrations",
+      "metaDescription": "Discover AI apps for Slack. Integrate AI assistants from Anthropic, Google, Perplexity, and more directly into your team's Slack workspace.",
+      "keywords": [
+        "Slack AI",
+        "Slack apps",
+        "AI assistant",
+        "team productivity",
+        "Slack bot"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 5,
+      "developerSupport": 4,
+      "discoverability": 4,
+      "competitiveness": 3,
+      "entryBarriers": 3,
+      "technicalFreedom": 4,
+      "analytics": 4
+    },
+    "relatedStores": [
+      "slack",
+      "microsoft-copilot-store"
+    ],
+    "pros": [
+      "Major AI partners (Anthropic, Google, Perplexity) building on platform",
+      "40M+ daily active users",
+      "Deep integration into team workflows",
+      "Strong enterprise security (zero data retention for LLM training)",
+      "Real-time search API and MCP server support",
+      "No commission fees"
+    ],
+    "cons": [
+      "Requires Slack Pro or Enterprise for some features",
+      "Enterprise admin approval often needed",
+      "Competitive space with many established apps"
+    ],
+    "content": "\n## Overview\n\nThe Slack AI Apps marketplace is a dedicated category within the Slack App Directory featuring AI-powered applications. With 13%+ of all Slack apps now being AI-powered, this category has become a key focus area, with major AI companies building native Slack integrations.\n\n## Major AI Partners\n\nLeading AI companies with Slack apps:\n- **Anthropic**: Claude integration for AI assistance\n- **Google**: Gemini-powered features\n- **Perplexity**: AI search and research\n- **Writer**: Custom AI apps and content generation\n- **Dropbox**: AI-powered document intelligence\n- **Notion**: Connected workspace AI\n- **Cognition Labs**: Devin AI developer assistant\n- **Vercel**: AI-powered deployment assistance\n- **Cursor**: AI coding assistant\n\n## Featured AI Apps\n\n### Productivity & Content\n- **Asana**: AI-powered project insights and recommendations\n- **Writer**: On-brand content generation and AI apps\n- **Glean**: Internal knowledge search and AI answers\n\n### Research & Intelligence\n- **Perplexity**: Web search with citable insights\n- **Guru**: AI-powered knowledge management\n\n### Development\n- **Cursor**: AI coding assistance in Slack\n- **Vercel**: Deployment and preview automation\n\n## Platform Capabilities\n\n### Real-Time Search API\nDevelopers can access:\n- Slack conversation data (with permissions)\n- Channel context for AI responses\n- Thread history for continuity\n\n### MCP Server Support\nModel Context Protocol integration allows:\n- Flexible, secure data access\n- Third-party AI model connections\n- Custom tool integrations\n\n## Security & Privacy\n\nSlack enforces strict AI data policies:\n- **Zero Copy**: No customer data copied to third parties\n- **Zero LLM Training**: Customer data never used to train models\n- All apps reviewed against submission guidelines\n\n## Building AI Apps for Slack\n\n### Slack Platform Features\n- Workflow Builder for no-code automation\n- Bolt SDK for custom development\n- Socket Mode for real-time connections\n- Block Kit for rich UI components\n\n### AI-Specific Tools\n- AI app templates and examples\n- Context-aware data access\n- Enterprise-grade authentication\n\n## Use Cases\n\n- **Customer Support**: AI-powered ticket triage and response drafting\n- **Sales**: Lead research and prospect intelligence\n- **Engineering**: Code review assistance and documentation\n- **HR**: Policy questions and onboarding assistance\n- **Marketing**: Content ideation and competitive research\n"
   },
   {
     "id": "slack",
@@ -19000,6 +21089,141 @@
       "Competition from native features"
     ],
     "content": "\n## Overview\n\nXero App Store is the official marketplace for Xero's cloud accounting platform. With 1,000+ integrations and 4.6 million subscribers worldwide, it connects small businesses with essential business tools.\n\n## Key Statistics\n\n- **1,000+ integrations** globally\n- **4.6M subscribers** worldwide\n- **506 apps** in US store\n- **650 apps** in UK store\n- **200,000+ accountants** and bookkeepers\n- **8.05% AI-powered** apps (and growing)\n\n## Regional Stores\n\n- United States (506 apps)\n- United Kingdom (650 apps)\n- Australia\n- New Zealand\n- Canada\n- South Africa\n\n## App Categories\n\n- Invoicing & jobs\n- Inventory\n- Payments\n- Payroll & HR\n- Reporting\n- CRM & sales\n- Ecommerce\n- Time tracking\n\n## Development\n\nBuild apps using:\n- Xero API (OAuth 2.0)\n- Official SDKs (JS, Python, Java, C#, Ruby, PHP)\n- Webhooks\n- Xero HQ for accountants\n"
+  },
+  {
+    "id": "zapier-agents",
+    "name": "Zapier Agents",
+    "slug": "zapier-agents",
+    "tagline": "AI agents that automate work across 8,000+ apps",
+    "description": "Zapier Agents are AI-powered teammates that work autonomously across 8,000+ connected applications. Build specialized AI assistants that can process leads, manage support, conduct research, and execute complex multi-step workflows automatically.",
+    "url": "https://zapier.com/agents",
+    "logo": "/images/stores/zapier-agents.svg",
+    "category": "ai-agents",
+    "platforms": [
+      "web"
+    ],
+    "company": {
+      "name": "Zapier Inc.",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2011,
+      "website": "https://zapier.com"
+    },
+    "metrics": {
+      "appCount": 100,
+      "appCountSource": "Zapier Agent templates",
+      "appCountLastUpdated": "2024-Q4",
+      "monthlyActiveUsers": 2000000,
+      "developerCount": 100000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to create agents",
+          "conditions": "Usage counts against Zapier plan task limits"
+        }
+      ],
+      "hasReducedCommission": false
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://zapier.com/developer/documentation/v2/getting-started/",
+      "hasSdk": false,
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Enterprise billing"
+      ]
+    },
+    "submission": {
+      "guidelinesUrl": "https://zapier.com/developer/documentation/v2/getting-started/",
+      "guidelinesSummary": "Agents are built on Zapier's platform using connected apps. No separate marketplace submission required.",
+      "typicalReviewTime": "Instant (platform-based)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "requiresApproval": false
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "metadata": {
+      "featured": true,
+      "featuredOrder": 2,
+      "verified": true,
+      "lastUpdated": "2025-01-10",
+      "dateAdded": "2025-01-10",
+      "status": "active"
+    },
+    "seo": {
+      "metaTitle": "Zapier Agents - AI-Powered Automation Platform",
+      "metaDescription": "Build AI agents that automate work across 8,000+ apps. Create AI teammates for lead research, customer support, and complex workflow automation.",
+      "keywords": [
+        "Zapier Agents",
+        "AI automation",
+        "workflow automation",
+        "AI assistants",
+        "no-code AI"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 5,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 5,
+      "technicalFreedom": 3,
+      "analytics": 4
+    },
+    "relatedStores": [
+      "zapier",
+      "salesforce-agentexchange"
+    ],
+    "pros": [
+      "8,000+ app integrations available",
+      "No-code agent creation",
+      "Proactive autonomous operation",
+      "Human-in-the-loop options for oversight",
+      "Tool Bundle Sharing for team collaboration",
+      "Draft and published version management"
+    ],
+    "cons": [
+      "Usage counts against Zapier task limits",
+      "Premium plans required for advanced features",
+      "Less customizable than code-based agents",
+      "Dependent on Zapier app ecosystem"
+    ],
+    "content": "\n## Overview\n\nZapier Agents are AI-powered teammates that go beyond traditional chatbots by working autonomously across 8,000+ connected applications. Unlike chat-based agents that only respond when prompted, Zapier Agents proactively monitor for triggers and take action automatically.\n\n## Agent Capabilities\n\n### Autonomous Operation\nAgents can:\n- Monitor triggers across connected apps\n- Make decisions based on context\n- Execute multi-step workflows\n- Operate 24/7 without prompting\n\n### App Ecosystem\nAccess to 8,000+ integrations including:\n- CRM systems (Salesforce, HubSpot)\n- Communication (Slack, Email, SMS)\n- Productivity (Google Workspace, Notion)\n- Marketing (Mailchimp, LinkedIn)\n- Development (GitHub, Jira)\n- And thousands more\n\n## Agent Types\n\n### Lead Research Agent\n- Automatically research new leads\n- Enrich contact information\n- Score and qualify prospects\n- Sync to CRM\n\n### IT Helpdesk Agent\n- Monitor Slack channels for questions\n- Provide timely responses\n- Escalate complex issues\n- Track resolution metrics\n\n### Customer Support Agent\n- Draft replies using knowledge base\n- Handle routine inquiries\n- Route to human agents as needed\n- Update ticket status\n\n### Research Agent\n- Compile information from multiple sources\n- Summarize findings\n- Generate reports\n- Stay current on topics\n\n## 2025 Features\n\n### Version Management\n- Draft and published versions (beta)\n- Rollback to previous working versions\n- Safe testing before deployment\n\n### Tool Bundle Sharing\n- Create tool bundles once\n- Share via link with teammates\n- Each user connects own accounts\n- Credentials stay private\n\n### MCP Support\nModel Context Protocol integration for:\n- Extended capabilities\n- Custom tool connections\n- External service integration\n\n## Creating Agents\n\n### No-Code Builder\n1. Describe what you want the agent to do\n2. Connect relevant apps and data sources\n3. Define triggers and conditions\n4. Set oversight level (autonomous vs. approval-required)\n5. Test and refine\n6. Deploy\n\n### Customization Options\n- Custom instructions and personality\n- Knowledge base connections\n- Approval workflows\n- Human-in-the-loop checkpoints\n\n## Pricing\n\nZapier Agents usage counts against plan task limits:\n- **Free**: Limited tasks included\n- **Starter**: $19.99/month (basic agents)\n- **Professional**: $49/month (advanced features)\n- **Team**: $69/month (collaboration features)\n- **Enterprise**: Custom pricing\n\n## Human Oversight\n\nControl automation levels:\n- **Full Autonomy**: Agent acts independently\n- **Approval Required**: Human approves actions\n- **Suggestion Mode**: Agent recommends, human executes\n- **Custom Rules**: Define specific oversight triggers\n"
   },
   {
     "id": "zapier",

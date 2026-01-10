@@ -41,10 +41,21 @@ export async function generateMetadata({
       "app distribution platforms",
       "developer platforms",
     ],
+    alternates: {
+      canonical: `/stores/platform/${slug}`,
+    },
     openGraph: {
       title,
       description,
       type: "website",
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(`${platform.name} App Stores`)}&description=${encodeURIComponent(description)}`,
+          width: 1200,
+          height: 630,
+          alt: `${platform.name} App Stores`,
+        },
+      ],
     },
   };
 }

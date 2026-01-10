@@ -15,6 +15,32 @@ const popularComparisons = [
   "huawei-appgallery-vs-google-play",
 ];
 
+// Feature pages
+const features = [
+  "api",
+  "sdk",
+  "subscriptions",
+  "in-app-purchases",
+  "beta-testing",
+  "analytics",
+];
+
+// Monetization types
+const monetizationTypes = ["free-to-publish", "low-commission", "no-commission"];
+
+// Rating dimensions (best-of pages)
+const bestOfDimensions = [
+  "commission-rates",
+  "review-process",
+  "stability",
+  "developer-support",
+  "discoverability",
+  "market-reach",
+  "low-barriers",
+  "technical-freedom",
+  "analytics",
+];
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const storeSlugs = await getAllSlugs();
 
@@ -34,6 +60,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${BASE_URL}/compare`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/stores/ai`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
@@ -64,6 +96,47 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  // Category + Platform combination pages
+  const categoryPlatformPages: MetadataRoute.Sitemap = [];
+  for (const category of categories) {
+    for (const platform of platforms) {
+      categoryPlatformPages.push({
+        url: `${BASE_URL}/stores/category/${category.slug}/platform/${platform.id}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.6,
+      });
+    }
+  }
+
+  // Feature pages
+  const featurePages: MetadataRoute.Sitemap = features.map((feature) => ({
+    url: `${BASE_URL}/stores/features/${feature}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
+  // Monetization pages
+  const monetizationPages: MetadataRoute.Sitemap = monetizationTypes.map(
+    (type) => ({
+      url: `${BASE_URL}/stores/monetization/${type}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })
+  );
+
+  // Best-of pages
+  const bestOfPages: MetadataRoute.Sitemap = bestOfDimensions.map(
+    (dimension) => ({
+      url: `${BASE_URL}/stores/best/${dimension}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })
+  );
+
   // Comparison pages
   const comparePages: MetadataRoute.Sitemap = popularComparisons.map((slug) => ({
     url: `${BASE_URL}/compare/${slug}`,
@@ -72,5 +145,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...storePages, ...categoryPages, ...platformPages, ...comparePages];
+  return [
+    ...staticPages,
+    ...storePages,
+    ...categoryPages,
+    ...platformPages,
+    ...categoryPlatformPages,
+    ...featurePages,
+    ...monetizationPages,
+    ...bestOfPages,
+    ...comparePages,
+  ];
 }

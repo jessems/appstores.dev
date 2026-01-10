@@ -1,0 +1,246 @@
+---
+id: "huggingface-spaces"
+name: "Hugging Face Spaces"
+slug: "huggingface-spaces"
+tagline: "The largest directory of AI apps and demos"
+description: "Hugging Face Spaces is the world's largest directory of AI applications with 500,000+ apps spanning text, image, video, audio, and 3D generation. Developers can build, host, and share ML demos using Gradio, Streamlit, or Docker directly on Hugging Face infrastructure."
+url: "https://huggingface.co/spaces"
+logo: "/images/stores/huggingface-spaces.svg"
+category: "ai-developer"
+platforms:
+  - "web"
+company:
+  name: "Hugging Face Inc."
+  headquarters: "New York, USA"
+  foundedYear: 2016
+  website: "https://huggingface.co"
+metrics:
+  appCount: 500000
+  appCountSource: "Hugging Face Spaces directory"
+  appCountLastUpdated: "2024-Q4"
+  monthlyActiveUsers: 15000000
+  developerCount: 500000
+fees:
+  commissionTiers:
+    - percentage: 0
+      description: "Free tier available"
+      conditions: "Basic CPU hosting included free"
+    - percentage: 0
+      description: "Paid compute options"
+      conditions: "GPU upgrades billed directly, no commission"
+  hasReducedCommission: false
+technical:
+  hasApi: true
+  apiDocumentationUrl: "https://huggingface.co/docs/hub/spaces"
+  hasSdk: true
+  sdkPlatforms:
+    - "Python"
+    - "JavaScript"
+  sdkDocumentationUrl: "https://huggingface.co/docs"
+  supportsInAppPurchases: false
+  supportsSubscriptions: true
+  supportsAds: false
+monetization:
+  models:
+    - "free"
+    - "freemium"
+    - "subscription"
+  paymentMethods:
+    - "Credit Card"
+  payoutMethods: []
+submission:
+  guidelinesUrl: "https://huggingface.co/docs/hub/spaces-overview"
+  guidelinesSummary: "Spaces should follow community guidelines, not host harmful content, and properly attribute models and datasets used."
+  typicalReviewTime: "Instant (automated)"
+  hasAutomatedReview: true
+  hasHumanReview: false
+  commonRejectionReasons:
+    - "Community guideline violations"
+    - "Resource abuse"
+    - "Harmful content"
+  requiresApproval: false
+geographic:
+  availableRegions:
+    - "Global"
+  supportedLanguages:
+    - "English"
+    - "Multiple (community-driven)"
+  localizedStores: false
+features:
+  hasEditorialContent: true
+  hasAppBundles: false
+  hasPreRegistration: false
+  hasBetaTesting: false
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: true
+  hasRatings: true
+metadata:
+  featured: true
+  featuredOrder: 2
+  verified: true
+  lastUpdated: "2025-01-10"
+  dateAdded: "2025-01-10"
+  status: "active"
+seo:
+  metaTitle: "Hugging Face Spaces - AI App Directory"
+  metaDescription: "Explore 500,000+ AI apps on Hugging Face Spaces. Build and host ML demos with Gradio, Streamlit, or Docker on free GPU infrastructure."
+  keywords:
+    - "Hugging Face"
+    - "AI apps"
+    - "ML demos"
+    - "Gradio"
+    - "Streamlit"
+    - "AI models"
+ratings:
+  commission: 5
+  reviewProcess: 5
+  stability: 4
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+  - "dify-marketplace"
+  - "claude-mcp-marketplace"
+pros:
+  - "500K+ AI apps - largest directory"
+  - "Free CPU hosting included"
+  - "Built-in Gradio/Streamlit support"
+  - "GPU upgrade options available"
+  - "Direct model hub integration"
+  - "Active community and discovery"
+cons:
+  - "Free tier has resource limits"
+  - "GPU instances can be expensive"
+  - "No built-in monetization for creators"
+  - "Queue times during peak usage"
+---
+
+## Overview
+
+Hugging Face Spaces is the world's largest directory of AI applications, hosting over 500,000 apps that showcase everything from text generation to 3D modeling. It serves as both a hosting platform for ML demos and a discovery engine for exploring AI capabilities.
+
+## Space Types
+
+### Gradio Spaces
+- Python-based ML interface library
+- Easy-to-build interactive UIs
+- Built-in components for common ML tasks
+- Automatic API generation
+
+### Streamlit Spaces
+- Python apps with rich widgets
+- Data visualization focus
+- Rapid prototyping
+- Dashboard-style interfaces
+
+### Docker Spaces
+- Full container flexibility
+- Any programming language
+- Custom dependencies
+- Complex application architectures
+
+### Static Spaces
+- HTML/CSS/JavaScript
+- Simple hosting
+- Fast loading
+- No backend required
+
+## AI App Categories
+
+### Image Generation
+- Text-to-image models
+- Image editing tools
+- Style transfer
+- Upscaling and enhancement
+
+### Text Generation
+- Chatbots and assistants
+- Content creation
+- Translation
+- Summarization
+
+### Audio & Music
+- Text-to-speech
+- Music generation
+- Voice cloning
+- Audio processing
+
+### Video
+- Text-to-video
+- Video editing
+- Frame interpolation
+- Video analysis
+
+### 3D & Vision
+- 3D generation
+- Object detection
+- Segmentation
+- Depth estimation
+
+### Code & Development
+- Code generation
+- Code explanation
+- Debugging assistants
+- Documentation tools
+
+## Compute Options
+
+### Free Tier
+- 2 vCPU
+- 16GB RAM
+- CPU-only execution
+- Basic for demos
+
+### Paid Upgrades
+- **GPU**: A10G, A100, T4, L4
+- **ZeroGPU**: Shared GPU for sporadic use
+- **CPU Upgrade**: More RAM and cores
+- **Persistent Storage**: For stateful apps
+
+## Model Hub Integration
+
+Spaces connect directly to Hugging Face Hub:
+- 400,000+ pre-trained models
+- 100,000+ datasets
+- One-line model loading
+- Automatic caching
+
+## Building a Space
+
+1. Create Space (Gradio, Streamlit, or Docker)
+2. Write your application code
+3. Define requirements.txt
+4. Push to Hugging Face
+5. Space builds and deploys automatically
+
+### Example Gradio Space
+```python
+import gradio as gr
+
+def greet(name):
+    return f"Hello {name}!"
+
+demo = gr.Interface(fn=greet, inputs="text", outputs="text")
+demo.launch()
+```
+
+## Discovery Features
+
+- Trending Spaces
+- Category browsing
+- Community Collections
+- Organization Spaces
+- Search functionality
+- Likes and bookmarks
+
+## Use Cases
+
+- **Research**: Share paper demos
+- **Prototyping**: Test model ideas
+- **Education**: Interactive tutorials
+- **Portfolio**: Showcase ML skills
+- **Business**: Product demos

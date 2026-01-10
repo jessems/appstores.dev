@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="claude-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#CC785C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="22" fill="url(#claude-grad)"/>
+  <path d="M16 20c0-4.4 3.6-8 8-8s8 3.6 8 8v4c0 4.4-3.6 8-8 8s-8-3.6-8-8v-4z" fill="white"/>
+  <circle cx="20" cy="20" r="2" fill="#CC785C"/>
+  <circle cx="28" cy="20" r="2" fill="#CC785C"/>
+  <path d="M20 26c0 0 2 2 4 2s4-2 4-2" stroke="#CC785C" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M12 34l4-4M36 34l-4-4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -41,10 +41,21 @@ export async function generateMetadata({
       "developer platforms",
       "app marketplace",
     ],
+    alternates: {
+      canonical: `/stores/category/${slug}`,
+    },
     openGraph: {
       title,
       description,
       type: "website",
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(category.name)}&description=${encodeURIComponent(category.description)}`,
+          width: 1200,
+          height: 630,
+          alt: category.name,
+        },
+      ],
     },
   };
 }
@@ -147,6 +158,14 @@ function getCategoryContent(categoryId: Category): string {
       "Regional app stores serve specific geographic markets and often dominate in areas where global platforms have limited presence. Examples include stores popular in China, Russia, and other markets with unique distribution requirements.",
     specialty:
       "Specialty app stores focus on specific verticals or use cases, such as education, healthcare, or specific industries. They provide curated experiences and often have specialized review processes tailored to their niche.",
+    "ai-assistants":
+      "AI Assistant stores are marketplaces for custom GPTs, AI bots, and conversational AI characters. Platforms like OpenAI's GPT Store, Google Gemini Gems, and Poe allow creators to build and share specialized AI assistants without coding.",
+    "ai-copilots":
+      "AI Copilot stores offer plugins and extensions for productivity AI assistants. These include Microsoft 365 Copilot plugins, GitHub Copilot extensions, and Slack AI apps that integrate AI capabilities into everyday workflows.",
+    "ai-agents":
+      "AI Agent stores are marketplaces for autonomous AI agents that can execute complex workflows and tasks. Platforms like Salesforce AgentExchange and Zapier Agents enable businesses to deploy AI-powered automation at scale.",
+    "ai-developer":
+      "AI Developer stores cater to developers building AI applications. They include MCP server directories, model hosting platforms like Hugging Face Spaces, and open-source AI workflow tools like Dify.",
   };
 
   return content[categoryId];

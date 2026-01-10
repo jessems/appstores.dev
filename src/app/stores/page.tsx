@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Browse App Stores",
   description:
     "Explore our comprehensive directory of app stores. Filter by category, platform, and more to find the perfect distribution platform for your apps.",
+  alternates: {
+    canonical: "/stores",
+  },
 };
 
 interface StoresPageProps {

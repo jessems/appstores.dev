@@ -65,6 +65,34 @@ export const categories: CategoryInfo[] = [
     description: "Niche or vertical-specific app platforms",
     icon: "sparkles",
   },
+  {
+    id: "ai-assistants",
+    name: "AI Assistant Stores",
+    slug: "ai-assistants",
+    description: "Marketplaces for custom GPTs, AI bots, and conversational AI characters",
+    icon: "bot",
+  },
+  {
+    id: "ai-copilots",
+    name: "AI Copilot Stores",
+    slug: "ai-copilots",
+    description: "Plugin and extension marketplaces for productivity AI copilots",
+    icon: "sparkles",
+  },
+  {
+    id: "ai-agents",
+    name: "AI Agent Stores",
+    slug: "ai-agents",
+    description: "Marketplaces for autonomous AI agents that execute workflows",
+    icon: "workflow",
+  },
+  {
+    id: "ai-developer",
+    name: "AI Developer Stores",
+    slug: "ai-developer",
+    description: "Developer-focused platforms for AI tools, MCP servers, and model hosting",
+    icon: "code",
+  },
 ];
 
 export function getCategoryById(id: Category): CategoryInfo | undefined {

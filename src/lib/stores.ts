@@ -42,6 +42,24 @@ export async function getStoresByCategory(
     .map(storeToCardData);
 }
 
+export async function getAIStores(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  const aiCategories: Category[] = [
+    "ai-assistants",
+    "ai-copilots",
+    "ai-agents",
+    "ai-developer",
+  ];
+
+  return stores
+    .filter((store) => aiCategories.includes(store.category))
+    .sort(
+      (a, b) =>
+        (a.metadata.featuredOrder ?? 99) - (b.metadata.featuredOrder ?? 99)
+    )
+    .map(storeToCardData);
+}
+
 export async function getStoresByPlatform(
   platform: Platform
 ): Promise<StoreCardData[]> {
@@ -242,4 +260,126 @@ export function calculateOverallRating(
   );
   if (values.length === 0) return 0;
   return values.reduce((a, b) => a + b, 0) / values.length;
+}
+
+// SEO Filter Functions
+
+export async function getStoresByCategoryAndPlatform(
+  category: Category,
+  platform: Platform
+): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter(
+      (store) =>
+        store.category === category && store.platforms.includes(platform)
+    )
+    .map(storeToCardData);
+}
+
+export async function getStoresWithApi(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores.filter((store) => store.technical.hasApi).map(storeToCardData);
+}
+
+export async function getStoresWithSdk(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores.filter((store) => store.technical.hasSdk).map(storeToCardData);
+}
+
+export async function getStoresWithSubscriptions(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => store.technical.supportsSubscriptions)
+    .map(storeToCardData);
+}
+
+export async function getStoresWithInAppPurchases(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => store.technical.supportsInAppPurchases)
+    .map(storeToCardData);
+}
+
+export async function getStoresWithBetaTesting(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => store.features.hasBetaTesting)
+    .map(storeToCardData);
+}
+
+export async function getStoresWithAnalytics(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => store.features.hasAnalyticsDashboard)
+    .map(storeToCardData);
+}
+
+export async function getFreeToPublishStores(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter(
+      (store) =>
+        !store.fees.registrationFee || store.fees.registrationFee.amount === 0
+    )
+    .map(storeToCardData);
+}
+
+export async function getLowCommissionStores(
+  maxCommission: number = 15
+): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => {
+      const firstTier = store.fees.commissionTiers[0];
+      return firstTier && firstTier.percentage <= maxCommission;
+    })
+    .map(storeToCardData);
+}
+
+export async function getNoCommissionStores(): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => {
+      const firstTier = store.fees.commissionTiers[0];
+      return firstTier && firstTier.percentage === 0;
+    })
+    .map(storeToCardData);
+}
+
+export async function getStoresByRating(
+  dimension: string,
+  minRating: number = 4
+): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => {
+      const ratings = store.ratings as Record<string, number> | undefined;
+      return (ratings?.[dimension] ?? 0) >= minRating;
+    })
+    .sort((a, b) => {
+      const ratingsA = a.ratings as Record<string, number> | undefined;
+      const ratingsB = b.ratings as Record<string, number> | undefined;
+      return (ratingsB?.[dimension] ?? 0) - (ratingsA?.[dimension] ?? 0);
+    })
+    .map(storeToCardData);
+}
+
+export async function getTopRatedStores(
+  dimension: string,
+  limit: number = 20
+): Promise<StoreCardData[]> {
+  const stores = await getAllStores();
+  return stores
+    .filter((store) => {
+      const ratings = store.ratings as Record<string, number> | undefined;
+      return ratings?.[dimension] !== undefined;
+    })
+    .sort((a, b) => {
+      const ratingsA = a.ratings as Record<string, number> | undefined;
+      const ratingsB = b.ratings as Record<string, number> | undefined;
+      return (ratingsB?.[dimension] ?? 0) - (ratingsA?.[dimension] ?? 0);
+    })
+    .slice(0, limit)
+    .map(storeToCardData);
 }

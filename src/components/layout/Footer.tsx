@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { platforms } from "@/data/platforms";
+import { seoLandingPages } from "@/data/seo-landing-pages";
 
 const footerLinks = {
   browse: [
@@ -84,7 +85,33 @@ export function Footer() {
           </div>
         </div>
 
+        {/* SEO Landing Pages Section */}
         <div className="mt-12 border-t pt-8">
+          <h3 className="text-sm font-semibold mb-6">Explore App Stores</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-10 gap-6">
+            {seoLandingPages.map((category) => (
+              <div key={category.title}>
+                <h4 className="text-xs font-medium text-muted-foreground mb-2">
+                  {category.title}
+                </h4>
+                <ul className="space-y-1">
+                  {category.links.map((link) => (
+                    <li key={`${category.title}-${link.name}`}>
+                      <Link
+                        href={link.href}
+                        className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-8 border-t pt-8">
           <p className="text-center text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} appstores.dev. All rights reserved.
           </p>

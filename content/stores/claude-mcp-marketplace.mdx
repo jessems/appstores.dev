@@ -1,0 +1,232 @@
+---
+id: "claude-mcp-marketplace"
+name: "Claude MCP Marketplace"
+slug: "claude-mcp-marketplace"
+tagline: "Model Context Protocol servers and plugins for Claude"
+description: "The Claude MCP Marketplace is Anthropic's ecosystem for extending Claude's capabilities through Model Context Protocol servers, plugins, and skills. Developers can build and share tools that give Claude access to external services, databases, and APIs."
+url: "https://github.com/anthropics/skills"
+logo: "/images/stores/claude-mcp-marketplace.svg"
+category: "ai-developer"
+platforms:
+  - "web"
+  - "macos"
+  - "windows"
+  - "linux"
+company:
+  name: "Anthropic"
+  headquarters: "San Francisco, California, USA"
+  foundedYear: 2021
+  website: "https://anthropic.com"
+metrics:
+  appCount: 500
+  appCountSource: "MCP registries combined"
+  appCountLastUpdated: "2024-Q4"
+  monthlyActiveUsers: 5000000
+  developerCount: 100000
+fees:
+  commissionTiers:
+    - percentage: 0
+      description: "Free to publish MCP servers and plugins"
+      conditions: "Open-source ecosystem"
+  hasReducedCommission: false
+technical:
+  hasApi: true
+  apiDocumentationUrl: "https://modelcontextprotocol.io/"
+  hasSdk: true
+  sdkPlatforms:
+    - "TypeScript"
+    - "Python"
+  sdkDocumentationUrl: "https://modelcontextprotocol.io/docs"
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
+  supportsAds: false
+monetization:
+  models:
+    - "free"
+  paymentMethods: []
+submission:
+  guidelinesUrl: "https://github.com/anthropics/claude-plugins-official"
+  guidelinesSummary: "MCP servers should follow the Model Context Protocol specification. Trust and verify plugins before installation as they run with elevated permissions."
+  typicalReviewTime: "Community-driven (no formal review)"
+  hasAutomatedReview: false
+  hasHumanReview: false
+  commonRejectionReasons:
+    - "Security concerns"
+    - "Poor implementation"
+    - "Protocol violations"
+  requiresApproval: false
+geographic:
+  availableRegions:
+    - "Global"
+  supportedLanguages:
+    - "English"
+  localizedStores: false
+features:
+  hasEditorialContent: false
+  hasAppBundles: true
+  hasPreRegistration: false
+  hasBetaTesting: false
+  hasAnalyticsDashboard: false
+  hasABTesting: false
+  hasUserReviews: false
+  hasRatings: false
+metadata:
+  featured: true
+  featuredOrder: 1
+  verified: true
+  lastUpdated: "2025-01-10"
+  dateAdded: "2025-01-10"
+  status: "active"
+seo:
+  metaTitle: "Claude MCP Marketplace - Model Context Protocol Plugins"
+  metaDescription: "Extend Claude's capabilities with MCP servers and plugins. Access databases, APIs, and external services through the Model Context Protocol ecosystem."
+  keywords:
+    - "Claude"
+    - "MCP"
+    - "Model Context Protocol"
+    - "AI plugins"
+    - "Anthropic"
+    - "Claude Code"
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 4
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 4
+  entryBarriers: 3
+  technicalFreedom: 5
+  analytics: 2
+relatedStores:
+  - "openai-gpt-store"
+  - "github-copilot-extensions"
+pros:
+  - "Open protocol anyone can implement"
+  - "No commission or fees"
+  - "Full technical control"
+  - "Active developer community"
+  - "Works with Claude.ai and Claude Code"
+  - "Persistent storage and state support"
+cons:
+  - "Decentralized (no single official store)"
+  - "Security trust required for installation"
+  - "Technical knowledge required"
+  - "No monetization options"
+---
+
+## Overview
+
+The Claude MCP Marketplace encompasses the ecosystem of Model Context Protocol servers and plugins that extend Claude's capabilities. MCP is an open protocol introduced by Anthropic that standardizes how LLMs communicate with external tools, databases, and services.
+
+## Model Context Protocol (MCP)
+
+### What is MCP?
+MCP provides a standardized way for AI models to:
+- Access external data sources
+- Execute actions on third-party services
+- Maintain persistent state
+- Interact with local and remote tools
+
+### Protocol Benefits
+- **Standardization**: One protocol for all integrations
+- **Security**: Controlled access to external resources
+- **Flexibility**: Works across different AI platforms
+- **Extensibility**: Easy to add new capabilities
+
+## MCP Server Categories
+
+### Official (Anthropic)
+- File system access
+- Git operations
+- Database connections
+- Web browsing
+
+### Search & Web
+- Web scraping tools
+- Search engine integrations
+- API connectors
+
+### Communication
+- Slack integrations
+- Email access
+- Messaging platforms
+
+### Productivity
+- Calendar access
+- Task management
+- Document handling
+
+### Development
+- Code analysis
+- Testing tools
+- Deployment automation
+
+### Database
+- PostgreSQL, MySQL connections
+- Vector databases
+- Data warehouses
+
+## Claude Artifacts Integration
+
+Artifacts can now connect to MCP:
+- Interactive applications with external service access
+- Read/write to tools like Asana, Google Calendar, Slack
+- Persistent storage across sessions
+- Personal or shared storage options
+
+## MCP Registries & Directories
+
+### Official Registry
+- registry.modelcontextprotocol.io
+- Authoritative metadata repository
+- Currently in preview
+
+### Community Directories
+- **MCP.so**: Largest collection
+- **mcpservers.org**: Curated directory
+- **mcpmarket.com**: Discovery marketplace
+- **Cline MCP Marketplace**: One-click installs
+
+## Claude Code Plugins
+
+Claude Code 2.0.13 introduced plugin marketplace:
+- Package slash commands
+- Bundle specialized agents
+- Include MCP servers
+- Single-command installation
+
+### Official Plugin Repository
+- github.com/anthropics/claude-plugins-official
+- Curated high-quality plugins
+- Anthropic-vetted for trust
+
+## Building MCP Servers
+
+### TypeScript SDK
+```typescript
+import { Server } from "@modelcontextprotocol/sdk/server";
+
+const server = new Server({
+  name: "my-mcp-server",
+  version: "1.0.0"
+});
+
+// Define tools and resources
+```
+
+### Python SDK
+```python
+from mcp import Server
+
+server = Server("my-mcp-server")
+
+# Define tools and resources
+```
+
+## Security Considerations
+
+- Trust plugins before installing
+- MCP servers run with elevated permissions
+- Anthropic does not control third-party servers
+- Review source code when possible
+- Use official/verified sources

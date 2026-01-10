@@ -51,10 +51,21 @@ export async function generateMetadata({
     title: store.seo?.metaTitle || store.name,
     description: store.seo?.metaDescription || store.description,
     keywords: store.seo?.keywords,
+    alternates: {
+      canonical: `/stores/${slug}`,
+    },
     openGraph: {
       title: store.name,
       description: store.tagline,
       type: "website",
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(store.name)}&description=${encodeURIComponent(store.tagline)}`,
+          width: 1200,
+          height: 630,
+          alt: store.name,
+        },
+      ],
     },
   };
 }

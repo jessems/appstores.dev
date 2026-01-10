@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://appstores.dev"),
   title: {
     default: "appstores.dev - The App Store Directory",
     template: "%s | appstores.dev",
@@ -31,6 +32,9 @@ export const metadata: Metadata = {
     "app marketplace",
   ],
   authors: [{ name: "appstores.dev" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -39,12 +43,21 @@ export const metadata: Metadata = {
     title: "appstores.dev - The App Store Directory",
     description:
       "Discover and compare app stores. Find the best platform to publish your apps.",
+    images: [
+      {
+        url: "/api/og?title=appstores.dev&description=The%20App%20Store%20Directory",
+        width: 1200,
+        height: 630,
+        alt: "appstores.dev - The App Store Directory",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "appstores.dev - The App Store Directory",
     description:
       "Discover and compare app stores. Find the best platform to publish your apps.",
+    images: ["/api/og?title=appstores.dev&description=The%20App%20Store%20Directory"],
   },
   robots: {
     index: true,

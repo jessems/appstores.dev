@@ -21,7 +21,11 @@ export type Category =
   | "enterprise"
   | "open-source"
   | "regional"
-  | "specialty";
+  | "specialty"
+  | "ai-assistants"
+  | "ai-copilots"
+  | "ai-agents"
+  | "ai-developer";
 
 export type PricingModel =
   | "free"
