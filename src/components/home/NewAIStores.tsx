@@ -1,9 +1,20 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Sparkles, Bot, Cpu, Code, Workflow } from "lucide-react";
+import { ArrowRight, Sparkles, Bot, Code, Workflow, Megaphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { StoreGrid } from "@/components/store";
-import { StoreCardData, Category } from "@/types/store";
+import { StoreCardData } from "@/types/store";
 
 interface NewAIStoresProps {
   stores: StoreCardData[];
@@ -36,6 +47,8 @@ const categoryInfo: Record<
 };
 
 export function NewAIStores({ stores }: NewAIStoresProps) {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
   if (stores.length === 0) {
     return null;
   }
@@ -46,6 +59,27 @@ export function NewAIStores({ stores }: NewAIStoresProps) {
   );
 
   return (
+    <>
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Get the Top Spot</DialogTitle>
+            <DialogDescription className="pt-4 text-base">
+              Want your AI marketplace featured at the top? Reach out to discuss sponsorship options.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex items-center justify-center py-6">
+            <a
+              href="https://x.com/jessems"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-semibold text-primary hover:underline"
+            >
+              DM @jessems on X
+            </a>
+          </div>
+        </DialogContent>
+      </Dialog>
     <section className="py-16 sm:py-24 bg-gradient-to-b from-purple-50/50 to-transparent dark:from-purple-950/20 dark:to-transparent">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between mb-8">
@@ -96,6 +130,47 @@ export function NewAIStores({ stores }: NewAIStoresProps) {
           })}
         </div>
 
+        {/* Promotional slot */}
+        <Card
+          className="group cursor-pointer transition-all hover:shadow-lg hover:border-primary/50 mb-4 border-dashed border-2 border-purple-300 dark:border-purple-700 bg-gradient-to-r from-purple-50/50 to-pink-50/50 dark:from-purple-950/30 dark:to-pink-950/30"
+          onClick={() => setIsDialogOpen(true)}
+        >
+          <CardContent className="p-4 sm:p-6">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+              {/* Icon and Title */}
+              <div className="flex items-center gap-4 sm:min-w-[240px]">
+                <div className="relative h-14 w-14 flex-shrink-0 overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                  <Megaphone className="h-7 w-7 text-white" />
+                </div>
+                <div className="min-w-0">
+                  <div className="flex items-center gap-1.5">
+                    <h3 className="font-semibold text-lg group-hover:text-primary transition-colors">
+                      Your Store Here
+                    </h3>
+                    <Badge variant="secondary" className="bg-purple-500/10 text-purple-600 dark:text-purple-400 text-xs">
+                      Sponsored
+                    </Badge>
+                  </div>
+                  <p className="text-sm text-muted-foreground">Get featured</p>
+                </div>
+              </div>
+
+              {/* Description */}
+              <p className="text-sm text-muted-foreground line-clamp-2 flex-1 min-w-0">
+                Want to showcase your AI marketplace to thousands of developers? Get the top spot.
+              </p>
+
+              {/* CTA */}
+              <div className="flex items-center gap-4 text-sm sm:flex-shrink-0">
+                <span className="text-primary font-medium group-hover:underline whitespace-nowrap">
+                  Learn more
+                </span>
+                <ArrowRight className="h-4 w-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         <StoreGrid stores={stores.slice(0, 6)} />
 
         {stores.length > 6 && (
@@ -119,5 +194,6 @@ export function NewAIStores({ stores }: NewAIStoresProps) {
         </div>
       </div>
     </section>
+    </>
   );
 }
