@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { Metadata } from "next";
 import { SearchBar, SearchFilters } from "@/components/search";
-import { StoreGrid } from "@/components/store";
+import { StoreGrid, SponsoredSlot } from "@/components/store";
 import { getAllStores, filterStores, sortStores, storeToCardData } from "@/lib/stores";
 import { searchStores } from "@/lib/search";
 import { Category, Platform, StoreSortOption } from "@/types/store";
@@ -119,6 +119,8 @@ export default async function StoresPage({ searchParams }: StoresPageProps) {
           <Suspense fallback={null}>
             <SearchFilters />
           </Suspense>
+
+          <SponsoredSlot />
 
           <Suspense
             fallback={
