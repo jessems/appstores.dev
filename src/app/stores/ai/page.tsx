@@ -5,6 +5,9 @@ import { StoreGrid } from "@/components/store";
 import { getAIStores } from "@/lib/stores";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+// Force static generation for Cloudflare Workers
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "AI App Stores & Marketplaces - App Store Directory",
   description:

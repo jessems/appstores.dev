@@ -7,6 +7,10 @@ import { getStoresByPlatform } from "@/lib/stores";
 import { platforms, getPlatformById } from "@/data/platforms";
 import { Platform } from "@/types/store";
 
+// Force static generation for Cloudflare Workers
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 interface PlatformPageProps {
   params: Promise<{ slug: string }>;
 }

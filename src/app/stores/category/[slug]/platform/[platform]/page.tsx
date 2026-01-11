@@ -8,6 +8,10 @@ import { categories, getCategoryBySlug } from "@/data/categories";
 import { platforms, getPlatformById } from "@/data/platforms";
 import { Category, Platform } from "@/types/store";
 
+// Force static generation for Cloudflare Workers
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 interface CategoryPlatformPageProps {
   params: Promise<{ slug: string; platform: string }>;
 }

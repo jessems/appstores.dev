@@ -52,6 +52,10 @@ const monetizationTypes: MonetizationTypeInfo[] = [
   },
 ];
 
+// Force static generation for Cloudflare Workers
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 interface MonetizationPageProps {
   params: Promise<{ type: string }>;
 }

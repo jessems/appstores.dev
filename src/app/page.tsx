@@ -1,5 +1,8 @@
-import { Hero, FeaturedStores, NewAIStores, CategoryHighlights, PlatformHighlights } from "@/components/home";
+import { Hero, FeaturedStores, PromotedStores, NewAIStores, CategoryHighlights, PlatformHighlights } from "@/components/home";
 import { getFeaturedStores, getAIStores, getStoreCount, getTotalAppCount } from "@/lib/stores";
+
+// Force static generation for Cloudflare Workers
+export const dynamic = "force-static";
 
 function generateOrganizationSchema() {
   return {
