@@ -30,7 +30,6 @@ import { AppStore } from "@/types/store";
 
 // Force static generation for Cloudflare Workers
 export const dynamic = "force-static";
-export const dynamicParams = false;
 
 interface StorePageProps {
   params: Promise<{ slug: string }>;

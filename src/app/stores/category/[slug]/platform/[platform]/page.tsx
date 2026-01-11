@@ -10,7 +10,6 @@ import { Category, Platform } from "@/types/store";
 
 // Force static generation for Cloudflare Workers
 export const dynamic = "force-static";
-export const dynamicParams = false;
 
 interface CategoryPlatformPageProps {
   params: Promise<{ slug: string; platform: string }>;

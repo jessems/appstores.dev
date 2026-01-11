@@ -103,7 +103,6 @@ const dimensionContent: Record<
 
 // Force static generation for Cloudflare Workers
 export const dynamic = "force-static";
-export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return Object.values(dimensionSlugs).map((slug) => ({
