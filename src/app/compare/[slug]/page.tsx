@@ -14,18 +14,42 @@ interface ComparePageProps {
   params: Promise<{ slug: string }>;
 }
 
-// Generate static params for popular comparisons
-const popularComparisons = [
-  "google-play-vs-apple-app-store",
-  "google-play-vs-amazon-appstore",
-  "apple-app-store-vs-samsung-galaxy-store",
-  "steam-vs-epic-games-store",
-  "f-droid-vs-google-play",
-  "huawei-appgallery-vs-google-play",
-];
-
+// Generate static params for all meaningful comparison pairs
 export async function generateStaticParams() {
-  return popularComparisons.map((slug) => ({ slug }));
+  const stores = await getAllStores();
+  const featured = stores.filter((s) => s.metadata.featured);
+  const pairs = new Set<string>();
+
+  // Generate pairs within same category (most meaningful comparisons)
+  const byCategory: Record<string, typeof featured> = {};
+  for (const store of featured) {
+    if (!byCategory[store.category]) byCategory[store.category] = [];
+    byCategory[store.category].push(store);
+  }
+  for (const categoryStores of Object.values(byCategory)) {
+    for (let i = 0; i < categoryStores.length; i++) {
+      for (let j = i + 1; j < categoryStores.length; j++) {
+        pairs.add(`${categoryStores[i].slug}-vs-${categoryStores[j].slug}`);
+      }
+    }
+  }
+
+  // Add high-value cross-category pairs
+  const crossPairs = [
+    "google-play-vs-apple-app-store",
+    "google-play-vs-amazon-appstore",
+    "apple-app-store-vs-samsung-galaxy-store",
+    "steam-vs-epic-games-store",
+    "f-droid-vs-google-play",
+    "huawei-appgallery-vs-google-play",
+    "openai-gpt-store-vs-google-gemini-gems",
+    "openai-gpt-store-vs-claude-mcp-marketplace",
+    "openai-gpt-store-vs-poe-bot-store",
+    "microsoft-store-vs-mac-app-store",
+  ];
+  for (const pair of crossPairs) pairs.add(pair);
+
+  return Array.from(pairs).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -90,7 +114,39 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
     notFound();
   }
 
+  // JSON-LD structured data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `${store1.name} vs ${store2.name} - App Store Comparison`,
+    description: `Compare ${store1.name} and ${store2.name}. Fees, features, review process, and more.`,
+    url: `https://appstores.dev/compare/${slug}`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: 2,
+      itemListElement: [store1, store2].map((store, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "SoftwareApplication",
+          name: store.name,
+          description: store.tagline,
+          url: store.url,
+          applicationCategory: "DeveloperApplication",
+          ...(store.metrics.appCount
+            ? { aggregateRating: { "@type": "AggregateRating", ratingCount: store.metrics.appCount } }
+            : {}),
+        },
+      })),
+    },
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <div className="py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
@@ -239,6 +295,24 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
           </Card>
         </div>
 
+        {/* Pros & Cons */}
+        {(store1.pros?.length || store1.cons?.length || store2.pros?.length || store2.cons?.length) && (
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <ProsConsList store={store1} />
+            <ProsConsList store={store2} />
+          </div>
+        )}
+
+        {/* Which Should You Choose? */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle>Which Should You Choose?</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <RecommendationSection store1={store1} store2={store2} />
+          </CardContent>
+        </Card>
+
         {/* CTAs */}
         <div className="grid md:grid-cols-2 gap-6">
           <Link href={`/stores/${store1.slug}`}>
@@ -254,6 +328,7 @@ export default async function ComparisonPage({ params }: ComparePageProps) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
@@ -359,6 +434,115 @@ function formatFee(store: AppStore): string {
   }
   const fee = store.fees.registrationFee;
   return `${fee.currency}${fee.amount} ${fee.type === "annual" ? "/year" : "one-time"}`;
+}
+
+function ProsConsList({ store }: { store: AppStore }) {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="text-lg">{store.name}</CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        {store.pros && store.pros.length > 0 && (
+          <div>
+            <h4 className="font-medium text-green-700 mb-2">Pros</h4>
+            <ul className="space-y-1">
+              {store.pros.map((pro, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm">
+                  <Check className="h-4 w-4 text-green-600 mt-0.5 shrink-0" />
+                  <span>{pro}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {store.cons && store.cons.length > 0 && (
+          <div>
+            <h4 className="font-medium text-red-700 mb-2">Cons</h4>
+            <ul className="space-y-1">
+              {store.cons.map((con, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm">
+                  <X className="h-4 w-4 text-red-500 mt-0.5 shrink-0" />
+                  <span>{con}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+function RecommendationSection({ store1, store2 }: { store1: AppStore; store2: AppStore }) {
+  const comm1 = store1.fees.commissionTiers[0]?.percentage ?? null;
+  const comm2 = store2.fees.commissionTiers[0]?.percentage ?? null;
+  const fee1 = store1.fees.registrationFee?.amount ?? 0;
+  const fee2 = store2.fees.registrationFee?.amount ?? 0;
+  const apps1 = store1.metrics.appCount ?? 0;
+  const apps2 = store2.metrics.appCount ?? 0;
+
+  const recommendations: { condition: string; store: string }[] = [];
+
+  if (comm1 !== null && comm2 !== null && comm1 !== comm2) {
+    const lower = comm1 < comm2 ? store1 : store2;
+    const lowerComm = Math.min(comm1, comm2);
+    recommendations.push({
+      condition: "If you want the lowest commission rate",
+      store: `${lower.name} (${lowerComm}%)`,
+    });
+  }
+
+  if (fee1 !== fee2) {
+    if (fee1 === 0 && fee2 > 0) {
+      recommendations.push({ condition: "If you want free registration", store: store1.name });
+    } else if (fee2 === 0 && fee1 > 0) {
+      recommendations.push({ condition: "If you want free registration", store: store2.name });
+    }
+  }
+
+  if (apps1 > 0 && apps2 > 0 && apps1 !== apps2) {
+    const larger = apps1 > apps2 ? store1 : store2;
+    recommendations.push({
+      condition: "If you want the largest marketplace",
+      store: `${larger.name} (${formatNumber(Math.max(apps1, apps2))} apps)`,
+    });
+  }
+
+  if (store1.features.hasBetaTesting && !store2.features.hasBetaTesting) {
+    recommendations.push({ condition: "If you need beta testing support", store: store1.name });
+  } else if (store2.features.hasBetaTesting && !store1.features.hasBetaTesting) {
+    recommendations.push({ condition: "If you need beta testing support", store: store2.name });
+  }
+
+  if (store1.technical.hasApi && !store2.technical.hasApi) {
+    recommendations.push({ condition: "If you need API access", store: store1.name });
+  } else if (store2.technical.hasApi && !store1.technical.hasApi) {
+    recommendations.push({ condition: "If you need API access", store: store2.name });
+  }
+
+  if (recommendations.length === 0) {
+    return (
+      <p className="text-muted-foreground">
+        Both stores offer similar features. Your choice may depend on your target audience,
+        specific platform requirements, and existing ecosystem preferences.
+      </p>
+    );
+  }
+
+  return (
+    <div className="space-y-3">
+      {recommendations.map((rec, i) => (
+        <div key={i} className="flex items-start gap-3 text-sm">
+          <ChevronRight className="h-4 w-4 text-primary mt-0.5 shrink-0" />
+          <div>
+            <span className="font-medium">{rec.condition}:</span>{" "}
+            <span className="text-muted-foreground">{rec.store}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 function formatNumber(num?: number): string {
