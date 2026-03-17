@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllSlugs } from "@/lib/stores";
 import { categories } from "@/data/categories";
 import { platforms } from "@/data/platforms";
+import { getAllGlossarySlugs } from "@/data/glossary";
 
 const BASE_URL = "https://appstores.dev";
 
@@ -137,6 +138,41 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   );
 
+  // Alternatives index page
+  const alternativesIndex: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/alternatives`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+  ];
+
+  // Alternatives pages (per store)
+  const alternativesPages: MetadataRoute.Sitemap = storeSlugs.map((slug) => ({
+    url: `${BASE_URL}/alternatives/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
+  // Glossary pages
+  const glossarySlugs = getAllGlossarySlugs();
+  const glossaryIndex: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/glossary`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+  ];
+  const glossaryPages: MetadataRoute.Sitemap = glossarySlugs.map((slug) => ({
+    url: `${BASE_URL}/glossary/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
   // Comparison pages
   const comparePages: MetadataRoute.Sitemap = popularComparisons.map((slug) => ({
     url: `${BASE_URL}/compare/${slug}`,
@@ -154,6 +190,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...featurePages,
     ...monetizationPages,
     ...bestOfPages,
+    ...alternativesIndex,
+    ...alternativesPages,
+    ...glossaryIndex,
+    ...glossaryPages,
     ...comparePages,
   ];
 }
