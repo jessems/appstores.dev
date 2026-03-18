@@ -145,6 +145,48 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // Fee breakdown pages
+  const feePages: MetadataRoute.Sitemap = storeSlugs.map((slug) => ({
+    url: `${BASE_URL}/fees/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // Publishing guide pages
+  const guidePages: MetadataRoute.Sitemap = storeSlugs.map((slug) => ({
+    url: `${BASE_URL}/guides/publish-on-${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // FAQ pages
+  const faqPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/faq`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    ...storeSlugs.map((slug) => ({
+      url: `${BASE_URL}/faq/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
+  // Statistics page
+  const statisticsPage: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/statistics`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+  ];
+
   return [
     ...staticPages,
     ...storePages,
@@ -155,5 +197,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...monetizationPages,
     ...bestOfPages,
     ...comparePages,
+    ...feePages,
+    ...guidePages,
+    ...faqPages,
+    ...statisticsPage,
   ];
 }
