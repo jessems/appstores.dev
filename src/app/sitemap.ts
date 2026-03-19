@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllSlugs } from "@/lib/stores";
 import { categories } from "@/data/categories";
 import { platforms } from "@/data/platforms";
+import { articles } from "@/data/articles";
 
 const BASE_URL = "https://appstores.dev";
 
@@ -145,6 +146,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // Finder page
+  const finderPage: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/finder`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    },
+  ];
+
+  // Resources pages
+  const resourcePages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/resources`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...articles.map((a) => ({
+      url: `${BASE_URL}/resources/${a.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
   return [
     ...staticPages,
     ...storePages,
@@ -155,5 +182,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...monetizationPages,
     ...bestOfPages,
     ...comparePages,
+    ...finderPage,
+    ...resourcePages,
   ];
 }
