@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 const navigation = [
   { name: "All Stores", href: "/stores" },
   { name: "Compare", href: "/compare" },
+  { name: "Finder", href: "/finder" },
 ];
 
 export function Header() {
