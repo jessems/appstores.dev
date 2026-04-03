@@ -1,0 +1,115 @@
+---
+id: snap-store
+name: Snap Store
+slug: snap-store
+tagline: Canonical's universal Linux app store with 7,000+ snaps
+description: The Snap Store is Canonical's app store for Snap packages on Linux. It provides automatic updates, sandboxed applications, and cross-distribution compatibility. With over 7,000 snaps, it's
+  the default software distribution mechanism on Ubuntu.
+url: https://snapcraft.io/store
+logo: /images/stores/snap-store.svg
+category: official
+platforms:
+- linux
+company:
+  name: Canonical Ltd.
+  headquarters: London, United Kingdom
+  foundedYear: 2016
+  website: https://canonical.com
+metrics:
+  appCount: 7000
+  appCountSource: Canonical
+  appCountLastUpdated: 2025-Q1
+fees:
+  registrationFee:
+    amount: 0
+    currency: USD
+    type: one-time
+  commissionTiers:
+  - percentage: 0
+    description: Free to publish
+    conditions: All snaps
+  hasReducedCommission: false
+  reducedCommissionDetails: Completely free. No commission.
+technical:
+  hasApi: true
+  apiDocumentationUrl: https://snapcraft.io/docs/snapcraft-overview
+  hasSdk: true
+  sdkPlatforms:
+  - Linux (Snap)
+  sdkDocumentationUrl: https://snapcraft.io/docs
+  supportsInAppPurchases: false
+  supportsSubscriptions: false
+  supportsAds: false
+monetization:
+  models:
+  - free
+  - open-source
+  paymentMethods: []
+  payoutMethods: []
+  minimumPayout: 0
+  payoutCurrency: USD
+  payoutFrequency: N/A
+submission:
+  guidelinesUrl: https://snapcraft.io/docs/snap-store-rules
+  guidelinesSummary: Register a snap name, build with snapcraft, and push to the store. Automated review for most snaps. Manual review for classic confinement or special permissions.
+  typicalReviewTime: Minutes to hours (automated)
+  hasAutomatedReview: true
+  hasHumanReview: true
+  commonRejectionReasons:
+  - Classic confinement request without justification
+  - Interface permission issues
+  - Naming conflicts
+metadata:
+  status: active
+  lastUpdated: 2025-Q1
+  dataConfidence: high
+geographic:
+  availableRegions:
+  - Global
+  supportedLanguages:
+  - English (primary)
+  localizedStores: false
+features:
+  hasEditorialContent: true
+  hasAppBundles: false
+  hasPreRegistration: false
+  hasBetaTesting: true
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: false
+  hasRatings: false
+seo:
+  metaTitle: Snap Store - Ubuntu & Linux App Distribution
+  metaDescription: Publish Linux apps as snaps on the Snap Store. 7,000+ packages, automatic updates, cross-distro support.
+  keywords:
+  - Snap Store
+  - snapcraft
+  - Ubuntu apps
+  - Linux app store
+  - snap packages
+ratings:
+  commission: 5
+  reviewProcess: 4
+  stability: 4
+  developerSupport: 4
+  discoverability: 3
+  competitiveness: 4
+  entryBarriers: 4
+  technicalFreedom: 4
+  analytics: 3
+relatedStores:
+- flathub
+pros:
+- Default on Ubuntu
+- Automatic delta updates
+- Channel system for release management
+- Free, no commission
+- Snap rollbacks
+cons:
+- Controversial in some Linux communities
+- Proprietary server-side
+- Snap startup can be slower
+- Some distros actively avoid snaps
+---
+
+The Snap Store is Ubuntu's default app distribution system and works across 40+ Linux distributions. It features automatic updates with delta compression, snapshotting for rollbacks, and a channel system (stable/candidate/beta/edge) for release management. Major applications like Firefox, Chromium, and VS Code are distributed as snaps.
