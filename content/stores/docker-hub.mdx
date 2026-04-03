@@ -1,0 +1,118 @@
+---
+id: docker-hub
+name: Docker Hub
+slug: docker-hub
+tagline: The world's largest container image registry with 100K+ images
+description: Docker Hub is the default container image registry for Docker. It hosts over 100,000 official and community container images used by millions of developers worldwide for application deployment,
+  CI/CD pipelines, and development environments.
+url: https://hub.docker.com
+logo: /images/stores/docker-hub.svg
+category: developer
+platforms:
+- linux
+- windows
+- macos
+company:
+  name: Docker, Inc.
+  headquarters: Palo Alto, California, USA
+  foundedYear: 2013
+  website: https://docker.com
+metrics:
+  appCount: 100000
+  appCountSource: Docker (100K+ official and verified images)
+  appCountLastUpdated: 2025-Q1
+fees:
+  registrationFee:
+    amount: 0
+    currency: USD
+    type: one-time
+  commissionTiers:
+  - percentage: 0
+    description: Free to publish public images
+    conditions: Public repositories
+  hasReducedCommission: false
+  reducedCommissionDetails: Free for public repos. Private repos require paid plans ($5-24/mo).
+technical:
+  hasApi: true
+  apiDocumentationUrl: https://docs.docker.com/docker-hub/api/
+  hasSdk: true
+  sdkPlatforms:
+  - Docker CLI
+  - REST API
+  sdkDocumentationUrl: https://docs.docker.com/engine/api/
+  supportsInAppPurchases: false
+  supportsSubscriptions: true
+  supportsAds: false
+monetization:
+  models:
+  - free
+  - subscription
+  paymentMethods:
+  - Credit Card
+  payoutMethods: []
+  minimumPayout: 0
+  payoutCurrency: USD
+  payoutFrequency: N/A
+submission:
+  guidelinesUrl: https://docs.docker.com/docker-hub/
+  guidelinesSummary: Anyone can push images to public repositories. Docker Verified Publisher and Official Image programs have additional requirements and review processes.
+  typicalReviewTime: Instant (self-publish)
+  hasAutomatedReview: true
+  hasHumanReview: false
+  commonRejectionReasons:
+  - Security vulnerabilities in images
+  - Content policy violations
+metadata:
+  status: active
+  lastUpdated: 2025-Q1
+  dataConfidence: high
+geographic:
+  availableRegions:
+  - Global
+  supportedLanguages:
+  - English
+  localizedStores: false
+features:
+  hasEditorialContent: false
+  hasAppBundles: false
+  hasPreRegistration: false
+  hasBetaTesting: false
+  hasAnalyticsDashboard: true
+  hasABTesting: false
+  hasUserReviews: false
+  hasRatings: false
+seo:
+  metaTitle: Docker Hub - Container Image Registry & Distribution
+  metaDescription: Distribute container images on Docker Hub. 100K+ images, automated builds, vulnerability scanning.
+  keywords:
+  - Docker Hub
+  - container registry
+  - Docker images
+  - container distribution
+ratings:
+  commission: 5
+  reviewProcess: 5
+  stability: 4
+  developerSupport: 4
+  discoverability: 4
+  competitiveness: 4
+  entryBarriers: 5
+  technicalFreedom: 5
+  analytics: 3
+relatedStores:
+- npm
+- github-marketplace
+pros:
+- Default registry for Docker
+- Free for public images
+- Automated builds from GitHub/Bitbucket
+- Vulnerability scanning
+- Verified Publisher program
+cons:
+- Rate limiting on free tier (100 pulls/6h)
+- Private repos require paid plans
+- Limited discovery features
+- Image size limits
+---
+
+Docker Hub is the backbone of container distribution. With automatic builds, vulnerability scanning, and integration with every major CI/CD platform, it's where most containerized applications start their journey. The Verified Publisher program ensures trusted images from major software vendors.

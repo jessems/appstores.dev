@@ -5222,6 +5222,148 @@
     "content": "\n## Overview\n\nDiscourse Plugins is the official extension ecosystem for Discourse's modern, open-source forum software. With 100+ official and third-party plugins, it enables community administrators to customize and extend their forums.\n\n## Key Statistics\n\n- **100+ plugins** available\n- Official directory at discourse.org/plugins\n- GitHub all-the-plugins repository\n- Active Meta community\n\n## Plugin Sources\n\n### Official Directory\ndiscourse.org/plugins - curated plugins\n\n### Meta Discourse\nmeta.discourse.org/c/plugin/22 - community directory\n\n### GitHub Repository\ngithub.com/discourse/all-the-plugins - comprehensive list\n\n## Hosting Plans & Plugins\n\n| Plan | Plugin Limit |\n|------|--------------|\n| Professional | 5 plugins (Discourse Team, Pavilion, Communiteq) |\n| Business | Any plugin |\n| Enterprise | Any plugin |\n\n## Plugin Categories\n\n- Moderation & trust\n- Authentication & SSO\n- Integrations (Slack, Discord)\n- Customization\n- SEO & marketing\n- Analytics\n- Gamification\n\n## Development\n\nBuild plugins using:\n- Ruby on Rails\n- Ember.js (frontend)\n- Discourse API\n- Plugin outlet system\n- Theme components\n"
   },
   {
+    "id": "docker-hub",
+    "name": "Docker Hub",
+    "slug": "docker-hub",
+    "tagline": "The world's largest container image registry with 100K+ images",
+    "description": "Docker Hub is the default container image registry for Docker. It hosts over 100,000 official and community container images used by millions of developers worldwide for application deployment, CI/CD pipelines, and development environments.",
+    "url": "https://hub.docker.com",
+    "logo": "/images/stores/docker-hub.svg",
+    "category": "developer",
+    "platforms": [
+      "linux",
+      "windows",
+      "macos"
+    ],
+    "company": {
+      "name": "Docker, Inc.",
+      "headquarters": "Palo Alto, California, USA",
+      "foundedYear": 2013,
+      "website": "https://docker.com"
+    },
+    "metrics": {
+      "appCount": 100000,
+      "appCountSource": "Docker (100K+ official and verified images)",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish public images",
+          "conditions": "Public repositories"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Free for public repos. Private repos require paid plans ($5-24/mo)."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://docs.docker.com/docker-hub/api/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Docker CLI",
+        "REST API"
+      ],
+      "sdkDocumentationUrl": "https://docs.docker.com/engine/api/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card"
+      ],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://docs.docker.com/docker-hub/",
+      "guidelinesSummary": "Anyone can push images to public repositories. Docker Verified Publisher and Official Image programs have additional requirements and review processes.",
+      "typicalReviewTime": "Instant (self-publish)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Security vulnerabilities in images",
+        "Content policy violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "seo": {
+      "metaTitle": "Docker Hub - Container Image Registry & Distribution",
+      "metaDescription": "Distribute container images on Docker Hub. 100K+ images, automated builds, vulnerability scanning.",
+      "keywords": [
+        "Docker Hub",
+        "container registry",
+        "Docker images",
+        "container distribution"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 4,
+      "competitiveness": 4,
+      "entryBarriers": 5,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "npm",
+      "github-marketplace"
+    ],
+    "pros": [
+      "Default registry for Docker",
+      "Free for public images",
+      "Automated builds from GitHub/Bitbucket",
+      "Vulnerability scanning",
+      "Verified Publisher program"
+    ],
+    "cons": [
+      "Rate limiting on free tier (100 pulls/6h)",
+      "Private repos require paid plans",
+      "Limited discovery features",
+      "Image size limits"
+    ],
+    "content": "\nDocker Hub is the backbone of container distribution. With automatic builds, vulnerability scanning, and integration with every major CI/CD platform, it's where most containerized applications start their journey. The Verified Publisher program ensures trusted images from major software vendors.\n"
+  },
+  {
     "id": "docusign",
     "name": "Docusign Integrations",
     "slug": "docusign",
@@ -7004,6 +7146,144 @@
     "content": "\n## Overview\n\nFirefox Add-ons (addons.mozilla.org, or AMO) is Mozilla's official marketplace for Firefox browser extensions, themes, and add-ons. With over 25,000 extensions and no fees or commissions, it's one of the most developer-friendly browser extension platforms.\n\n## Key Statistics\n\n- **25,000+ extensions** available\n- **40% of Firefox users** have at least one add-on installed\n- **1,000+ Android extensions** (launched December 2023, reached 1,000 by May 2024)\n- Usage varies by country: 19% in India, 60% in Russia\n\n## WebExtensions API\n\nFirefox uses the WebExtensions API, which is largely compatible with Chrome:\n- Similar manifest structure\n- Most Chrome extensions can be ported\n- Some Firefox-specific APIs available\n- No Manifest V3 restrictions (more developer freedom)\n\n## Firefox for Android\n\nMozilla launched an open ecosystem for Android extensions in December 2023:\n- Started with 400+ extensions\n- Grew to 1,000+ by May 2024\n- Compatible with Firefox mobile browser\n\n## Review Process\n\nAll add-ons undergo review:\n- Automated scanning for known issues\n- Human review by Mozilla team\n- Code must be readable (no obfuscation)\n- Typically 1-5 days for review\n"
   },
   {
+    "id": "flathub",
+    "name": "Flathub",
+    "slug": "flathub",
+    "tagline": "The Linux app store with 2,500+ sandboxed applications",
+    "description": "Flathub is the primary app store for Linux desktop applications distributed as Flatpaks. It hosts over 2,500 applications with sandboxed installation, automatic updates, and cross-distribution compatibility, making it the closest thing Linux has to a unified app store.",
+    "url": "https://flathub.org",
+    "logo": "/images/stores/flathub.svg",
+    "category": "official",
+    "platforms": [
+      "linux"
+    ],
+    "company": {
+      "name": "Flathub (Community Project)",
+      "headquarters": "Open Source",
+      "foundedYear": 2017,
+      "website": "https://flathub.org"
+    },
+    "metrics": {
+      "appCount": 2500,
+      "appCountSource": "Flathub",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish",
+          "conditions": "All applications"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Completely free and open source. No commission on any transactions. Donation-based payment support planned."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://github.com/flathub/flathub/wiki",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Linux (Flatpak)"
+      ],
+      "sdkDocumentationUrl": "https://docs.flatpak.org/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "open-source",
+        "donation"
+      ],
+      "paymentMethods": [],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://docs.flathub.org/docs/for-app-authors/submission",
+      "guidelinesSummary": "Apps are submitted via GitHub pull request to the Flathub repository. Human review by Flathub maintainers ensures quality and security standards.",
+      "typicalReviewTime": "3-7 days",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Flatpak manifest issues",
+        "Sandboxing permission concerns",
+        "Metadata or branding problems"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "50+ languages"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "seo": {
+      "metaTitle": "Flathub - Linux App Store & Flatpak Distribution",
+      "metaDescription": "Distribute Linux apps on Flathub with Flatpak. 2,500+ sandboxed apps, cross-distro compatibility.",
+      "keywords": [
+        "Flathub",
+        "Flatpak",
+        "Linux apps",
+        "Linux app store"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 4,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "snap-store"
+    ],
+    "pros": [
+      "Completely free and open source",
+      "Cross-distro compatibility",
+      "Sandboxed security",
+      "Growing commercial app support",
+      "No commission"
+    ],
+    "cons": [
+      "Smaller audience than mobile stores",
+      "Flatpak has higher disk usage",
+      "Some apps have limited system integration",
+      "Review can take a week"
+    ],
+    "content": "\nFlathub has emerged as the de facto Linux app store, supported by major distributions including Fedora, Ubuntu, and Linux Mint. Its Flatpak format provides sandboxed, distro-agnostic packaging. With growing support from commercial developers (including Spotify, Slack, Discord), it's bridging the app gap on Linux desktop.\n"
+  },
+  {
     "id": "framer",
     "name": "Framer Marketplace",
     "slug": "framer",
@@ -7447,6 +7727,143 @@
     "content": "\n## Overview\n\nFreshworks Marketplace serves the entire Freshworks product suite including Freshdesk (customer support), Freshservice (IT service management), Freshsales (CRM), and more. With 1,400+ public integrations and 150,000+ active installations, it's a major enterprise marketplace.\n\n## Key Statistics\n\n- **1,400+ public integrations**\n- **150,000+ active installations**\n- **500+ global partners**\n- **Up to 40% partner margins**\n\n## Supported Products\n\n- **Freshdesk**: Customer support software\n- **Freshservice**: IT service management\n- **Freshsales**: Sales CRM\n- **Freshmarketer**: Marketing automation\n- **Freshchat**: Messaging platform\n\n## Partner Program (2024)\n\nFreshworks offers 3 partner tiers:\n- Deal registration benefits\n- AI training resources\n- Up to 40% margins for resellers\n- Access to 1,400+ marketplace integrations\n\n## Integration Categories\n\n- Communication & collaboration\n- Productivity & workflow\n- Analytics & reporting\n- CRM & sales\n- IT & DevOps\n- Finance & billing\n"
   },
   {
+    "id": "garmin-connect-iq",
+    "name": "Garmin Connect IQ",
+    "slug": "garmin-connect-iq",
+    "tagline": "App store for Garmin wearables with 3,000+ watch apps and data fields",
+    "description": "Garmin Connect IQ is the app platform for Garmin wearable devices including smartwatches, cycling computers, and GPS handhelds. Developers can create watch faces, widgets, data fields, and full apps for millions of Garmin device owners.",
+    "url": "https://apps.garmin.com/",
+    "logo": "/images/stores/garmin-connect-iq.svg",
+    "category": "wearable",
+    "platforms": [
+      "wearable"
+    ],
+    "company": {
+      "name": "Garmin Ltd.",
+      "headquarters": "Olathe, Kansas, USA",
+      "foundedYear": 2015,
+      "website": "https://garmin.com"
+    },
+    "metrics": {
+      "appCount": 3000,
+      "appCountSource": "Garmin (estimated)",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish",
+          "conditions": "All apps (no paid app support)"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "All Connect IQ apps are free. No paid app mechanism currently exists."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://developer.garmin.com/connect-iq/overview/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Monkey C"
+      ],
+      "sdkDocumentationUrl": "https://developer.garmin.com/connect-iq/connect-iq-basics/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free"
+      ],
+      "paymentMethods": [],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://developer.garmin.com/connect-iq/submit-app/",
+      "guidelinesSummary": "Apps must pass automated testing and Garmin review. Written in Monkey C language. Must target specific device families.",
+      "typicalReviewTime": "1-2 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Device compatibility issues",
+        "Performance problems",
+        "UI guideline violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "20+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "Garmin Connect IQ - Wearable App Distribution",
+      "metaDescription": "Build and publish apps for Garmin watches and devices. Watch faces, widgets, data fields, and full apps.",
+      "keywords": [
+        "Garmin Connect IQ",
+        "Garmin apps",
+        "watch apps",
+        "wearable apps",
+        "Monkey C"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 3,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 3,
+      "entryBarriers": 3,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "apple-app-store",
+      "google-play"
+    ],
+    "pros": [
+      "No registration fee or commission",
+      "Dedicated fitness/outdoor audience",
+      "Watch face monetization possible (external)",
+      "Growing device ecosystem"
+    ],
+    "cons": [
+      "Niche Monkey C programming language",
+      "All apps must be free",
+      "Small screen = limited app complexity",
+      "Smaller developer community"
+    ],
+    "content": "\nGarmin Connect IQ powers the app ecosystem for Garmin's popular fitness and outdoor wearables. With its own programming language (Monkey C) and a focus on outdoor/fitness use cases, it serves a dedicated niche of athletes, hikers, and fitness enthusiasts.\n"
+  },
+  {
     "id": "github-copilot-extensions",
     "name": "GitHub Copilot Extensions",
     "slug": "github-copilot-extensions",
@@ -7743,6 +8160,156 @@
       "Competitive market for common tools"
     ],
     "content": "\n## Overview\n\nGitHub Marketplace launched in 2017 and eliminated its 25% commission in 2019, making it one of the most developer-friendly marketplaces. It hosts GitHub Apps, Actions, and integrations for the world's largest developer community.\n\n## App Types\n\n### GitHub Apps\n- Full OAuth and webhook integrations\n- Access to GitHub APIs\n- Per-repository or organization-wide installation\n\n### GitHub Actions\n- CI/CD workflow automation\n- Reusable workflow components\n- Marketplace distribution\n\n## Pricing Models\n\n- **Free**: No charge to users\n- **Flat rate**: Fixed monthly/yearly fee\n- **Per-unit**: Price per user or organization seat\n- **Free trial**: Optional 14-day trial period\n\n## Publisher Requirements\n\nPaid plans require verified publisher status:\n- Verified email and identity\n- Valid payment information\n- Compliance with GitHub's policies\n"
+  },
+  {
+    "id": "gog",
+    "name": "GOG.com",
+    "slug": "gog",
+    "tagline": "DRM-free digital gaming store with 6,000+ PC games",
+    "description": "GOG.com (formerly Good Old Games) is a digital distribution platform for DRM-free PC games owned by CD Projekt. Known for its curated catalog of classic and modern games, GOG guarantees that all games work on modern systems and come without digital rights management.",
+    "url": "https://www.gog.com",
+    "logo": "/images/stores/gog.svg",
+    "category": "gaming",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "company": {
+      "name": "CD Projekt S.A.",
+      "headquarters": "Warsaw, Poland",
+      "foundedYear": 2008,
+      "website": "https://www.cdprojekt.com"
+    },
+    "metrics": {
+      "appCount": 6000,
+      "appCountSource": "GOG.com",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 30,
+          "description": "Standard commission",
+          "conditions": "All game sales"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "30% standard commission. GOG has offered promotional terms to select publishers."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://gogapidocs.readthedocs.io/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "sdkDocumentationUrl": "https://devportal.gog.com/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "paid",
+        "free"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "PayPal",
+        "Various local methods"
+      ],
+      "payoutMethods": [
+        "Bank Transfer",
+        "PayPal"
+      ],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://www.gog.com/partner",
+      "guidelinesSummary": "GOG curates its catalog. Publishers apply through the partner program and games must meet quality standards. DRM-free requirement is mandatory.",
+      "typicalReviewTime": "2-4 weeks",
+      "hasAutomatedReview": false,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Does not meet GOG's curation standards",
+        "Cannot be made DRM-free",
+        "Quality issues"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "20+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "GOG.com - DRM-Free Game Distribution",
+      "metaDescription": "Distribute DRM-free games on GOG.com. Learn about the GOG partner program, curated catalog, and PC game distribution.",
+      "keywords": [
+        "GOG",
+        "DRM-free games",
+        "PC games",
+        "Good Old Games",
+        "CD Projekt"
+      ]
+    },
+    "ratings": {
+      "commission": 2,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 3,
+      "entryBarriers": 3,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "steam",
+      "epic-games-store",
+      "itch-io"
+    ],
+    "pros": [
+      "DRM-free guarantee builds consumer trust",
+      "Curated quality catalog",
+      "GOG Galaxy cross-platform launcher",
+      "Strong classic games market"
+    ],
+    "cons": [
+      "Smaller audience than Steam",
+      "30% commission",
+      "Curated = harder to get accepted",
+      "No early access program"
+    ],
+    "content": "\nGOG.com stands out as the premier DRM-free game store. Owned by CD Projekt (The Witcher, Cyberpunk 2077), it offers a curated catalog of over 6,000 games with a focus on quality and consumer rights. GOG Galaxy provides an optional launcher that can also integrate libraries from other stores.\n"
   },
   {
     "id": "google-gemini-gems",
@@ -9672,6 +10239,159 @@
     "content": "\n## Overview\n\nIntuit App Partner Program is the official developer ecosystem for QuickBooks and Intuit Enterprise Suite. With 800+ integrated apps and a new tiered partner program, it powers millions of QuickBooks customer experiences.\n\n## Key Statistics\n\n- **800+ integrated apps**\n- **Thousands of integrated applications**\n- **20+ years** developer program\n- Millions of customer experiences\n\n## New App Partner Program (July 2025)\n\n### Partner Tiers\n- **Builder**: No platform fees (US-based)\n- **Silver**: Enhanced resources\n- **Gold**: Increased support\n- **Platinum**: Premium benefits\n\n### New APIs (2025)\n- Project management\n- Sales tax\n- Payroll\n- And more\n\n## Program Benefits\n\n- Access to APIs at no charge\n- Variable API fees as you grow\n- Flat monthly program fee by tier\n- Enhanced support and resources\n\n## Development\n\nBuild integrations using:\n- QuickBooks Online APIs\n- OAuth 2.0 authentication\n- Intuit Developer Portal\n- New 2025 APIs\n- Partner program resources\n\n"
   },
   {
+    "id": "itch-io",
+    "name": "itch.io",
+    "slug": "itch-io",
+    "tagline": "Open marketplace for indie games with developer-friendly revenue sharing",
+    "description": "itch.io is an open indie game marketplace where developers set their own prices and revenue split. With over 900,000 projects including games, tools, comics, and soundtracks, it's the go-to platform for indie developers, game jam participants, and experimental creators.",
+    "url": "https://itch.io",
+    "logo": "/images/stores/itch-io.svg",
+    "category": "gaming",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "web",
+      "android"
+    ],
+    "company": {
+      "name": "itch corp",
+      "headquarters": "USA",
+      "foundedYear": 2013,
+      "website": "https://itch.io"
+    },
+    "metrics": {
+      "appCount": 900000,
+      "appCountSource": "itch.io",
+      "appCountLastUpdated": "2025-Q1",
+      "developerCount": 500000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Developer chooses revenue split",
+          "conditions": "Developers can set any split from 0% to 100%"
+        }
+      ],
+      "hasReducedCommission": true,
+      "reducedCommissionDetails": "itch.io lets developers choose how much revenue to share. The default suggestion is 10%, but developers can set it to 0%."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://itch.io/docs/api/overview",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "JavaScript",
+        "Unity"
+      ],
+      "sdkDocumentationUrl": "https://itch.io/docs/itch/integrating/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "pay-what-you-want",
+        "donation"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "PayPal"
+      ],
+      "payoutMethods": [
+        "PayPal",
+        "Payoneer"
+      ],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "On demand"
+    },
+    "submission": {
+      "guidelinesUrl": "https://itch.io/docs/creators/quality-guidelines",
+      "guidelinesSummary": "Open publishing — anyone can upload. Basic quality guidelines and content policies apply, but no gatekeeping review process.",
+      "typicalReviewTime": "Instant (self-publish)",
+      "hasAutomatedReview": false,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Content policy violations",
+        "Spam or asset flips"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English (primary)"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "itch.io - Indie Game Distribution Platform",
+      "metaDescription": "Publish games on itch.io with zero barriers. Choose your own revenue split, instant publishing, and game jam support.",
+      "keywords": [
+        "itch.io",
+        "indie games",
+        "game distribution",
+        "game jams",
+        "pay what you want"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 3,
+      "entryBarriers": 5,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "steam",
+      "gog",
+      "epic-games-store"
+    ],
+    "pros": [
+      "Choose your own revenue split (can be 0%)",
+      "Instant publishing, no review gate",
+      "Best platform for game jams",
+      "Pay-what-you-want pricing model",
+      "Web games supported"
+    ],
+    "cons": [
+      "Smaller audience than Steam/Epic",
+      "No built-in DRM",
+      "Limited discovery for new devs",
+      "Less professional image for commercial releases"
+    ],
+    "content": "\nitch.io is beloved by indie developers for its open, creator-first approach. No review process, choose-your-own revenue split, and support for game jams make it the most accessible distribution platform in gaming. It hosts over 900,000 projects from half a million creators.\n"
+  },
+  {
     "id": "jetbrains",
     "name": "JetBrains Marketplace",
     "slug": "jetbrains",
@@ -11147,6 +11867,160 @@
     "content": "\n## Overview\n\nMatomo Marketplace is the official plugin marketplace for Matomo's privacy-focused analytics platform. With 40+ core plugins and 100+ community plugins, it provides an open marketplace similar to Google Play or App Store for analytics extensions.\n\n## Key Statistics\n\n- **100+ plugins** (estimated)\n- **40+ core plugins** maintained by Matomo\n- **18 premium plugins** in Premium Bundle\n- Open, community-driven marketplace\n\n## Premium Bundle\n\nAccess to 18 exceptional plugins at discounted price:\n- Media Analytics\n- Heatmaps\n- Session Recording\n- A/B Testing\n- And more...\n\n## Plugin Categories\n\n- Reporting & analytics\n- Tracking enhancements\n- Integrations\n- Visualization\n- Privacy features\n- Performance\n\n## Open Marketplace\n\n- No pre-approval required\n- Community-driven\n- Free and premium plugins\n- Developer freedom\n\n## Development\n\nBuild plugins using:\n- PHP programming\n- Matomo Plugin API\n- JavaScript widgets\n- Developer documentation\n- Distribution guide\n\n"
   },
   {
+    "id": "meta-quest-store",
+    "name": "Meta Quest Store",
+    "slug": "meta-quest-store",
+    "tagline": "The official VR/MR app store for Meta Quest headsets",
+    "description": "The Meta Quest Store is Meta's official marketplace for virtual reality and mixed reality applications on Meta Quest headsets. It features thousands of VR games, experiences, fitness apps, and productivity tools for the Quest 2, Quest 3, and Quest Pro.",
+    "url": "https://www.meta.com/experiences/",
+    "logo": "/images/stores/meta-quest-store.svg",
+    "category": "official",
+    "platforms": [
+      "vr"
+    ],
+    "company": {
+      "name": "Meta Platforms, Inc.",
+      "headquarters": "Menlo Park, California, USA",
+      "foundedYear": 2019,
+      "website": "https://meta.com"
+    },
+    "metrics": {
+      "appCount": 2000,
+      "appCountSource": "Meta (estimated)",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 30,
+          "description": "Standard commission",
+          "conditions": "All app sales and in-app purchases"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Standard 30% commission on all transactions."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://developer.oculus.com/documentation/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Unity",
+        "Unreal Engine",
+        "Native (C/C++)"
+      ],
+      "sdkDocumentationUrl": "https://developer.oculus.com/documentation/unity/",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "PayPal"
+      ],
+      "payoutMethods": [
+        "Bank Transfer",
+        "PayPal"
+      ],
+      "minimumPayout": 100,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://developer.oculus.com/resources/publish-quest-req/",
+      "guidelinesSummary": "Apps must meet Meta's VR quality standards including performance, comfort, and content policies. A concept review is required before full submission.",
+      "typicalReviewTime": "2-4 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Performance not meeting VR quality standards",
+        "Comfort and safety issues",
+        "Content policy violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English",
+        "French",
+        "German",
+        "Spanish",
+        "Japanese",
+        "Korean",
+        "Chinese"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "Meta Quest Store - VR & MR App Distribution",
+      "metaDescription": "Publish VR and mixed reality apps for Meta Quest headsets. Learn about submission, review process, and distribution.",
+      "keywords": [
+        "Meta Quest Store",
+        "VR apps",
+        "Oculus Store",
+        "virtual reality",
+        "Quest 3"
+      ]
+    },
+    "ratings": {
+      "commission": 2,
+      "reviewProcess": 3,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 3,
+      "entryBarriers": 2,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "steam",
+      "playstation-store"
+    ],
+    "pros": [
+      "Growing VR/MR market",
+      "Strong developer tools (Unity/Unreal)",
+      "App Lab for experimental titles",
+      "No registration fee"
+    ],
+    "cons": [
+      "Small market compared to mobile",
+      "Strict quality bar for main store",
+      "Long review times",
+      "30% commission"
+    ],
+    "content": "\nThe Meta Quest Store is the gateway to VR content on Meta's Quest headsets. With curated curation and App Lab for experimental titles, it covers gaming, fitness, social, productivity, and entertainment categories. The platform has grown significantly with Quest 3's launch and mixed reality capabilities.\n"
+  },
+  {
     "id": "microsoft-copilot-store",
     "name": "Microsoft 365 Copilot Store",
     "slug": "microsoft-copilot-store",
@@ -12483,6 +13357,152 @@
     "content": "\n## Overview\n\nNING Apps is the official app platform for NING social network builder. With 20+ add-on applications for community features, it extends NING networks with blogs, forums, photos, videos, and integrations for 2+ million hosted networks.\n\n## Key Statistics\n\n- **20+ add-on apps** (estimated)\n- **2+ million networks** hosted since 2004\n- **21,000 active customers**\n- **44+ million users** served\n\n## Core Apps (All Plans)\n\n- Drag-and-drop builder\n- Photo plugins\n- Video plugins\n- Blogs\n- Forums\n- Traffic analytics\n- Custom domain\n\n## Plan Tiers\n\n| Plan | Add-on Apps | RSS Feeds |\n|------|-------------|-----------|\n| Mini | 2 | 1 |\n| Standard | More | More |\n| Premium | Full | Unlimited |\n\n## Popular Integrations\n\nThird-party connections:\n- Twitter\n- Buffer\n- Airtable\n- Feedly\n- Discord\n- OneSignal\n\n## Integration Categories\n\n- Social networks\n- Team chat\n- Spreadsheets\n- Automation\n- Notifications\n\n## Features\n\n- Community website builder\n- Social network creation\n- Member management\n- Content publishing\n- Analytics dashboard\n\n"
   },
   {
+    "id": "nintendo-eshop",
+    "name": "Nintendo eShop",
+    "slug": "nintendo-eshop",
+    "tagline": "Nintendo's official digital store for Switch games and content",
+    "description": "The Nintendo eShop is Nintendo's digital storefront for purchasing and downloading games, DLC, and demos for the Nintendo Switch family of systems. It features both first-party Nintendo titles and a vast indie game library.",
+    "url": "https://www.nintendo.com/store/",
+    "logo": "/images/stores/nintendo-eshop.svg",
+    "category": "official",
+    "platforms": [
+      "switch"
+    ],
+    "company": {
+      "name": "Nintendo Co., Ltd.",
+      "headquarters": "Kyoto, Japan",
+      "foundedYear": 2011,
+      "website": "https://nintendo.com"
+    },
+    "metrics": {
+      "appCount": 14000,
+      "appCountSource": "Nintendo (estimated Switch titles)",
+      "appCountLastUpdated": "2025-Q1",
+      "monthlyActiveUsers": 130000000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 30,
+          "description": "Standard commission",
+          "conditions": "All digital sales"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Standard 30% commission on all digital sales."
+    },
+    "technical": {
+      "hasApi": false,
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Nintendo Switch"
+      ],
+      "sdkDocumentationUrl": "https://developer.nintendo.com/",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "freemium"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "PayPal",
+        "Nintendo eShop Cards",
+        "Nintendo Switch Online"
+      ],
+      "payoutMethods": [
+        "Bank Transfer"
+      ],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://developer.nintendo.com/",
+      "guidelinesSummary": "Developers must be accepted into the Nintendo Developer Portal. Games undergo both automated testing and human review for quality and content standards.",
+      "typicalReviewTime": "2-4 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Quality standards not met",
+        "Technical issues (crashes, performance)",
+        "Content policy violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (major markets)"
+      ],
+      "supportedLanguages": [
+        "10+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": true,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "seo": {
+      "metaTitle": "Nintendo eShop - Switch Game Distribution",
+      "metaDescription": "Publish games on the Nintendo eShop for Nintendo Switch. Developer program info, submission guidelines, and market data.",
+      "keywords": [
+        "Nintendo eShop",
+        "Switch games",
+        "Nintendo Switch",
+        "indie games Nintendo"
+      ]
+    },
+    "ratings": {
+      "commission": 2,
+      "reviewProcess": 3,
+      "stability": 5,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 2,
+      "technicalFreedom": 3,
+      "analytics": 2
+    },
+    "relatedStores": [
+      "playstation-store",
+      "microsoft-store",
+      "steam"
+    ],
+    "pros": [
+      "130M+ active accounts",
+      "Strong indie game ecosystem",
+      "Nintendo's brand drives traffic",
+      "Switch 2 on the horizon"
+    ],
+    "cons": [
+      "Invite-only developer program",
+      "30% commission",
+      "Limited discovery features",
+      "No user reviews on store"
+    ],
+    "content": "\nThe Nintendo eShop serves the massive Switch install base with over 14,000 titles. It's become a major platform for indie developers alongside Nintendo's first-party lineup. With the Switch 2 announced, the digital storefront is expected to evolve further.\n"
+  },
+  {
     "id": "notion-ai-templates",
     "name": "Notion AI Templates",
     "slug": "notion-ai-templates",
@@ -12639,6 +13659,151 @@
       "Limited to Notion ecosystem"
     ],
     "content": "\n## Overview\n\nThe Notion Template Marketplace hosts 30,000+ templates, with a growing category of AI-powered templates that leverage Notion AI. Creators can build, share, and sell templates that incorporate AI capabilities for content creation, analysis, and productivity enhancement.\n\n## AI Template Categories\n\n### AI Writing Tools\n- Automated drafting assistance\n- Tone adjustment capabilities\n- Translation integrations\n- Content summarization\n\n### AI Prompts\n- Curated prompt libraries\n- Workflow-specific prompt collections\n- Creative and professional prompts\n- Prompt engineering guides\n\n### AI-Powered Tools\n- Data analysis templates\n- Research organization\n- Meeting note automation\n- Project planning with AI\n\n## Notion AI Features\n\nNotion AI is integrated throughout the workspace:\n- **Write**: Draft, brainstorm, and expand content\n- **Edit**: Improve, translate, and adjust tone\n- **Summarize**: Condense documents and notes\n- **Extract**: Pull key information from content\n- **Explain**: Clarify complex topics\n\n## Top Free AI Templates\n\nPopular free AI templates include:\n- AI content calendars\n- Meeting note templates with AI summaries\n- Research databases with AI organization\n- Project trackers with AI insights\n\n## Selling Templates\n\n### Requirements\n1. Create Notion creator profile at notion.so/profile\n2. Join waitlist for marketplace selling\n3. Get approved by Notion team\n4. Onboard with Stripe for payments\n\n### Pricing\n- Creators set their own prices\n- Notion takes 20% commission\n- Stripe handles payment processing\n- Direct deposits to creator accounts\n\n### Best Practices\n- Provide comprehensive documentation\n- Include setup instructions\n- Offer customization guidance\n- Create video walkthroughs\n- Respond to buyer questions\n\n## Template Collections\n\nNotion curates AI templates into collections:\n- \"Top 10 Free AI Templates\"\n- \"Templates to Supercharge Workflows with Notion AI\"\n- \"AI-Powered Tools\"\n- \"AI Prompts\"\n\n## Integration Capabilities\n\nAI templates can leverage:\n- Notion AI blocks and commands\n- Database automations\n- API connections\n- Third-party integrations\n- Synced databases\n"
+  },
+  {
+    "id": "npm",
+    "name": "npm Registry",
+    "slug": "npm",
+    "tagline": "The world's largest software registry with 2.5M+ JavaScript packages",
+    "description": "npm (Node Package Manager) is the default package registry for JavaScript and Node.js. With over 2.5 million packages and 30 billion monthly downloads, it's the largest software registry in the world, powering virtually every JavaScript project.",
+    "url": "https://www.npmjs.com",
+    "logo": "/images/stores/npm.svg",
+    "category": "developer",
+    "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "company": {
+      "name": "GitHub, Inc. (Microsoft)",
+      "headquarters": "San Francisco, California, USA",
+      "foundedYear": 2010,
+      "website": "https://github.com"
+    },
+    "metrics": {
+      "appCount": 2500000,
+      "appCountSource": "npm Inc.",
+      "appCountLastUpdated": "2025-Q1",
+      "developerCount": 17000000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish",
+          "conditions": "All public packages"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Free for public packages. Private packages require npm Pro ($7/mo) or npm Teams ($7/user/mo)."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js"
+      ],
+      "sdkDocumentationUrl": "https://docs.npmjs.com/",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "open-source"
+      ],
+      "paymentMethods": [],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://docs.npmjs.com/policies/open-source-terms",
+      "guidelinesSummary": "Open publishing — any registered user can publish. Packages must follow npm's terms of service. Automated malware scanning is applied.",
+      "typicalReviewTime": "Instant (self-publish)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Malware or supply chain attacks",
+        "Name squatting",
+        "Terms of service violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "seo": {
+      "metaTitle": "npm Registry - JavaScript Package Distribution",
+      "metaDescription": "Publish JavaScript and Node.js packages on npm. 2.5M+ packages, 30B+ monthly downloads, the world's largest software registry.",
+      "keywords": [
+        "npm",
+        "Node.js packages",
+        "JavaScript packages",
+        "npm registry",
+        "package manager"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 5,
+      "technicalFreedom": 5,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "docker-hub",
+      "github-marketplace"
+    ],
+    "pros": [
+      "Largest software registry in the world",
+      "Free for public packages",
+      "Instant publishing",
+      "30B+ monthly downloads",
+      "Integrated with every JS toolchain"
+    ],
+    "cons": [
+      "Supply chain security concerns",
+      "Name squatting issues",
+      "No built-in monetization",
+      "Private packages require paid plan"
+    ],
+    "content": "\nnpm is the foundation of the JavaScript ecosystem. Every major web framework (React, Vue, Angular, Next.js) and millions of libraries are distributed through npm. Acquired by GitHub (Microsoft) in 2020, it handles over 30 billion downloads per month, making it the busiest package registry in existence.\n"
   },
   {
     "id": "okta",
@@ -13939,6 +15104,159 @@
     "content": "\n## Overview\n\nPlanview AdaptiveWork Apps Marketplace (formerly Clarizen) is the official integration platform for Planview AdaptiveWork enterprise project management. With 30+ apps and integrations including Salesforce, JIRA, Box, and Google, it extends project visibility for enterprise teams worldwide.\n\n## Key Statistics\n\n- **30+ integrations** (estimated)\n- Enterprise project management platform\n- REST and SOAP API support\n- MuleSoft connector available\n\n## History\n\n- Founded as Clarizen in 2006\n- Acquired by Planview\n- Rebranded to Planview AdaptiveWork\n\n## Key Integrations\n\n- **Salesforce** - CRM integration\n- **JIRA** - ALM/development\n- **Box** - File storage\n- **Google** - Workspace integration\n- **Microsoft Teams** - Collaboration\n- **SharePoint** - Document management\n- **ServiceNow** - IT service management\n- **Slack** - Team messaging\n\n## Integration Features\n\n### Microsoft Teams App\nComprehensive productivity interface for collaboration within the Microsoft Teams ecosystem.\n\n### Slack Bot\nStay up-to-date with projects without leaving Slack.\n\n### SharePoint Connector\nNative connector eliminates \"SharePoint sprawl\" by bringing project visibility to documents.\n\n## API Capabilities\n\n- REST API for modern integrations\n- SOAP API for legacy systems\n- MuleSoft connector for enterprise integration\n- Robust email engine for automation\n\n## Development\n\nBuild integrations using:\n- REST API\n- SOAP API\n- MuleSoft connector\n- Partner program\n- Developer documentation\n\n"
   },
   {
+    "id": "playstation-store",
+    "name": "PlayStation Store",
+    "slug": "playstation-store",
+    "tagline": "Sony's official digital storefront for PlayStation games and content",
+    "description": "The PlayStation Store is Sony Interactive Entertainment's digital distribution platform for games, add-ons, and media content on PlayStation consoles. It serves PS5 and PS4 users with thousands of games, DLC, themes, and entertainment apps.",
+    "url": "https://store.playstation.com/",
+    "logo": "/images/stores/playstation-store.svg",
+    "category": "official",
+    "platforms": [
+      "ps5",
+      "ps4",
+      "web"
+    ],
+    "company": {
+      "name": "Sony Interactive Entertainment",
+      "headquarters": "San Mateo, California, USA",
+      "foundedYear": 2006,
+      "website": "https://www.playstation.com"
+    },
+    "metrics": {
+      "appCount": 5000,
+      "appCountSource": "Sony (estimated active titles)",
+      "appCountLastUpdated": "2025-Q1",
+      "monthlyActiveUsers": 118000000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 30,
+          "description": "Standard commission",
+          "conditions": "All digital game sales and in-game purchases"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Standard 30% commission. Sony has offered promotional terms to select publishers."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://partners.playstation.net/",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "PlayStation 5",
+        "PlayStation 4"
+      ],
+      "sdkDocumentationUrl": "https://partners.playstation.net/",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "freemium",
+        "subscription"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "Debit Card",
+        "PayPal",
+        "PlayStation Store Gift Cards",
+        "PlayStation Plus"
+      ],
+      "payoutMethods": [
+        "Bank Transfer"
+      ],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://partners.playstation.net/",
+      "guidelinesSummary": "Games must pass Sony's technical requirements certification (TRC) and content review. Access requires a registered PlayStation Partners account.",
+      "typicalReviewTime": "2-6 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Technical requirements check failures",
+        "Performance issues",
+        "Content policy violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global (major markets)"
+      ],
+      "supportedLanguages": [
+        "30+ languages"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": true,
+      "hasPreRegistration": true,
+      "hasBetaTesting": false,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "PlayStation Store - PS5 & PS4 Game Distribution",
+      "metaDescription": "Distribute games on PlayStation Store for PS5 and PS4. Learn about Sony's developer program, certification, and revenue share.",
+      "keywords": [
+        "PlayStation Store",
+        "PS5 games",
+        "PS4 games",
+        "Sony games",
+        "console games"
+      ]
+    },
+    "ratings": {
+      "commission": 2,
+      "reviewProcess": 3,
+      "stability": 5,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 2,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "nintendo-eshop",
+      "microsoft-store",
+      "steam"
+    ],
+    "pros": [
+      "118M+ monthly active users",
+      "Premium gaming audience",
+      "Strong brand recognition",
+      "PlayStation Plus drives discovery"
+    ],
+    "cons": [
+      "Closed developer program",
+      "Long certification process",
+      "30% commission",
+      "High development costs for AAA"
+    ],
+    "content": "\nThe PlayStation Store is Sony's primary digital distribution channel, serving over 118 million monthly active users across PS5 and PS4. It offers games, DLC, movies, TV shows, and PlayStation Plus subscriptions. With the PS5 generation, digital sales have increasingly outpaced physical media.\n"
+  },
+  {
     "id": "poe-bot-store",
     "name": "Poe Bot Store",
     "slug": "poe-bot-store",
@@ -15142,6 +16460,164 @@
       "Competition from native features"
     ],
     "content": "\n## Overview\n\nRingCentral App Gallery is the official marketplace for RingCentral's cloud communications platform. With 500+ apps from 289 vendors, it enables businesses to integrate voice, video, messaging, and AI features.\n\n## Key Statistics\n\n- **500+ apps** available\n- **289 vendor partners**\n- **500+ API endpoints**\n- Growing AI-powered app ecosystem\n- Pre-built CRM integrations\n\n## Popular Integrations\n\n- Salesforce\n- HubSpot\n- Zendesk\n- Microsoft 365\n- Google Workspace\n- Slack\n- ServiceNow\n\n## App Categories\n\n- CRM & Sales\n- Customer Service\n- Productivity\n- Analytics\n- Automation\n- AI & Bots\n- Industry-specific\n\n## API Capabilities\n\n- Voice and telephony\n- Video meetings\n- Team messaging\n- SMS/MMS\n- Fax\n- Analytics\n- AI-powered features\n\n## Development\n\nBuild apps using:\n- RingCentral Developer Portal\n- REST APIs (500+ endpoints)\n- WebRTC SDK\n- Embeddable widgets\n- Webhooks\n"
+  },
+  {
+    "id": "roku-channel-store",
+    "name": "Roku Channel Store",
+    "slug": "roku-channel-store",
+    "tagline": "Streaming channel marketplace for 80M+ active Roku accounts",
+    "description": "The Roku Channel Store is the app marketplace for Roku streaming devices and Roku-powered smart TVs. With over 10,000 channels serving 80+ million active accounts, it's a major platform for streaming services, entertainment apps, and casual games.",
+    "url": "https://channelstore.roku.com/",
+    "logo": "/images/stores/roku-channel-store.svg",
+    "category": "official",
+    "platforms": [
+      "tv"
+    ],
+    "company": {
+      "name": "Roku, Inc.",
+      "headquarters": "San Jose, California, USA",
+      "foundedYear": 2008,
+      "website": "https://roku.com"
+    },
+    "metrics": {
+      "appCount": 10000,
+      "appCountSource": "Roku (10,000+ channels)",
+      "appCountLastUpdated": "2025-Q1",
+      "monthlyActiveUsers": 80000000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 20,
+          "description": "Ad revenue share",
+          "conditions": "Roku takes 30% of ad inventory on ad-supported channels"
+        },
+        {
+          "percentage": 20,
+          "description": "Subscription revenue share",
+          "conditions": "For channels using Roku Pay billing"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Roku's revenue share model is unique — they typically negotiate ad inventory splits rather than straight commission."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://developer.roku.com/docs/developer-program/getting-started/roku-dev-prog.md",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "BrightScript",
+        "SceneGraph"
+      ],
+      "sdkDocumentationUrl": "https://developer.roku.com/docs/references/brightscript/language/brightscript-language-reference.md",
+      "supportsInAppPurchases": true,
+      "supportsSubscriptions": true,
+      "supportsAds": true,
+      "supportedAdNetworks": [
+        "Roku Advertising Framework"
+      ]
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "paid",
+        "subscription",
+        "ad-supported"
+      ],
+      "paymentMethods": [
+        "Credit Card",
+        "PayPal",
+        "Roku Pay"
+      ],
+      "payoutMethods": [
+        "Bank Transfer"
+      ],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "Monthly"
+    },
+    "submission": {
+      "guidelinesUrl": "https://developer.roku.com/docs/developer-program/certification/certification.md",
+      "guidelinesSummary": "Channels must pass Roku's certification process including performance, design, and content standards. Both automated and human review.",
+      "typicalReviewTime": "1-3 weeks",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Certification test failures",
+        "Performance issues",
+        "Design guideline violations"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "medium"
+    },
+    "geographic": {
+      "availableRegions": [
+        "US, Canada, UK, and select markets"
+      ],
+      "supportedLanguages": [
+        "English",
+        "Spanish",
+        "French",
+        "Portuguese"
+      ],
+      "localizedStores": true
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "Roku Channel Store - Streaming App Distribution",
+      "metaDescription": "Publish streaming channels on Roku for 80M+ active accounts. BrightScript development, ad-supported monetization.",
+      "keywords": [
+        "Roku Channel Store",
+        "Roku apps",
+        "streaming apps",
+        "Roku developer",
+        "BrightScript"
+      ]
+    },
+    "ratings": {
+      "commission": 3,
+      "reviewProcess": 3,
+      "stability": 4,
+      "developerSupport": 3,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 3,
+      "technicalFreedom": 3,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "amazon-appstore"
+    ],
+    "pros": [
+      "#1 streaming platform in US by hours",
+      "80M+ active accounts",
+      "Ad-supported monetization",
+      "Free developer program"
+    ],
+    "cons": [
+      "BrightScript is niche",
+      "Certification can be slow",
+      "US-centric market",
+      "Ad inventory revenue split with Roku"
+    ],
+    "content": "\nThe Roku Channel Store is the #1 streaming platform in the US by hours streamed. With a unique BrightScript programming language and SceneGraph framework, channels range from major services (Netflix, Disney+, YouTube) to niche content and casual games. Roku's ad-supported model has made it increasingly attractive for free content distribution.\n"
   },
   {
     "id": "sdl",
@@ -17247,6 +18723,144 @@
       "Must provide responsive support (2 business day SLA)"
     ],
     "content": "\n## Overview\n\nSlack App Directory launched in 2015 and has grown to over 2,600 apps serving millions of users. Since Salesforce's acquisition of Slack in 2021, the platform has continued to expand its developer ecosystem.\n\n## Developer Requirements\n\n### Support Requirements\n- Clear contact method for support\n- No additional signup required for support\n- Respond within 2 business days\n- Maintain up-to-date documentation\n\n### App Guidelines\nEffective December 10, 2024:\n- Security best practices\n- User privacy compliance\n- Minimal permission scopes\n- Clear value proposition\n\n## Monetization\n\nDevelopers handle all billing:\n- Choose your own payment processor\n- Set your own pricing models\n- Keep 100% of revenue\n- No Slack-managed checkout\n"
+  },
+  {
+    "id": "snap-store",
+    "name": "Snap Store",
+    "slug": "snap-store",
+    "tagline": "Canonical's universal Linux app store with 7,000+ snaps",
+    "description": "The Snap Store is Canonical's app store for Snap packages on Linux. It provides automatic updates, sandboxed applications, and cross-distribution compatibility. With over 7,000 snaps, it's the default software distribution mechanism on Ubuntu.",
+    "url": "https://snapcraft.io/store",
+    "logo": "/images/stores/snap-store.svg",
+    "category": "official",
+    "platforms": [
+      "linux"
+    ],
+    "company": {
+      "name": "Canonical Ltd.",
+      "headquarters": "London, United Kingdom",
+      "foundedYear": 2016,
+      "website": "https://canonical.com"
+    },
+    "metrics": {
+      "appCount": 7000,
+      "appCountSource": "Canonical",
+      "appCountLastUpdated": "2025-Q1"
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish",
+          "conditions": "All snaps"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "Completely free. No commission."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://snapcraft.io/docs/snapcraft-overview",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "Linux (Snap)"
+      ],
+      "sdkDocumentationUrl": "https://snapcraft.io/docs",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "open-source"
+      ],
+      "paymentMethods": [],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://snapcraft.io/docs/snap-store-rules",
+      "guidelinesSummary": "Register a snap name, build with snapcraft, and push to the store. Automated review for most snaps. Manual review for classic confinement or special permissions.",
+      "typicalReviewTime": "Minutes to hours (automated)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": true,
+      "commonRejectionReasons": [
+        "Classic confinement request without justification",
+        "Interface permission issues",
+        "Naming conflicts"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "English (primary)"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": true,
+      "hasAppBundles": false,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": false,
+      "hasRatings": false
+    },
+    "seo": {
+      "metaTitle": "Snap Store - Ubuntu & Linux App Distribution",
+      "metaDescription": "Publish Linux apps as snaps on the Snap Store. 7,000+ packages, automatic updates, cross-distro support.",
+      "keywords": [
+        "Snap Store",
+        "snapcraft",
+        "Ubuntu apps",
+        "Linux app store",
+        "snap packages"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 4,
+      "stability": 4,
+      "developerSupport": 4,
+      "discoverability": 3,
+      "competitiveness": 4,
+      "entryBarriers": 4,
+      "technicalFreedom": 4,
+      "analytics": 3
+    },
+    "relatedStores": [
+      "flathub"
+    ],
+    "pros": [
+      "Default on Ubuntu",
+      "Automatic delta updates",
+      "Channel system for release management",
+      "Free, no commission",
+      "Snap rollbacks"
+    ],
+    "cons": [
+      "Controversial in some Linux communities",
+      "Proprietary server-side",
+      "Snap startup can be slower",
+      "Some distros actively avoid snaps"
+    ],
+    "content": "\nThe Snap Store is Ubuntu's default app distribution system and works across 40+ Linux distributions. It features automatic updates with delta compression, snapshotting for rollbacks, and a channel system (stable/candidate/beta/edge) for release management. Major applications like Firefox, Chromium, and VS Code are distributed as snaps.\n"
   },
   {
     "id": "splice",
@@ -20040,6 +21654,149 @@
       "Platform-specific"
     ],
     "content": "\n## Overview\n\nVolusion Marketplace is the official integration platform for Volusion's e-commerce solution. With 70+ apps and partner technology integrations, it extends Volusion stores with payments, shipping, marketing, and customer engagement tools.\n\n## Key Statistics\n\n- **70+ apps and integrations** (estimated)\n- **162 technologies** tracked on Volusion stores\n- Built-in comprehensive features\n- All-in-one e-commerce platform\n\n## Integration Categories\n\n- Payment processing\n- Shipping solutions\n- Marketing automation\n- Customer engagement\n- Accounting\n- Analytics\n\n## Popular Integrations\n\n- PayPal\n- Stripe\n- USPS\n- UPS\n- Mailchimp\n- Google Analytics\n\n## Platform Philosophy\n\nVolusion focuses on built-in features rather than extensive third-party apps:\n- Comprehensive suite included\n- Marketing tools built-in\n- SEO options included\n- Payment processing integrated\n\n## Development\n\nBuild integrations using:\n- Volusion REST API\n- Developer documentation\n- Partner program\n- Integration testing tools\n\n"
+  },
+  {
+    "id": "vs-code-marketplace",
+    "name": "VS Code Marketplace",
+    "slug": "vs-code-marketplace",
+    "tagline": "Extensions marketplace for Visual Studio Code with 50,000+ extensions",
+    "description": "The Visual Studio Code Marketplace is Microsoft's official extension store for VS Code, the world's most popular code editor. It hosts over 50,000 extensions including themes, language support, debuggers, linters, and developer tools.",
+    "url": "https://marketplace.visualstudio.com/vscode",
+    "logo": "/images/stores/vs-code-marketplace.svg",
+    "category": "developer",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux",
+      "web"
+    ],
+    "company": {
+      "name": "Microsoft Corporation",
+      "headquarters": "Redmond, Washington, USA",
+      "foundedYear": 2015,
+      "website": "https://microsoft.com"
+    },
+    "metrics": {
+      "appCount": 50000,
+      "appCountSource": "Microsoft (estimated)",
+      "appCountLastUpdated": "2025-Q1",
+      "developerCount": 30000
+    },
+    "fees": {
+      "registrationFee": {
+        "amount": 0,
+        "currency": "USD",
+        "type": "one-time"
+      },
+      "commissionTiers": [
+        {
+          "percentage": 0,
+          "description": "Free to publish",
+          "conditions": "All extensions"
+        }
+      ],
+      "hasReducedCommission": false,
+      "reducedCommissionDetails": "No commission. Extensions are published for free. Monetization through external means."
+    },
+    "technical": {
+      "hasApi": true,
+      "apiDocumentationUrl": "https://code.visualstudio.com/api",
+      "hasSdk": true,
+      "sdkPlatforms": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "sdkDocumentationUrl": "https://code.visualstudio.com/api/get-started/your-first-extension",
+      "supportsInAppPurchases": false,
+      "supportsSubscriptions": false,
+      "supportsAds": false
+    },
+    "monetization": {
+      "models": [
+        "free",
+        "freemium"
+      ],
+      "paymentMethods": [],
+      "payoutMethods": [],
+      "minimumPayout": 0,
+      "payoutCurrency": "USD",
+      "payoutFrequency": "N/A"
+    },
+    "submission": {
+      "guidelinesUrl": "https://code.visualstudio.com/api/references/extension-manifest",
+      "guidelinesSummary": "Extensions are published via the vsce CLI tool. They must follow the extension manifest format and pass automated validation. No human review gate.",
+      "typicalReviewTime": "Minutes (automated)",
+      "hasAutomatedReview": true,
+      "hasHumanReview": false,
+      "commonRejectionReasons": [
+        "Invalid manifest",
+        "Security issues",
+        "Malware detection"
+      ]
+    },
+    "metadata": {
+      "status": "active",
+      "lastUpdated": "2025-Q1",
+      "dataConfidence": "high"
+    },
+    "geographic": {
+      "availableRegions": [
+        "Global"
+      ],
+      "supportedLanguages": [
+        "40+ languages"
+      ],
+      "localizedStores": false
+    },
+    "features": {
+      "hasEditorialContent": false,
+      "hasAppBundles": true,
+      "hasPreRegistration": false,
+      "hasBetaTesting": true,
+      "hasAnalyticsDashboard": true,
+      "hasABTesting": false,
+      "hasUserReviews": true,
+      "hasRatings": true
+    },
+    "seo": {
+      "metaTitle": "VS Code Marketplace - Extensions for Visual Studio Code",
+      "metaDescription": "Publish extensions for VS Code, the world's most popular code editor. Zero commission, instant publishing, 50K+ extensions.",
+      "keywords": [
+        "VS Code Marketplace",
+        "Visual Studio Code extensions",
+        "code editor plugins",
+        "VS Code plugins"
+      ]
+    },
+    "ratings": {
+      "commission": 5,
+      "reviewProcess": 5,
+      "stability": 5,
+      "developerSupport": 5,
+      "discoverability": 4,
+      "competitiveness": 4,
+      "entryBarriers": 5,
+      "technicalFreedom": 5,
+      "analytics": 4
+    },
+    "relatedStores": [
+      "jetbrains-marketplace",
+      "chrome-web-store"
+    ],
+    "pros": [
+      "Zero commission",
+      "Instant automated publishing",
+      "Massive user base",
+      "Excellent documentation and tooling",
+      "Open source extension API"
+    ],
+    "cons": [
+      "No built-in monetization",
+      "Competitive market for popular categories",
+      "Extension quality varies widely",
+      "Limited marketing features"
+    ],
+    "content": "\nThe VS Code Marketplace powers the extension ecosystem for the world's most popular code editor. With zero commission and instant publishing, it's one of the most developer-friendly marketplaces. Extensions range from language packs and themes to full debugging and AI coding tools.\n"
   },
   {
     "id": "wacom",
